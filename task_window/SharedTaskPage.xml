@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="STASK_NumPlayersValue">
+        <ScreenID>STASK_NumPlayersValue</ScreenID>
+        <PrependText>Players: </PrependText>
+        <NoWrap>true</NoWrap>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <Size>
+            <CX>96</CX>
+        </Size>
+    </Label>
+
+    <Label item="STASK_MinPlayersValue">
+        <ScreenID>STASK_MinPlayersValue</ScreenID>
+        <PrependText>Min Players: </PrependText>
+        <NoWrap>true</NoWrap>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <Size>
+            <CX>96</CX>
+        </Size>
+    </Label>
+
+    <Label item="STASK_MaxPlayersValue">
+        <ScreenID>STASK_MaxPlayersValue</ScreenID>
+        <PrependText>Max Players: </PrependText>
+        <NoWrap>true</NoWrap>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <Size>
+            <CX>96</CX>
+        </Size>
+    </Label>
+
+    <TileLayoutBox item="STASK_PlayerInfo">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+
+        <Size>
+            <CY>18</CY>
+        </Size>
+
+        <Pieces>STASK_NumPlayersValue</Pieces>
+        <Pieces>STASK_MinPlayersValue</Pieces>
+        <Pieces>STASK_MaxPlayersValue</Pieces>
+    </TileLayoutBox>
+
+    <!-- -->
+
+    <Listbox item="STASK_MemberList">
+        <ScreenID>STASK_MemberList</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_VScroll>true</Style_VScroll>
+        <Style_AutoVScroll>true</Style_AutoVScroll>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>18</TopAnchorOffset>
+        <BottomAnchorOffset>42</BottomAnchorOffset>
+
+        <Columns>
+            <Width>130</Width>
+            <Heading>Member</Heading>
+        </Columns>
+        <Columns>
+            <Width>100</Width>
+            <Heading>Role</Heading>
+        </Columns>
+        <Columns>
+            <Width>200</Width>
+            <Heading>Template</Heading>
+        </Columns>
+    </Listbox>
+
+    <!-- -->
+
+    <Button item="STASK_AddPlayerButton">
+        <TooltipReference>Target a player and click this button to add them to your shared task.</TooltipReference>
+        <ScreenID>STASK_AddPlayerButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Add Player</Text>
+        <Size>
+            <CX>100</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="STASK_RemovePlayerButton">
+        <TooltipReference>Select a player and click this button to remove them from your shared task.</TooltipReference>
+        <ScreenID>STASK_RemovePlayerButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Remove Player</Text>
+        <Size>
+            <CX>100</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="STASK_MakeLeaderButton">
+        <TooltipReference>Select a player and click this button to make them the leader of your shared task.</TooltipReference>
+        <ScreenID>STASK_MakeLeaderButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Make Leader</Text>
+        <Size>
+            <CX>100</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="STASK_InviteRaidButton">
+        <TooltipReference>Invite anyone who is in your raid but not in your shared task.</TooltipReference>
+        <ScreenID>STASK_InviteRaidButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Invite Raid</Text>
+        <Size>
+            <CX>100</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="STASK_InviteExpedButton">
+        <TooltipReference>Invite anyone who is in your expedition but not in your shared task.</TooltipReference>
+        <ScreenID>STASK_InviteExpedButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Invite Exped</Text>
+        <Size>
+            <CX>100</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <TileLayoutBox item="STASK_Buttons">
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>false</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>42</TopAnchorOffset>
+
+        <Spacing>2</Spacing>
+        <SecondarySpacing>2</SecondarySpacing>
+
+        <Size>
+            <CY>24</CY>
+        </Size>
+
+        <Pieces>STASK_AddPlayerButton</Pieces>
+        <Pieces>STASK_RemovePlayerButton</Pieces>
+        <Pieces>STASK_MakeLeaderButton</Pieces>
+        <Pieces>STASK_InviteRaidButton</Pieces>
+        <Pieces>STASK_InviteExpedButton</Pieces>
+    </TileLayoutBox>
+
+    <!-- -->
+
+    <Page item="TaskSharedTaskPage">
+        <ScreenID>TaskSharedTaskPage</ScreenID>
+        <TabText>Shared Task</TabText>
+        <TabTextActiveColor>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+        </TabTextActiveColor>
+
+        <Pieces>TileLayoutBox:STASK_PlayerInfo</Pieces>
+        <Pieces>STASK_MemberList</Pieces>
+        <Pieces>TileLayoutBox:STASK_Buttons</Pieces>
+    </Page>
+
+</XML>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="OW_OQP_AvailableAgentsLabel">
+        <ScreenID>OW_OQP_AvailableAgentsLabel</ScreenID>
+        <Font>5</Font>
+        <Text>Available Agents</Text>
+        <NoWrap>true</NoWrap>
+
+        <Size>
+            <CX>136</CX>
+            <CY>20</CY>
+        </Size>
+    </Label>
+
+    <Combobox item="OW_OQP_RarityFilter">
+        <ScreenID>OW_OQP_RarityFilter</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Button>BDT_Combo</Button>
+        <Style_Border>true</Style_Border>
+        <ListHeight>75</ListHeight>
+
+        <Size>
+            <CX>92</CX>
+            <CY>20</CY>
+        </Size>
+
+        <AutoStretchList>true</AutoStretchList>
+        <Choices>All Rarities</Choices>
+        <Choices>Common</Choices>
+        <Choices>Uncommon</Choices>
+        <Choices>Rare</Choices>
+        <Choices>Elite</Choices>
+    </Combobox>
+
+    <Combobox item="OW_OQP_JobFilter">
+        <ScreenID>OW_OQP_JobFilter</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Button>BDT_Combo</Button>
+        <Style_Border>true</Style_Border>
+        <ListHeight>75</ListHeight>
+
+        <Size>
+            <CX>92</CX>
+            <CY>20</CY>
+        </Size>
+
+        <AutoStretchList>true</AutoStretchList>
+    </Combobox>
+
+    <Combobox item="OW_OQP_TraitFilter">
+        <ScreenID>OW_OQP_TraitFilter</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Button>BDT_Combo</Button>
+        <Style_Border>true</Style_Border>
+        <ListHeight>75</ListHeight>
+
+        <Size>
+            <CX>92</CX>
+            <CY>20</CY>
+        </Size>
+
+        <AutoStretchList>true</AutoStretchList>
+    </Combobox>
+
+    <TileLayoutBox item="OW_OQP_MinionFilterLayout">
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        <BottomAnchorOffset>22</BottomAnchorOffset>
+
+        <Spacing>4</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>OW_OQP_AvailableAgentsLabel</Pieces>
+        <Pieces>OW_OQP_RarityFilter</Pieces>
+        <Pieces>OW_OQP_JobFilter</Pieces>
+        <Pieces>OW_OQP_TraitFilter</Pieces>
+    </TileLayoutBox>
+
+    <TileLayoutBox item="OW_OQP_MinionPictureArea">
+        <ScreenID>OW_OQP_MinionPictureArea</ScreenID>
+        <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+        <Style_Titlebar>false</Style_Titlebar>
+        <Style_Closebox>false</Style_Closebox>
+        <Style_Minimizebox>false</Style_Minimizebox>
+        <Style_Sizable>false</Style_Sizable>
+        <Style_Transparent>false</Style_Transparent>
+
+        <HorizontalFirst>true</HorizontalFirst>
+        <FirstPieceTemplate>false</FirstPieceTemplate>
+        <SnapToChildren>true</SnapToChildren>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        <BottomAnchorOffset>0</BottomAnchorOffset>
+
+        <Spacing>4</Spacing>
+        <SecondarySpacing>4</SecondarySpacing>
+
+        <Pieces>Screen:OW_OQP_MinionScreenTemplate</Pieces>
+    </TileLayoutBox>
+
+    <Screen item="OW_OQP_MinionTileContainer">
+        <ScreenID>OW_OQP_MinionTileContainer</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_VScroll>true</Style_VScroll>
+		<Style_Transparent>true</Style_Transparent>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>22</TopAnchorOffset>
+        <BottomAnchorOffset>2</BottomAnchorOffset>
+
+        <Pieces>OW_OQP_MinionPictureArea</Pieces>
+    </Screen>
+
+    <Screen item="OW_OQP_MinionSelectionScreen">
+        <ScreenID>OW_OQP_MinionSelectionScreen</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+
+        <MinVSize>30</MinVSize>
+
+        <Pieces>TileLayoutBox:OW_OQP_MinionFilterLayout</Pieces>
+        <Pieces>Screen:OW_OQP_MinionTileContainer</Pieces>
+    </Screen>
+
+</XML>

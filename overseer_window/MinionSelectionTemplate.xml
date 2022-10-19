@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item="OW_OQP_MinionScreenImage">
+		<ScreenID>OW_OQP_MinionScreenImage</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Template>DefaultImageOW</Template>
+
+        <Location>
+            <X>-1</X>
+            <Y>-1</Y>
+        </Location>
+		<Size>
+			<CX>90</CX>
+			<CY>90</CY>
+		</Size>
+	</Button>
+
+	<Button item="OW_OQP_MinionNameBtn">
+		<ScreenID>OW_OQP_MinionNameBtn</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Font>1</Font>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>false</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>20</TopAnchorOffset>
+        <BottomAnchorOffset>0</BottomAnchorOffset>
+	</Button>
+
+	<Label item="OW_OQP_MinionCountLabel">
+		<ScreenID>OW_OQP_MinionCountLabel</ScreenID>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<RightAnchorOffset>4</RightAnchorOffset>
+	</Label>
+
+	<Button item="OW_OQP_ActiveIcon">
+        <TooltipReference>This agent is either currently questing, incapacitated, or selected for a quest</TooltipReference>
+		<ScreenID>OW_OQP_ActiveIcon</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+		<Style_Border>true</Style_Border>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>false</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>30</RightAnchorOffset>
+        <TopAnchorOffset>50</TopAnchorOffset>
+        <BottomAnchorOffset>20</BottomAnchorOffset>
+	</Button>
+
+	<Screen item="OW_OQP_ActiveIconBackground">
+		<ScreenID>OW_OQP_ActiveIconBackground</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+        
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>false</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>30</RightAnchorOffset>
+        <TopAnchorOffset>50</TopAnchorOffset>
+        <BottomAnchorOffset>20</BottomAnchorOffset>
+	</Screen>
+
+	<Screen item="OW_OQP_MinionScreenBlackBackground">
+		<ScreenID>OW_OQP_MinionScreenBlackBackground</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+
+        <Size>
+            <CY>16</CY>
+        </Size>
+
+		<Pieces>OW_OQP_MinionCountLabel</Pieces>
+	</Screen>
+
+	<Screen item="OW_OQP_MinionScreenTemplate">
+		<ScreenID>OW_OQP_MinionScreenTemplate</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+		<Style_Border>true</Style_Border>
+
+		<Size>
+			<CX>60</CX>
+			<CY>80</CY>
+		</Size>
+
+		<Pieces>OW_OQP_MinionScreenImage</Pieces>
+		<Pieces>OW_OQP_MinionNameBtn</Pieces>
+
+		<Pieces>Screen:OW_OQP_ActiveIconBackground</Pieces>
+		<Pieces>OW_OQP_ActiveIcon</Pieces>
+
+		<Pieces>Screen:OW_OQP_MinionScreenBlackBackground</Pieces>
+	</Screen>
+
+</XML>

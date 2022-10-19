@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item="ContainerCombine_Icon">
+		<ScreenID>ContainerCombine_Icon</ScreenID>
+		<Template>BDT_DragItem</Template>
+		<DecalSize>
+			<CX>24</CX>
+			<CY>24</CY>
+		</DecalSize>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+	</Button>
+
+	<Button item="Container_Combine">
+		<ScreenID>Container_Combine</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Text>Combine</Text>
+		<UseInLayoutVertical>false</UseInLayoutVertical>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+
+		<LeftAnchorOffset>24</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
+	</Button>
+
+	<TileLayoutBox item="ContainerCombine_Items">
+		<ScreenID>ContainerCombine_Items</ScreenID>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		<HorizontalFirst>true</HorizontalFirst>
+		<FirstPieceTemplate>false</FirstPieceTemplate>
+		<SnapToChildren>true</SnapToChildren>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+
+		<Spacing>2</Spacing>
+		<SecondarySpacing>2</SecondarySpacing>
+	</TileLayoutBox>
+
+</XML>

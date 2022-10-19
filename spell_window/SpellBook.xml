@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<ButtonDrawTemplate item="BDT_BookBtn">
+		<Normal>A_BookBtnNormal</Normal>
+		<Pressed>A_BookBtnPressed</Pressed>
+		<Flyby>A_BookBtnFlyby</Flyby>
+		<Disabled>A_BookBtnDisabled</Disabled>
+		<PressedFlyby>A_BookBtnPressedFlyby</PressedFlyby>
+	</ButtonDrawTemplate>
+    
+    <!-- Casting Spell Name -->
+
+    <Label item="Casting_SpellName">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+        <Location>
+            <X>1</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_TopLeft">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>0</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_Top">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>1</X>
+            <Y>-1</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_TopRight">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>2</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_BottomLeft">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>0</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_Bottom">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>1</X>
+            <Y>3</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_BottomRight">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>2</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_Left">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>-1</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+    <Label item="Casting_SpellName_Shadow_Right">
+        <EQType>134</EQType>
+        <Font>3</Font>
+        
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+        <Location>
+            <X>3</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>32</CY>
+        </Size>
+        <AlignRight>true</AlignRight>
+    </Label>
+
+    <LayoutBox item="Casting_SpellNameDisplay">
+        <Location>
+            <X>10</X>
+            <Y>-3</Y>
+        </Location>
+        <Size>
+            <CX>148</CX>
+            <CY>32</CY>
+        </Size>
+        <Pieces>Casting_SpellName_Shadow_TopLeft</Pieces>
+        <Pieces>Casting_SpellName_Shadow_Top</Pieces>
+        <Pieces>Casting_SpellName_Shadow_TopRight</Pieces>
+        <Pieces>Casting_SpellName_Shadow_BottomLeft</Pieces>
+        <Pieces>Casting_SpellName_Shadow_Bottom</Pieces>
+        <Pieces>Casting_SpellName_Shadow_BottomRight</Pieces>
+        <Pieces>Casting_SpellName_Shadow_Left</Pieces>
+        <Pieces>Casting_SpellName_Shadow_Right</Pieces>
+        <Pieces>Casting_SpellName</Pieces>
+    </LayoutBox>
+
+    <Gauge item="Casting_Gauge">
+        <EQType>7</EQType>
+        <Font>1</Font>
+        <TextOffsetY>-20</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>0</X>
+            <Y>4</Y>
+        </Location>
+        <Size>
+            <CX>153</CX>
+            <CY>20</CY>
+        </Size>
+        <FillTint>
+            <R>240</R>
+            <G>0</G>
+            <B>0</B>
+        </FillTint>
+        <LinesFillTint>
+            <R>220</R>
+            <G>220</G>
+            <B>0</B>
+        </LinesFillTint>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_Gauge_CastBackground</Background>
+            <Fill>D3PDA_Gauge_CastFill</Fill>
+        </GaugeDrawTemplate>
+        <DrawLinesFill>false</DrawLinesFill>
+    </Gauge>
+
+    <!-- Spell Book -->
+
+    <StaticAnimation item="BG_BookHolder">
+        <Animation>D3PDA_IWnd_GemHolder</Animation>
+        <Location>
+            <X>0</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>177</CX>
+            <CY>29</CY>
+        </Size>
+    </StaticAnimation>
+
+    <Button item="CSPW_SpellBook">
+        <TooltipReference>Opens and closes Your Spellbook</TooltipReference>
+        <ScreenID>CSPW_SpellBook</ScreenID>
+		<Template>BDT_BookBtn</Template>
+
+        <Style_Transparent>false</Style_Transparent>
+        <Style_Checkbox>true</Style_Checkbox>
+        <RelativePosition>true</RelativePosition>
+
+        <Location>
+            <X>5</X>
+            <Y>6</Y>
+        </Location>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+    </Button>
+
+    <!-- Scene Graph -->
+
+    <Screen item="CSPW_CastingWindow">
+        <ScreenID>Gauge</ScreenID>
+        <RelativePosition>true</RelativePosition>
+
+        <Location>
+            <X>22</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>153</CX>
+            <CY>29</CY>
+        </Size>
+
+        <Pieces>Casting_Gauge</Pieces>
+        <Pieces>Casting_SpellNameDisplay</Pieces>
+    </Screen>
+
+    <Screen item="CSPW_ScreenSpellBookV">
+        <ScreenID>CSPW_ScreenSpellBookV</ScreenID>
+		<Style_Sizable>false</Style_Sizable>
+        
+		<Size>
+            <CX>177</CX>
+            <CY>29</CY>
+        </Size>
+        
+        <Pieces>Screen:CSPW_CastingWindow</Pieces>
+        <Pieces>BG_BookHolder</Pieces>
+        <Pieces>CSPW_SpellBook</Pieces>
+    </Screen>
+
+    <Screen item="CSPW_VerticalOrientationBook">
+        <ScreenID>CSPW_VerticalOrientationBook</ScreenID>
+
+        <AutoStretch>true</AutoStretch>
+
+		<TopAnchorOffset>29</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>18</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+        <UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+        
+        <Pieces>CSPW_ScreenSpellBookV</Pieces>
+    </Screen>
+
+</XML>

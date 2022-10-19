@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+    
+    <Label item="CAW_CombatEffectLabel">
+		<ScreenID>CAW_CombatEffectLabel</ScreenID>
+        <Font>3</Font>
+        <NoWrap>true</NoWrap>
+        <AlignLeft>false</AlignLeft>
+        <AlignCenter>true</AlignCenter>
+        <AlignRight>false</AlignRight>
+
+        <TextColor>
+            <R>240</R>
+            <G>240</G>
+            <B>240</B>
+        </TextColor>
+        
+        <AutoStretch>true</AutoStretch>
+
+        <TopAnchorOffset>6</TopAnchorOffset>
+        <BottomAnchorOffset>0</BottomAnchorOffset>
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+    </Label>
+
+    <Gauge item="CAW_CombatEffectTimeRemainingGauge">
+        <EQType>26</EQType>
+        <Font>1</Font>
+        <TextOffsetY>-20</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+
+        <Location>
+            <X>0</X>
+            <Y>4</Y>
+        </Location>
+        <Size>
+            <CX>153</CX>
+            <CY>20</CY>
+        </Size>
+
+        <FillTint>
+            <R>96</R>
+            <G>96</G>
+            <B>96</B>
+        </FillTint>
+
+        <GaugeDrawTemplate>
+            <Background>D3PDA_Gauge_CastBackground_Mirror</Background>
+            <Fill>D3PDA_Gauge_CastFill_Mirror</Fill>
+        </GaugeDrawTemplate>
+    </Gauge>
+
+    <StaticAnimation item="BG_AbilityHolder">
+        <Animation>D3PDA_IWnd_GemHolder_Mirror</Animation>
+        <Location>
+            <X>0</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>177</CX>
+            <CY>29</CY>
+        </Size>
+    </StaticAnimation>
+
+    <Button item="CAW_OpenCombatSkillSelectWnd">
+		<TooltipReference>Open up a window with detailed information on all of your known combat skills.</TooltipReference>
+        <ScreenID>CAW_OpenCombatSkillSelectWnd</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Font>2</Font>
+		<Text>S</Text>
+
+        <RelativePosition>true</RelativePosition>
+        <Location>
+            <X>154</X>
+            <Y>5</Y>
+        </Location>
+        <Size>
+            <CX>20</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="CAW_CombatEffectButton">
+		<TooltipReference>Left-click to remove this effect</TooltipReference>
+		<ScreenID>CAW_CombatEffectButton</ScreenID>
+		<Template>BDT_BlueBuff</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>130</X>
+			<Y>5</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+        
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+	</Button>
+
+    <!-- Scene Graph -->
+
+    <Screen item="CAW_AbilityWindow">
+        <ScreenID>CAW_CombatEffectTimeRemainingGauge</ScreenID>
+        <RelativePosition>true</RelativePosition>
+
+        <Location>
+            <X>0</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>153</CX>
+            <CY>29</CY>
+        </Size>
+
+        <Pieces>CAW_CombatEffectTimeRemainingGauge</Pieces>
+        <Pieces>CAW_CombatEffectLabel</Pieces>
+    </Screen>
+
+    <Screen item="CAW_ScreenAbilityBookV">
+        <ScreenID>CAW_ScreenAbilityBookV</ScreenID>
+		<Style_Sizable>false</Style_Sizable>
+        
+		<Size>
+            <CX>177</CX>
+            <CY>29</CY>
+        </Size>
+        
+        <Pieces>Screen:CAW_AbilityWindow</Pieces>
+        <Pieces>BG_AbilityHolder</Pieces>
+        <Pieces>CAW_OpenCombatSkillSelectWnd</Pieces>
+        <Pieces>CAW_CombatEffectButton</Pieces>
+    </Screen>
+
+    <Screen item="CAW_VerticalOrientationBook">
+        <ScreenID>CAW_VerticalOrientationBook</ScreenID>
+
+        <AutoStretch>true</AutoStretch>
+
+		<TopAnchorOffset>29</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>18</RightAnchorOffset>
+
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+        <UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+        
+        <Pieces>CAW_ScreenAbilityBookV</Pieces>
+    </Screen>
+
+</XML>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <ButtonDrawTemplate item="BDT_Grab">
+        <Normal>A_GrabNormal</Normal>
+        <Pressed>A_GrabPressed</Pressed>
+        <Flyby>A_GrabFlyby</Flyby>
+        <PressedFlyby>A_GrabPressed</PressedFlyby>
+    </ButtonDrawTemplate>
+
+</XML>

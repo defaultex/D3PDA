@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>selector_window\Buttons.xml</Include>
+		<Include>selector_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

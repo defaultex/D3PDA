@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>task_window\QuestHistoryPage.xml</Include>
+		<Include>task_window\SharedTaskPage.xml</Include>
+		<Include>task_window\CurrentTasksPage.xml</Include>
+		<Include>task_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+</XML>

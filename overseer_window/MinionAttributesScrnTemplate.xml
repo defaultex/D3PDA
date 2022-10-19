@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="OW_ALL_MinionAttributeImg">
+        <ScreenID>OW_ALL_MinionAttributeImg</ScreenID>
+        <Template>DefaultImageOW</Template>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+    </Button>
+
+    <Label item="OW_ALL_MinionAttributeLabels">
+        <ScreenID>OW_ALL_MinionAttributeLabels</ScreenID>
+        <Font>2</Font>
+        <NoWrap>true</NoWrap>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>18</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+
+    <Screen item="OW_ALL_MinionAttributeScrnTemplate">
+        <ScreenID>OW_ALL_MinionAttributeScrnTemplate</ScreenID>
+
+        <Size>
+            <CX>96</CX>
+            <CY>16</CY>
+        </Size>
+
+        <Pieces>OW_ALL_MinionAttributeImg</Pieces>
+        <Pieces>OW_ALL_MinionAttributeLabels</Pieces>
+    </Screen>
+
+</XML>

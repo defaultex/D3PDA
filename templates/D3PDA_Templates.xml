@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Composite>
+        <Include>templates\IWnd.xml</Include>
+        <Include>templates\IWnd_Mirror.xml</Include>
+		<Include>templates\WDT_Blank.xml</Include>
+		<Include>templates\WDT_LargeBorder.xml</Include>
+		<Include>templates\WDT_SmallBlueBorder.xml</Include>
+		<Include>templates\WDT_SmallGreenBorder.xml</Include>
+		<Include>templates\BDT_HotButton.xml</Include>
+		<Include>templates\BDT_Check.xml</Include>
+		<Include>templates\BDT_Cancel.xml</Include>
+		<Include>templates\BDT_Grab.xml</Include>
+		<Include>templates\BDT_Edit.xml</Include>
+		<Include>templates\BDT_Arrows.xml</Include>
+		<Include>templates\BDT_Checkbox.xml</Include>
+    </Composite>
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

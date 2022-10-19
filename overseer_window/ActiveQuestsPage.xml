@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Label item="OW_AQP_CompletedLabel">
+		<ScreenID>OW_AQP_CompletedLabel</ScreenID>
+		<PrependText>Completed: </PrependText>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+	</Label>
+
+	<Label item="OW_AQP_CountLabel">
+		<TooltipReference>This count does not include any active conversion quests</TooltipReference>
+		<ScreenID>OW_AQP_CountLabel</ScreenID>
+		<PrependText>Active: </PrependText>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+
+        <Location>
+            <Y>16</Y>
+        </Location>
+	</Label>
+
+	<Listbox item="OW_AQP_QuestList">
+		<ScreenID>OW_AQP_QuestList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_VScroll>true</Style_VScroll>
+        <Style_AutoVScroll>true</Style_AutoVScroll>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>16</TopAnchorOffset>
+
+		<Columns>
+			<Width>226</Width>
+			<Sortable>false</Sortable>
+		</Columns>
+	</Listbox>
+
+	<Screen item = "OW_AQP_LeftPane">
+		<TooltipReference>These counts do not include any active/completed conversion quests</TooltipReference>
+		<ScreenID>OW_AQP_LeftPane</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+
+        <AutoStretchVertical>true</AutoStretchVertical>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <MinHSize>190</MinHSize>
+        <MaxHSize>190</MaxHSize>
+
+		<Pieces>OW_AQP_CompletedLabel</Pieces>
+		<Pieces>OW_AQP_CountLabel</Pieces>
+		<Pieces>Listbox:OW_AQP_QuestList</Pieces>
+	</Screen>
+
+    <!-- -->
+
+	<Screen item="OW_AQP_QuestInfoLayout">
+		<ScreenID>OW_AQP_QuestInfoLayout</ScreenID>
+		<MinVSize>450</MinVSize>
+	</Screen>
+
+	<VerticalLayoutBox item="OW_AQP_RightPane">
+		<ScreenID>OW_AQP_RightPane</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Style_Transparent>true</Style_Transparent>
+
+		<MinVSize>80</MinVSize>
+		<MinHSize>250</MinHSize>
+
+		<Spacing>4</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+		<Pieces>Screen:OW_AQP_QuestInfoLayout</Pieces>
+	</VerticalLayoutBox>
+
+	<HorizontalLayoutBox item="OW_AQP_Layout">
+		<ScreenID>OW_AQP_Layout</ScreenID>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_Dividers>false</Style_Dividers>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_Transparent>false</Style_Transparent>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<MinHSize>430</MinHSize>
+
+		<Spacing>4</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+		<Pieces>Screen:OW_AQP_LeftPane</Pieces>
+		<Pieces>VerticalLayoutBox:OW_AQP_RightPane</Pieces>
+	</HorizontalLayoutBox>
+
+</XML>

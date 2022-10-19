@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item="ADLW_ItemBtnTemplate">
+		<ScreenID>ADLW_ItemBtnTemplate</ScreenID>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>24</CX>
+			<CY>24</CY>
+		</DecalSize>
+		<Template>BDT_LootWndIcon</Template>
+	</Button>
+
+	<Button item="ADLW_LootBtnTemplate">
+		<Tooltip>Loot item(s) on corpse(s)</Tooltip>
+		<ScreenID>ADLW_LootBtnTemplate</ScreenID>
+		<Template>BDT_Check</Template>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+    
+	<Button item="ADLW_LeaveBtnTemplate">
+		<Tooltip>Leave item(s) on corpse(s)</Tooltip>
+		<ScreenID>ADLW_LeaveBtnTemplate</ScreenID>
+		<Template>BDT_Cancel</Template>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+    
+	<Button item="ADLW_CheckBoxTemplate">
+		<ScreenID>ADLW_CheckBoxTemplate</ScreenID>
+		<Template>BDT_Checkbox</Template>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+	
+	<Button item="ADLW_NvrBtnTemplate">
+		<ScreenID>ADLW_NvrBtnTemplate</ScreenID>
+		<Template>BDT_Cancel</Template>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+	
+	<Button item="ADLW_TextLinkTemplate">
+		<ScreenID>ADLW_TextLinkTemplate</ScreenID>
+		<TextAlignCenter>false</TextAlignCenter>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
+	</Button>
+	
+	<Button item="ADLW_StatusTemplate">
+		<Tooltip>Status</Tooltip>
+		<ScreenID>ADLW_StatusTemplate</ScreenID>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+
+	<Button item="ADLW_FreeGrabBtnTemplate">
+		<Tooltip>Grab 1 item from the corpse, moving it from your shared list to your personal list.</Tooltip>
+		<ScreenID>ADLW_FreeGrabBtnTemplate</ScreenID>
+		<Template>BDT_Grab</Template>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+
+	<Button item="ADLW_ActionBtnTemplate">
+		<Tooltip>Action</Tooltip>
+		<ScreenID>ADLW_ActionBtnTemplate</ScreenID>
+		<Template>BDT_Question</Template>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+
+	<Button item="ADLW_ManageBtnTemplate">
+		<Tooltip>Manage</Tooltip>
+		<ScreenID>ADLW_ManageBtnTemplate</ScreenID>
+		<Template>BDT_Edit</Template>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+	</Button>
+	
+</XML>

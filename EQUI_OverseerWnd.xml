@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>overseer_window\MinionAttributesScrnTemplate.xml</Include>
+		<Include>overseer_window\MinionInfoTemplate.xml</Include>
+		<Include>overseer_window\MinionSelection.xml</Include>
+		<Include>overseer_window\MinionSelectionTemplate.xml</Include>
+
+		<Include>overseer_window\quests_page\QuestTitleCard.xml</Include>
+		<Include>overseer_window\quests_page\QuestDescription.xml</Include>
+		<Include>overseer_window\quests_page\QuestInfo.xml</Include>
+		<Include>overseer_window\quests_page\QuestParty.xml</Include>
+		<Include>overseer_window\quests_page\QuestsPage.xml</Include>
+
+		<Include>overseer_window\minions_page\MinionTraits.xml</Include>
+		<Include>overseer_window\minions_page\TopPane.xml</Include>
+		<Include>overseer_window\minions_page\LeftPane.xml</Include>
+		<Include>overseer_window\minions_page\RightPane.xml</Include>
+		<Include>overseer_window\MinionsPage.xml</Include>
+
+		<Include>overseer_window\ActiveQuestsPage.xml</Include>
+
+		<Include>overseer_window\StatsPage.xml</Include>
+
+		<Include>overseer_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

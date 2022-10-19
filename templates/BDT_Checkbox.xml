@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <ButtonDrawTemplate item="BDT_Checkbox">
+        <Normal>D3PDA_CheckboxNormal</Normal>
+        <Flyby>D3PDA_CheckboxFlyby</Flyby>
+        <Pressed>D3PDA_CheckboxPressed</Pressed>
+        <PressedFlyby>D3PDA_CheckboxPressedFlyby</PressedFlyby>
+        <Disabled>D3PDA_CheckboxDisabled</Disabled>
+        <PressedDisabled>D3PDA_CheckboxPressedDisabled</PressedDisabled>
+    </ButtonDrawTemplate>
+    
+    <ButtonDrawTemplate item="BDT_CheckboxWithText">
+        <NormalDecal>D3PDA_CheckboxNormal</NormalDecal>
+        <FlybyDecal>D3PDA_CheckboxFlyby</FlybyDecal>
+        <PressedDecal>D3PDA_CheckboxPressed</PressedDecal>
+        <PressedFlybyDecal>D3PDA_CheckboxPressedFlyby</PressedFlybyDecal>
+        <DisabledDecal>D3PDA_CheckboxDisabled</DisabledDecal>
+        <PressedDisabledDecal>D3PDA_CheckboxPressedDisabled</PressedDisabledDecal>
+    </ButtonDrawTemplate>
+    
+</XML>

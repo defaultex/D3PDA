@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="BW_Buff27Number">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineTL">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineT">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineTR">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineBL">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineB">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineBR">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineL">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="BW_Buff27Number_OutlineR">
+        <Text>28</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="BW_Buff27Number_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <Location>
+            <X>2</X>
+            <Y>3</Y>
+        </Location>
+        <Size>
+            <CX>18</CX>
+            <CY>16</CY>
+        </Size>
+
+        <Pieces>BW_Buff27Number_OutlineTL</Pieces>
+        <Pieces>BW_Buff27Number_OutlineT</Pieces>
+        <Pieces>BW_Buff27Number_OutlineTR</Pieces>
+        <Pieces>BW_Buff27Number_OutlineBL</Pieces>
+        <Pieces>BW_Buff27Number_OutlineB</Pieces>
+        <Pieces>BW_Buff27Number_OutlineBR</Pieces>
+        <Pieces>BW_Buff27Number_OutlineL</Pieces>
+        <Pieces>BW_Buff27Number_OutlineR</Pieces>
+        <Pieces>BW_Buff27Number</Pieces>
+    </LayoutBox>
+
+    <LayoutBox item="BW_Buff27_Layout">
+        <Size>
+            <CX>24</CX>
+            <CY>24</CY>
+        </Size>
+        <Pieces>BW_Buff27Number_Layout</Pieces>
+    </LayoutBox>
+
+</XML>

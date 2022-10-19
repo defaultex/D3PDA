@@ -1,0 +1,185 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Label item ="TSEL_ChooseLabel">
+		<Text>Select a task:</Text>
+		<Font>4</Font>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<BottomAnchorOffset>18</BottomAnchorOffset>
+	</Label>
+
+	<Listbox item = "TSEL_TaskList">
+		<ScreenID>TaskList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_AutoVScroll>true</Style_AutoVScroll>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<TopAnchorOffset>18</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+
+		<Columns>
+			<Width>220</Width>
+			<Heading>Task Title</Heading>
+		</Columns>
+		<Columns>
+			<Width>60</Width>
+			<Heading>Duration</Heading>
+		</Columns>
+	</Listbox>
+
+	<Screen item = "TSEL_SelectWnd">
+		<ScreenID>SelectWnd</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Size>
+			<CY>120</CY>
+		</Size>
+
+		<MinVSize>58</MinVSize>
+
+		<Pieces>TSEL_ChooseLabel</Pieces>
+		<Pieces>TSEL_TaskList</Pieces>
+	</Screen>
+
+	<!-- -->
+
+	<STMLbox item = "TSEL_Description">
+		<ScreenID>Description</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_AutoVScroll>true</Style_AutoVScroll>
+		<Text>Description Area</Text>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Location>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CY>100</CY>
+		</Size>
+
+		<MinVSize>236</MinVSize>
+	</STMLbox>
+
+	<VerticalLayoutBox item = "TSEL_Layout">
+		<ScreenID>Layout</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>26</BottomAnchorOffset>
+
+		<Spacing>2</Spacing>
+
+		<Pieces>Screen:TSEL_SelectWnd</Pieces>
+		<Pieces>STMLbox:TSEL_Description</Pieces>
+	</VerticalLayoutBox>
+
+	<Button item = "TSEL_AcceptButton">
+		<TooltipReference>Select a Task and click this button to accept it.</TooltipReference>
+		<ScreenID>AcceptButton</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Text>Accept</Text>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>68</RightAnchorOffset>
+		<TopAnchorOffset>22</TopAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
+	</Button>
+
+	<Button item = "TSEL_PreviewRewardButton">
+		<TooltipReference>Select a Task and click this button to preview the reward it offers.</TooltipReference>
+		<ScreenID>TSEL_PreviewRewardButton</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Text>Preview Reward</Text>
+		
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorOffset>70</LeftAnchorOffset>
+		<RightAnchorOffset>170</RightAnchorOffset>
+		<TopAnchorOffset>22</TopAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
+	</Button>
+
+	<Button item = "TSEL_DeclineButton">
+		<TooltipReference>Click this to decline all the Tasks offered.</TooltipReference>
+		<ScreenID>DeclineButton</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Text>Decline All</Text>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorOffset>82</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<TopAnchorOffset>22</TopAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
+	</Button>
+
+	<Screen item = "TaskSelectWnd">
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Text>Task Window</Text>
+		<Style_Border>true</Style_Border>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Qmarkbox>true</Style_Qmarkbox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Sizable>true</Style_Sizable>
+
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>120</X>
+			<Y>25</Y>
+		</Location>
+		<Size>
+			<CX>330</CX>
+			<CY>300</CY>
+		</Size>
+
+		<MinHSize>254</MinHSize>
+		<MinVSize>172</MinVSize>
+
+		<Pieces>VerticalLayoutBox:TSEL_Layout</Pieces>
+		<Pieces>TSEL_AcceptButton</Pieces>
+		<Pieces>TSEL_DeclineButton</Pieces>
+		<Pieces>TSEL_PreviewRewardButton</Pieces>
+	</Screen>
+</XML>

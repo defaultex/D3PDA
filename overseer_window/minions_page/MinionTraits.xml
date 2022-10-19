@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item="OW_OM_MinionTraitImage">
+		<ScreenID>OW_OM_MinionTraitImage</ScreenID>
+		<Template>DefaultImageOW</Template>
+        <Location>
+            <X>2</X>
+        </Location>
+		<Size>
+            <CX>20</CX>
+            <CY>20</CY>
+        </Size>
+	</Button>
+
+    <!-- Race/Class -->
+
+    <Label item="OW_OM_MinionClassRaceLabel">
+		<ScreenID>OW_OM_MinionClassRaceLabel</ScreenID>
+		<Text>Race / Class</Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        
+		<TextColor>
+			<R>251</R>
+			<G>240</G>
+			<B>92</B>
+		</TextColor>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+	</Label>
+
+	<Label item="OW_OM_MinionRaceClass">
+		<ScreenID>OW_OM_MinionRaceClass</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>24</LeftAnchorOffset>
+	</Label>
+
+	<Screen item="OW_OM_MinionRaceClassTemplate">
+		<ScreenID>OW_OM_MinionRaceClassTemplate</ScreenID>
+        
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<Size>
+			<CY>20</CY>
+		</Size>
+
+		<Pieces>OW_OM_MinionTraitImage</Pieces>
+		<Pieces>OW_OM_MinionRaceClass</Pieces>
+	</Screen>
+
+	<VerticalLayoutBox item="OW_OM_MinionClassRaceLayout">
+		<ScreenID>OW_OM_MinionClassRaceLayout</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+		<ResizeLast>false</ResizeLast>
+
+		<AutoStretch>true</AutoStretch>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TopAnchorOffset>18</TopAnchorOffset>
+
+		<Spacing>0</Spacing>
+
+		<Pieces>Screen:OW_OM_MinionRaceClassTemplate</Pieces>
+	</VerticalLayoutBox>
+
+	<Screen item="OW_OM_MinionClassRaceScreen">
+		<ScreenID>OW_OM_MinionClassRaceScreen</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+
+        <AutoStretchVertical>true</AutoStretchVertical>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Size>
+		   <CX>140</CX>
+		</Size>
+
+		<Pieces>OW_OM_MinionClassRaceLabel</Pieces>
+		<Pieces>VerticalLayoutBox:OW_OM_MinionClassRaceLayout</Pieces>
+	</Screen>
+
+    <!-- Physical -->
+
+	<Label item="OW_OM_MinionTraitLabel">
+		<ScreenID>OW_OM_MinionTraitLabel</ScreenID>
+		<Text>Physical</Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        
+		<TextColor>
+			<R>251</R>
+			<G>240</G>
+			<B>92</B>
+		</TextColor>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+	</Label>
+
+	<Label item="OW_OM_MinionBody">
+		<ScreenID>OW_OM_MinionBody</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>24</LeftAnchorOffset>
+	</Label>
+
+	<Screen item="OW_OM_MinionBodyTemplate">
+		<ScreenID>OW_OM_MinionBodyTemplate</ScreenID>
+        
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<Size>
+			<CY>20</CY>
+		</Size>
+
+		<Pieces>OW_OM_MinionTraitImage</Pieces>
+		<Pieces>OW_OM_MinionBody</Pieces>
+	</Screen>
+
+	<VerticalLayoutBox item="OW_OM_MinionBodyLayout">
+		<ScreenID>OW_OM_MinionBodyLayout</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+		<ResizeLast>false</ResizeLast>
+
+		<AutoStretch>true</AutoStretch>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TopAnchorOffset>18</TopAnchorOffset>
+
+		<Spacing>0</Spacing>
+
+		<Pieces>Screen:OW_OM_MinionBodyTemplate</Pieces>
+	</VerticalLayoutBox>
+
+	<Screen item="OW_OM_MinionBodyScreen">
+		<ScreenID>OW_OM_MinionBodyScreen</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+
+        <AutoStretchVertical>true</AutoStretchVertical>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Size>
+		   <CX>140</CX>
+		</Size>
+
+		<Pieces>OW_OM_MinionTraitLabel</Pieces>
+		<Pieces>VerticalLayoutBox:OW_OM_MinionBodyLayout</Pieces>
+	</Screen>
+
+    <!-- Personality -->
+
+    <Label item="OW_OM_MinionPersonalityLabel">
+		<ScreenID>OW_OM_MinionPersonalityLabel</ScreenID>
+		<Text>Personality</Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        
+		<TextColor>
+			<R>251</R>
+			<G>240</G>
+			<B>92</B>
+		</TextColor>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+	</Label>
+
+	<Label item="OW_OM_MinionPersonality">
+		<ScreenID>OW_OM_MinionPersonality</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>24</LeftAnchorOffset>
+	</Label>
+
+	<Screen item="OW_OM_MinionPersonalityTemplate">
+		<ScreenID>OW_OM_MinionPersonalityTemplate</ScreenID>
+        
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<Size>
+			<CY>20</CY>
+		</Size>
+
+		<Pieces>OW_OM_MinionTraitImage</Pieces>
+		<Pieces>OW_OM_MinionPersonality</Pieces>
+	</Screen>
+
+	<VerticalLayoutBox item="OW_OM_MinionPersonalityLayout">
+		<ScreenID>OW_OM_MinionPersonalityLayout</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+		<ResizeLast>false</ResizeLast>
+
+		<AutoStretch>true</AutoStretch>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TopAnchorOffset>18</TopAnchorOffset>
+
+		<Spacing>0</Spacing>
+
+		<Pieces>Screen:OW_OM_MinionPersonalityTemplate</Pieces>
+	</VerticalLayoutBox>
+
+	<Screen item="OW_OM_MinionPersonalityScreen">
+		<ScreenID>OW_OM_MinionPersonalityScreen</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+
+        <AutoStretchVertical>true</AutoStretchVertical>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Size>
+		   <CX>140</CX>
+		</Size>
+
+		<Pieces>OW_OM_MinionPersonalityLabel</Pieces>
+		<Pieces>VerticalLayoutBox:OW_OM_MinionPersonalityLayout</Pieces>
+	</Screen>
+
+    <!-- -->
+
+    <HorizontalLayoutBox item="OW_OM_MinionTraitLayout">
+		<ScreenID>OW_OM_MinionTraitLayout</ScreenID>
+        <ResizeLast>false</ResizeLast>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Spacing>4</Spacing>
+
+		<Pieces>Screen:OW_OM_MinionClassRaceScreen</Pieces>
+		<Pieces>Screen:OW_OM_MinionBodyScreen</Pieces>
+		<Pieces>Screen:OW_OM_MinionPersonalityScreen</Pieces>
+	</HorizontalLayoutBox>
+
+	<Screen item="OW_OM_MinionTraits">
+		<ScreenID>OW_OM_MinionTraits</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>20</RightAnchorOffset>
+
+		<Size>
+			<CY>150</CY>
+		</Size>
+
+		<Pieces>HorizontalLayoutBox:OW_OM_MinionTraitLayout</Pieces>
+	</Screen>
+
+</XML>

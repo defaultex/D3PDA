@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <LayoutVertical item="CSW_LayoutV">
+        <ResizeHorizontal>true</ResizeHorizontal>
+        <ResizeVertical>true</ResizeVertical>
+    </LayoutVertical>
+
+    <Screen item="CSPW_VerticalOrientationTemplate">
+        <ScreenID>CSPW_VerticalOrientationTemplate</ScreenID>
+        <RelativePosition>true</RelativePosition>
+
+        <AutoStretch>true</AutoStretch>
+
+        <TopAnchorOffset>0</TopAnchorOffset>
+        <BottomAnchorOffset>29</BottomAnchorOffset>
+        <LeftAnchorOffset>18</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <MinHSize>198</MinHSize>
+        <MaxHSize>198</MaxHSize>
+        <MinVSize>261</MinVSize>
+        <MaxVSize>435</MaxVSize>
+
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+        <UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+    </Screen>
+
+    <TileLayoutBox item="CSPW_SpellGemLayout">
+        <ScreenID>CSPW_SpellGemLayout</ScreenID>
+        <Style_Transparent>true</Style_Transparent>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Style_Sizable>false</Style_Sizable>
+        <HorizontalFirst>true</HorizontalFirst>
+        <FirstPieceTemplate>true</FirstPieceTemplate>
+        <SnapToChildren>true</SnapToChildren>
+
+        <AutoStretch>true</AutoStretch>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>SpellGem:CSPW_Spell0</Pieces>
+        <Pieces>SpellGem:CSPW_Spell1</Pieces>
+        <Pieces>SpellGem:CSPW_Spell2</Pieces>
+        <Pieces>SpellGem:CSPW_Spell3</Pieces>
+        <Pieces>SpellGem:CSPW_Spell4</Pieces>
+        <Pieces>SpellGem:CSPW_Spell5</Pieces>
+        <Pieces>SpellGem:CSPW_Spell6</Pieces>
+        <Pieces>SpellGem:CSPW_Spell7</Pieces>
+        <Pieces>SpellGem:CSPW_Spell8</Pieces>
+        <Pieces>SpellGem:CSPW_Spell9</Pieces>
+        <Pieces>SpellGem:CSPW_Spell10</Pieces>
+        <Pieces>SpellGem:CSPW_Spell11</Pieces>
+        <Pieces>SpellGem:CSPW_Spell12</Pieces>
+        <Pieces>SpellGem:CSPW_Spell13</Pieces>
+
+    </TileLayoutBox>
+
+    <TileLayoutBox item="CSPW_SpellNameLayout">
+        <ScreenID>CSPW_SpellNameLayout</ScreenID>
+        <Style_Transparent>true</Style_Transparent>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        
+        <AutoStretch>true</AutoStretch>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>5</TopAnchorOffset>
+        <BottomAnchorOffset>29</BottomAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+        <UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+
+        <Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>LayoutBox:CSPW_Spell0Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell1Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell2Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell3Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell4Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell5Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell6Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell7Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell8Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell9Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell10Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell11Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell12Text</Pieces>
+        <Pieces>LayoutBox:CSPW_Spell13Text</Pieces>
+    </TileLayoutBox>
+
+    <Screen item="CastSpellWnd">
+        <TooltipReference>Allows you to cast your memorized spells</TooltipReference>
+        <DrawTemplate>WDT_IWnd_Outer</DrawTemplate>
+        <Layout>CSW_LayoutV</Layout>
+
+        <Style_Border>true</Style_Border>
+        <Style_Sizable>false</Style_Sizable>
+        <Style_Transparent>false</Style_Transparent>
+        <Style_Titlebar>false</Style_Titlebar>
+        <Style_Closebox>false</Style_Closebox>
+        <Style_Minimizebox>false</Style_Minimizebox>
+        <Style_ClientMovable>true</Style_ClientMovable>
+
+        <Location>
+            <X>0</X>
+            <Y>435</Y>
+        </Location>
+        <Size>
+            <CX>198</CX>
+            <CY>435</CY>
+        </Size>
+
+        <!-- 
+            CY = (1 + gem_count) * 29
+                8 gems  = 261
+                9 gems  = 290
+                10 gems = 319
+                11 gems = 348
+                12 gems = 377
+                13 gems = 406
+                14 gems = 435
+        -->
+
+        <Pieces>LayoutBox:IWnd_Template_Inner</Pieces>
+
+        <Pieces>TileLayoutBox:CSPW_SpellGemLayout</Pieces>
+        <Pieces>TileLayoutBox:CSPW_SpellNameLayout</Pieces>
+        <Pieces>Screen:CSPW_VerticalOrientationTemplate</Pieces>
+        <Pieces>Screen:CSPW_VerticalOrientationBook</Pieces>
+
+    </Screen>
+
+</XML>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<!-- Panning & Zoom -->
+
+	<Button item="MVW_PanResetButton">
+		<TooltipReference>Center on the player.</TooltipReference>
+		<ScreenID>MVW_PanResetButton</ScreenID>
+		<Template>BDT_NoArrow</Template>		
+		<Location>
+			<X>12</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item="MVW_PanLeftButton">
+		<ScreenID>MVW_PanLeftButton</ScreenID>
+		<Template>BDT_LeftArrow</Template>
+		<Location>
+			<X>0</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item="MVW_PanRightButton">
+		<ScreenID>MVW_PanRightButton</ScreenID>
+		<Template>BDT_RightArrow</Template>		
+		<Location>
+			<X>24</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item="MVW_PanUpButton">
+		<ScreenID>MVW_PanUpButton</ScreenID>
+		<Template>BDT_UpArrow</Template>
+		<Location>
+			<X>12</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item="MVW_PanDownButton">
+		<ScreenID>MVW_PanDownButton</ScreenID>
+		<Template>BDT_DownArrow</Template>		
+		<Location>
+			<X>12</X>
+			<Y>24</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item="MVW_ZoomOutButton">
+		<TooltipReference>Zoom Out. (Or use Mouse Wheel)</TooltipReference>
+		<ScreenID>MVW_ZoomOutButton</ScreenID>
+		<Template>BDT_MinusSign</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		
+		<Location>
+			<X>0</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item="MVW_FindAutoZoom">
+		<TooltipReference>Toggle the map auto-zooming on your find path.</TooltipReference>
+		<ScreenID>MVW_FindAutoZoom</ScreenID>
+		<Template>BDT_Checkbox</Template>
+		<Text>Z</Text>
+		<Font>1</Font>
+		<TextAlignCenter>true</TextAlignCenter>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Location>
+			<X>12</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item="MVW_ZoomInButton">
+		<TooltipReference>Zoom In. (Or use Mouse Wheel)</TooltipReference>
+		<ScreenID>MVW_ZoomInButton</ScreenID>
+		<Template>BDT_PlusSign</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		
+		<Location>
+			<X>24</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>12</CX>
+			<CY>12</CY>
+		</Size>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<LayoutBox item="MVW_PanButtonLayout">
+		<Size>
+			<CX>36</CX>
+			<CY>48</CY>
+		</Size>
+
+		<Pieces>MVW_PanResetButton</Pieces>
+		<Pieces>MVW_PanLeftButton</Pieces>
+		<Pieces>MVW_PanRightButton</Pieces>
+		<Pieces>MVW_PanUpButton</Pieces>
+		<Pieces>MVW_PanDownButton</Pieces>
+		<Pieces>MVW_ZoomOutButton</Pieces>
+		<Pieces>MVW_FindAutoZoom</Pieces>
+		<Pieces>MVW_ZoomInButton</Pieces>
+	</LayoutBox>
+
+	<!-- Layers -->
+
+	<Label item="MVW_LayersLabel">
+		<ScreenID>MVW_LayersLabel</ScreenID>
+		<Font>3</Font>
+		<Text>Layers:</Text>
+		<Size>
+			<CX>46</CX>
+			<CY>15</CY>
+		</Size>
+		<Location>
+			<X>0</X>
+			<Y>116</Y>
+		</Location>
+	</Label>
+	
+	<!-- Layers - Visible -->
+
+	<Label item="MVW_LayerVisibleLabel">
+		<ScreenID>MVW_LayerVisibleLabel</ScreenID>
+		<Font>3</Font>
+		<Text>Visible</Text>
+		<Size>
+			<CX>51</CX>
+			<CY>15</CY>
+		</Size>
+		<Location>
+			<X>4</X>
+			<Y>132</Y>
+		</Location>
+	</Label>
+	
+	<Button item="MVW_Layer0Button">
+		<ScreenID>MVW_Layer0Button</ScreenID>
+		<Text>Base</Text>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>true</Style_Checkbox>
+		
+		<Location>
+			<X>0</X>
+			<Y>146</Y>
+		</Location>
+		<Size>
+			<CX>63</CX>
+			<CY>20</CY>
+		</Size>
+	</Button>
+
+	<Button item="MVW_Layer1Button">
+		<ScreenID>MVW_Layer1Button</ScreenID>
+		<Text>1</Text>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>true</Style_Checkbox>
+
+		<Location>
+			<X>0</X>
+			<Y>166</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Button>
+
+	<Button item="MVW_Layer2Button">
+		<ScreenID>MVW_Layer2Button</ScreenID>
+		<Text>2</Text>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>true</Style_Checkbox>
+
+		<Location>
+			<X>21</X>
+			<Y>166</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Button>
+
+	<Button item="MVW_Layer3Button">
+		<ScreenID>MVW_Layer3Button</ScreenID>
+		<Text>3</Text>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>true</Style_Checkbox>
+		
+		<Location>
+			<X>42</X>
+			<Y>166</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Button>
+	
+	<!-- Layers - Active -->
+
+	<Label item="MVW_LayerActiveLabel">
+		<ScreenID>MVW_LayerActiveLabel</ScreenID>
+		<Font>3</Font>
+		<Text>Active</Text>
+		<Size>
+			<CX>52</CX>
+			<CY>15</CY>
+		</Size>
+		<Location>
+			<X>4</X>
+			<Y>186</Y>
+		</Location>
+	</Label>
+
+	<Button item="MVW_Layer1ActiveButton">
+		<ScreenID>MVW_Layer1ActiveButton</ScreenID>
+		<Text>1</Text>
+		<RadioGroup>MVW_ActiveLayer</RadioGroup>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<Location>
+			<X>0</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Button>
+	
+	<Button item="MVW_Layer2ActiveButton">
+		<ScreenID>MVW_Layer2ActiveButton</ScreenID>
+		<Text>2</Text>
+		<RadioGroup>MVW_ActiveLayer</RadioGroup>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<Location>
+			<X>21</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Button>
+
+	<Button item="MVW_Layer3ActiveButton">
+		<ScreenID>MVW_Layer3ActiveButton</ScreenID>
+		<Text>3</Text>
+		<RadioGroup>MVW_ActiveLayer</RadioGroup>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<Location>
+			<X>42</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>20</CY>
+		</Size>
+	</Button>
+
+	<!-- -->
+
+	<Button item="MVW_LabelsToggleButton">
+		<TooltipReference>Toggle displaying of labels on and off.</TooltipReference>
+		<ScreenID>MVW_LabelsToggleButton</ScreenID>
+		<Text>Labels</Text>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>true</Style_Checkbox>
+		
+		<Location>
+			<X>0</X>
+			<Y>230</Y>
+		</Location>
+		<Size>
+			<CX>63</CX>
+			<CY>22</CY>
+		</Size>
+	</Button>
+
+	<!-- Height Adjustment -->
+
+	<Button item="MVW_ZFilterButton">
+		<TooltipReference>Toggle filtering map lines based on your position and the high and low values.</TooltipReference>
+		<ScreenID>MVW_ZFilterButton</ScreenID>
+		<Font>3</Font>
+		<Text>Height Filter</Text>
+		<Template>BDT_Normal</Template>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>true</Style_Checkbox>
+		
+		<Location>
+			<X>0</X>
+			<Y>262</Y>
+		</Location>
+		<Size>
+			<CX>63</CX>
+			<CY>40</CY>
+		</Size>
+	</Button>
+
+	<Label item="MVW_MinZLabel">
+		<ScreenID>MVW_MinZLabel</ScreenID>
+		<Font>3</Font>
+		<Text>Low:</Text>
+
+		<Size>
+			<CX>44</CX>
+			<CY>15</CY>
+		</Size>
+		<Location>
+			<X>2</X>
+			<Y>302</Y>
+		</Location>
+	</Label>
+
+	<Editbox item="MVW_MinZEditBox">
+		<TooltipReference>How much below your current position to draw map lines.</TooltipReference>
+		<ScreenID>MVW_MinZEditBox</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+
+		<Location>
+			<X>0</X>
+			<Y>317</Y>
+		</Location>
+		<Size>
+			<CX>63</CX>
+			<CY>20</CY>
+		</Size>
+	</Editbox>
+
+	<Label item="MVW_MaxZLabel">
+		<ScreenID>MVW_MaxZLabel</ScreenID>
+		<Font>3</Font>
+		<Text>High:</Text>
+
+		<Size>
+			<CX>44</CX>
+			<CY>15</CY>
+		</Size>
+		<Location>
+			<X>2</X>
+			<Y>337</Y>
+		</Location>
+	</Label>
+
+	<Editbox item="MVW_MaxZEditBox">
+		<TooltipReference>How much above your current position to draw map lines.</TooltipReference>
+		<ScreenID>MVW_MaxZEditBox</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+
+		<Location>
+			<X>0</X>
+			<Y>352</Y>
+		</Location>
+		<Size>
+			<CX>63</CX>
+			<CY>20</CY>
+		</Size>
+	</Editbox>
+
+	<!-- -->
+
+	<Button item="MVW_ToolbarButton">
+		<TooltipReference>Pop up the Toolbar Window.</TooltipReference>
+		<ScreenID>MVW_ToolbarButton</ScreenID>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		
+		<Location>
+			<X>20</X>
+			<Y>378</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+
+		<ButtonDrawTemplate>
+			<Normal>A_ToolbarButtonNormal</Normal>
+			<Pressed>A_ToolbarButtonPressed</Pressed>
+			<Flyby>A_ToolbarButtonFlyby</Flyby>
+			<Disabled>A_ToolbarButtonNormal</Disabled>
+			<PressedFlyby>A_ToolbarButtonPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<!-- -->
+
+	<Screen item="MVW_MapToolBar">
+		<ScreenID>MVW_MapToolBar</ScreenID>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_Transparent>true</Style_Transparent>
+        
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+
+		<LeftAnchorOffset>67</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<TopAnchorOffset>33</TopAnchorOffset>
+		<BottomAnchorOffset>470</BottomAnchorOffset>
+
+		<Pieces>MVW_PanButtonLayout</Pieces>
+
+		<Pieces>MVW_LayersLabel</Pieces>
+		<Pieces>MVW_Layer1Button</Pieces>
+		<Pieces>MVW_Layer2Button</Pieces>
+		<Pieces>MVW_Layer3Button</Pieces>
+		<Pieces>MVW_LayerVisibleLabel</Pieces>
+		<Pieces>MVW_LayerActiveLabel</Pieces>
+		<Pieces>MVW_Layer1ActiveButton</Pieces>
+		<Pieces>MVW_Layer2ActiveButton</Pieces>
+		<Pieces>MVW_Layer3ActiveButton</Pieces>
+		<Pieces>MVW_ZFilterButton</Pieces>
+		<Pieces>MVW_LabelsToggleButton</Pieces>
+		<Pieces>MVW_Layer0Button</Pieces>
+
+		<Pieces>MVW_MinZLabel</Pieces>
+		<Pieces>MVW_MinZEditBox</Pieces>
+		<Pieces>MVW_MaxZLabel</Pieces>
+		<Pieces>MVW_MaxZEditBox</Pieces>
+		<Pieces>MVW_ToolbarButton</Pieces>
+	</Screen>
+
+</XML>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Composite>
+    <Include>player_window\PlayerName.xml</Include>
+    <Include>player_window\PlayerHP.xml</Include>
+    <Include>player_window\PlayerMP.xml</Include>
+    <Include>player_window\PlayerEN.xml</Include>
+    <Include>player_window\PlayerRoles.xml</Include>
+
+    <Include>status_window\Status_MITDisplay.xml</Include>
+    <Include>status_window\Status_EVADisplay.xml</Include>
+    <Include>status_window\Status_OFFDisplay.xml</Include>
+    <Include>status_window\Status_ACCDisplay.xml</Include>
+    <Include>status_window\Status_STRDisplay.xml</Include>
+    <Include>status_window\Status_STADisplay.xml</Include>
+    <Include>status_window\Status_DEXDisplay.xml</Include>
+    <Include>status_window\Status_AGIDisplay.xml</Include>
+    <Include>status_window\Status_WISDisplay.xml</Include>
+    <Include>status_window\Status_INTDisplay.xml</Include>
+    <Include>status_window\Status_CHADisplay.xml</Include>
+    <Include>status_window\Status_MRDisplay.xml</Include>
+    <Include>status_window\Status_CRDisplay.xml</Include>
+    <Include>status_window\Status_FRDisplay.xml</Include>
+    <Include>status_window\Status_PRDisplay.xml</Include>
+    <Include>status_window\Status_DRDisplay.xml</Include>
+    <Include>status_window\Status_CODisplay.xml</Include>
+    <Include>status_window\Status_HSTDisplay.xml</Include>
+    <Include>status_window\Status_XPDisplay.xml</Include>
+    <Include>status_window\Status_AADisplay.xml</Include>
+    <Include>status_window\CombatTimer.xml</Include>
+    <Include>status_window\Status_StatusDisplay.xml</Include>
+
+    <Include>player_window\_scene.xml</Include>
+    <Include>player_window\Animations.xml</Include>
+    <Include>status_window\Animations.xml</Include>
+  </Composite>
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

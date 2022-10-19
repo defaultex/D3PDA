@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>task_overlay_window\TaskStepTemplate.xml</Include>
+		<Include>task_overlay_window\TaskTemplate.xml</Include>
+		<Include>task_overlay_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<!-- 
+		How the task window works:
+
+		TO_TaskList is the visible list that we see on our screens. When a task is
+		added to this list, a copy of TO_TaskTemplate is created for that task.
+
+		TO_TaskSteps is the list visible inside of each task containing it's steps,
+		a copy of TO_TaskStepTemplate is created for each active step of the task.
+
+		In-Game Hierarchy:
+
+		+ TaskOverlayWnd 				[Screen]
+		|-+ TO_TaskList 				[TileLayoutBox]
+		| |-+ TO_TaskTemplate 			[Screen] 			One for each active task
+		| | |-+ TO_TaskInfo				[Screen]
+		| | | |- TO_TaskCheckBox 		[Button]
+		| | | |- TO_TaskTitle			[STMLbox]
+		| | | + TO_TaskSteps			[TileLayoutBox]
+		| | | |-+ TO_TaskStepTemplate	[Screen]			One for each active step of the task
+		| | | | |- TO_TaskStepTitle		[Label]
+		| | | | |- TO_TaskStepStatus	[Label]
+	-->
+</XML>

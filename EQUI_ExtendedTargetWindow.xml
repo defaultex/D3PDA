@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>ext_target_window\ExtTarget0.xml</Include>
+		<Include>ext_target_window\ExtTarget1.xml</Include>
+		<Include>ext_target_window\ExtTarget2.xml</Include>
+		<Include>ext_target_window\ExtTarget3.xml</Include>
+		<Include>ext_target_window\ExtTarget4.xml</Include>
+		<Include>ext_target_window\ExtTarget5.xml</Include>
+		<Include>ext_target_window\ExtTarget6.xml</Include>
+		<Include>ext_target_window\ExtTarget7.xml</Include>
+		<Include>ext_target_window\ExtTarget8.xml</Include>
+		<Include>ext_target_window\ExtTarget9.xml</Include>
+		<Include>ext_target_window\ExtTarget10.xml</Include>
+		<Include>ext_target_window\ExtTarget11.xml</Include>
+		<Include>ext_target_window\ExtTarget12.xml</Include>
+		<Include>ext_target_window\ExtTarget13.xml</Include>
+		<Include>ext_target_window\ExtTarget14.xml</Include>
+		<Include>ext_target_window\ExtTarget15.xml</Include>
+		<Include>ext_target_window\ExtTarget16.xml</Include>
+		<Include>ext_target_window\ExtTarget17.xml</Include>
+		<Include>ext_target_window\ExtTarget18.xml</Include>
+		<Include>ext_target_window\ExtTarget19.xml</Include>
+		<Include>ext_target_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

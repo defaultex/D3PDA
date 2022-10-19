@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <!-- Ext Target Number -->
+
+    <Label item="ETW_Target2Number">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineTL">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineT">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineTR">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineBL">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineB">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineBR">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineL">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_Target2Number_OutlineR">
+        <Text>3</Text>
+        <Font>3</Font>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="ETW_Target2Number_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <RightAnchorOffset>18</RightAnchorOffset>
+        <TopAnchorOffset>6</TopAnchorOffset>
+
+        <Pieces>ETW_Target2Number_OutlineTL</Pieces>
+        <Pieces>ETW_Target2Number_OutlineT</Pieces>
+        <Pieces>ETW_Target2Number_OutlineTR</Pieces>
+        <Pieces>ETW_Target2Number_OutlineBL</Pieces>
+        <Pieces>ETW_Target2Number_OutlineB</Pieces>
+        <Pieces>ETW_Target2Number_OutlineBR</Pieces>
+        <Pieces>ETW_Target2Number_OutlineL</Pieces>
+        <Pieces>ETW_Target2Number_OutlineR</Pieces>
+        <Pieces>ETW_Target2Number</Pieces>
+    </LayoutBox>
+
+    <!-- Percent Number -->
+
+    <Label item="ETW_HPLabel2">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineTL">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineT">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineTR">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineBL">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineB">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineBR">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineL">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="ETW_HPLabel2_OutlineR">
+        <EQType>153</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="ETW_HPLabel2_Layout">
+        <ScreenID>ETW_HPPercLabel2</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>52</LeftAnchorOffset>
+        <RightAnchorOffset>12</RightAnchorOffset>
+        <TopAnchorOffset>-2</TopAnchorOffset>
+
+        <Pieces>ETW_HPLabel2_OutlineTL</Pieces>
+        <Pieces>ETW_HPLabel2_OutlineT</Pieces>
+        <Pieces>ETW_HPLabel2_OutlineTR</Pieces>
+        <Pieces>ETW_HPLabel2_OutlineBL</Pieces>
+        <Pieces>ETW_HPLabel2_OutlineB</Pieces>
+        <Pieces>ETW_HPLabel2_OutlineBR</Pieces>
+        <Pieces>ETW_HPLabel2_OutlineL</Pieces>
+        <Pieces>ETW_HPLabel2_OutlineR</Pieces>
+        <Pieces>ETW_HPLabel2</Pieces>
+    </LayoutBox>
+
+    <!-- Name -->
+
+    <Gauge item="ETW_Name2">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineTL">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineT">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineTR">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineBL">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineB">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineBR">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineL">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Gauge>
+    <Gauge item="ETW_Name2_OutlineR">
+        <EQType>44</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Gauge>
+
+    <LayoutBox item="ETW_Name2_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>26</LeftAnchorOffset>
+        <RightAnchorOffset>46</RightAnchorOffset>
+        <TopAnchorOffset>-1</TopAnchorOffset>
+
+        <Pieces>ETW_Name2_OutlineTL</Pieces>
+        <Pieces>ETW_Name2_OutlineT</Pieces>
+        <Pieces>ETW_Name2_OutlineTR</Pieces>
+        <Pieces>ETW_Name2_OutlineBL</Pieces>
+        <Pieces>ETW_Name2_OutlineB</Pieces>
+        <Pieces>ETW_Name2_OutlineBR</Pieces>
+        <Pieces>ETW_Name2_OutlineL</Pieces>
+        <Pieces>ETW_Name2_OutlineR</Pieces>
+        <Pieces>ETW_Name2</Pieces>
+    </LayoutBox>
+
+    <!-- Elements -->
+
+	<Label item="ETW_AggroPct2">
+		<EQType>316</EQType>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <AppendText>%</AppendText>
+        <Font>2</Font>
+        <NoWrap>true</NoWrap>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+
+        <Location>
+            <X>8</X>
+            <Y>6</Y>
+        </Location>
+        <Size>
+            <CX>32</CX>
+            <CY>16</CY>
+        </Size>
+	</Label>
+
+    <Gauge item="ETW_Gauge2">
+		<EQType>44</EQType>
+        <Font>5</Font>
+        <TextOffsetX>12</TextOffsetX>
+        <TextOffsetY>-22</TextOffsetY>
+        <GaugeOffsetY>4</GaugeOffsetY>
+        <Location>
+            <X>18</X>
+            <Y>6</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>12</CY>
+        </Size>
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+        <FillTint>
+            <R>255</R>
+            <G>0</G>
+            <B>0</B>
+        </FillTint>
+        <DrawLinesFill>false</DrawLinesFill>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_SmallGauge_Background</Background>
+            <Fill>D3PDA_SmallGauge_Fill</Fill>
+        </GaugeDrawTemplate>
+    </Gauge>
+
+    <Gauge item="ETW_ManaGauge2">
+		<ScreenID>ETW_ManaGauge2</ScreenID>
+		<EQType>64</EQType>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <TextOffsetY>-50</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>18</X>
+            <Y>7</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>8</CY>
+        </Size>
+        <FillTint>
+            <R>0</R>
+            <G>0</G>
+            <B>255</B>
+        </FillTint>
+        <DrawLinesFill>false</DrawLinesFill>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_SmallGauge_Background_Underlap</Background>
+            <Fill>D3PDA_SmallGauge_Fill_Underlap</Fill>
+        </GaugeDrawTemplate>
+    </Gauge>
+
+    <Gauge item="ETW_STAGauge2">
+		<ScreenID>ETW_STAGauge2</ScreenID>
+		<EQType>84</EQType>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <TextOffsetY>-50</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>18</X>
+            <Y>10</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>8</CY>
+        </Size>
+        <FillTint>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+        </FillTint>
+        <DrawLinesFill>false</DrawLinesFill>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_SmallGauge_Background_Underlap</Background>
+            <Fill>D3PDA_SmallGauge_Fill_Underlap</Fill>
+        </GaugeDrawTemplate>
+    </Gauge>
+	
+    <Button item="ETW_Role2">
+		<ScreenID>ETW_Role2</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>8</Y>
+        </Location>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+	</Button>
+ 
+    <!-- Target Layout -->
+
+    <TileLayoutBox item="ETW_Target2_GaugeInnerLayout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <HorizontalFirst>false</HorizontalFirst>
+
+        <Location>
+            <X>18</X>
+            <Y>13</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>16</CY>
+        </Size>
+
+        <Spacing>-5</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>ETW_ManaGauge2</Pieces>
+        <Pieces>ETW_STAGauge2</Pieces>
+    </TileLayoutBox>
+
+    <LayoutBox item="ETW_Target2IndicatorRT">
+		<ScreenID>ETW_Gauge2</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </LayoutBox>
+
+    <LayoutBox item="ETW_Target2IndicatorLB">
+		<ScreenID>ETW_AggroPct2</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <Pieces>ETW_AggroPct2</Pieces>
+    </LayoutBox>
+
+    <LayoutBox item="ETW_Target2Indicator">
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>18</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>6</TopAnchorOffset>
+
+        <Pieces>LayoutBox:ETW_Target2IndicatorRT</Pieces>
+        <Pieces>LayoutBox:ETW_Target2IndicatorLB</Pieces>
+    </LayoutBox>
+
+    <LayoutBox item="ETW_Target2_GaugeLayout">
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>18</LeftAnchorOffset>
+
+		<Pieces>ETW_Role2</Pieces>
+		<Pieces>TileLayoutBox:ETW_Target2_GaugeInnerLayout</Pieces>
+        <Pieces>ETW_Gauge2</Pieces>
+        <Pieces>ETW_Name2_Layout</Pieces>
+        <Pieces>ETW_HPLabel2_Layout</Pieces>
+        <Pieces>LayoutBox:ETW_Target2Indicator</Pieces>
+    </LayoutBox>
+
+    <LayoutBox item="ETW_Target2_Layout">
+        <Size>
+            <CX>198</CX>
+            <CY>24</CY>
+        </Size>
+
+        <Pieces>ETW_Target2Number_Layout</Pieces>
+        <Pieces>ETW_Target2_GaugeLayout</Pieces>
+    </LayoutBox>
+
+</XML>

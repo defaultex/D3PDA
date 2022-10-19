@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+  <TextureInfo item="assets/D3PDA.tga">
+    <Size>
+      <CX>512</CX>
+      <CY>512</CY>
+    </Size>
+  </TextureInfo>
+
+  <TextureInfo item="assets/D3PDA_IWnd.tga">
+    <Size>
+      <CX>256</CX>
+      <CY>256</CY>
+    </Size>
+  </TextureInfo>
+
+  <TextureInfo item="assets/D3PDA_WindowPieces.tga">
+    <Size>
+      <CX>256</CX>
+      <CY>256</CY>
+    </Size>
+  </TextureInfo>
+
+  <TextureInfo item="assets/D3PDA_Middle.tga">
+    <Size>
+      <CX>4</CX>
+      <CY>4</CY>
+    </Size>
+  </TextureInfo>
+
+  <TextureInfo item="assets/D3PDA_MiddleBlue.tga">
+    <Size>
+      <CX>4</CX>
+      <CY>4</CY>
+    </Size>
+  </TextureInfo>
+
+  <TextureInfo item="assets/D3PDA_ScrollbarGutter.tga">
+    <Size>
+      <CX>15</CX>
+      <CY>15</CY>
+    </Size>
+  </TextureInfo>
+
+</XML>

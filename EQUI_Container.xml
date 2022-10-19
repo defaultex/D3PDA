@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>container\TSContainer.xml</Include>
+		<Include>container\Container.xml</Include>
+		<Include>container\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<!-- Image for an EQ map -->
+	<TextureInfo item="cart.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="map_icon.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	
+	<Ui2DAnimation item="A_MapIcon">
+		<Frames>
+			<Texture>map_icon.tga</Texture>
+			<Size>
+				<CX>64</CX>
+				<CY>64</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_MapPiece">
+		<Frames>
+			<Texture>cart.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>512</CX>
+				<CY>399</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_ToolbarButtonNormal">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>22</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_ToolbarButtonFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>22</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>22</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_ToolbarButtonPressed">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>44</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>22</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_ToolbarButtonPressedFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>66</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>22</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+</XML>

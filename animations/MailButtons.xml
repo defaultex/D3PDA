@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<!-- Mail -->
+	<Ui2DAnimation item="A_MailBtnNormal">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>88</X>
+				<Y>178</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_MailBtnFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>114</X>
+				<Y>178</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_MailBtnPressed">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>140</X>
+				<Y>178</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_MailBtnPressedFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>166</X>
+				<Y>178</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_MailBtnDisabled">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>178</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<!-- Got Mail -->
+	<Ui2DAnimation item="A_GotMailBtnNormal">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>88</X>
+				<Y>204</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_GotMailBtnFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>114</X>
+				<Y>204</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_GotMailBtnPressed">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>140</X>
+				<Y>204</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_GotMailBtnPressedFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>166</X>
+				<Y>204</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<!-- Red Mail -->
+	<Ui2DAnimation item="A_RedMailBtnNormal">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_RedMailBtnFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>218</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_RedMailBtnPressed">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>126</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_RedMailBtnPressedFlyby">
+		<Frames>
+			<Texture>window_pieces04.tga</Texture>
+			<Location>
+				<X>218</X>
+				<Y>126</Y>
+			</Location>
+			<Size>
+				<CX>26</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+</XML>

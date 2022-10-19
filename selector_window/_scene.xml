@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<LayoutVertical item="SW_LayoutV">
+		<ResizeVertical>true</ResizeVertical>
+		<ResizeHorizontal>true</ResizeHorizontal>
+	</LayoutVertical>
+
+    <TileLayoutBox item="SW_ButtonLayout">
+        <ScreenID>SW_ButtonLayout</ScreenID>
+        
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<SnapToChildren>true</SnapToChildren>
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+		<Pieces>SELW_ActionsToggleButton</Pieces>
+		<Pieces>SELW_InventoryToggleButton</Pieces>
+		<Pieces>SELW_OptionsToggleButton</Pieces>
+		<Pieces>SELW_FriendsToggleButton</Pieces>
+		<Pieces>SELW_HotboxToggleButton</Pieces>
+		<Pieces>SELW_CastSpellToggleButton</Pieces>
+		<Pieces>SELW_CombatSkillsToggleButton</Pieces>
+		<Pieces>SELW_PetInfoToggleButton</Pieces>
+		<Pieces>SELW_BuffToggleButton</Pieces>
+		<Pieces>SELW_SDBuffToggleButton</Pieces>
+		<Pieces>SELW_GuildToggleButton</Pieces>
+		<Pieces>SELW_MapToggleButton</Pieces>
+		<Pieces>SELW_StoryToggleButton</Pieces>
+		<Pieces>SELW_JournalToggleButton</Pieces>
+		<Pieces>SELW_MercenariesToggleButton</Pieces>
+		<Pieces>SELW_MailToggleButton</Pieces>
+		<Pieces>SELW_HelpToggleButton</Pieces>
+    </TileLayoutBox>
+
+	<Screen item="SelectorWindow">
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Layout>SW_LayoutV</Layout>
+		<Text>Window Selector</Text>
+		<Style_Border>true</Style_Border>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Sizable>true</Style_Sizable>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>135</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>508</CX>
+			<CY>50</CY>
+		</Size>
+        <Pieces>TileLayoutBox:SW_ButtonLayout</Pieces>
+	</Screen>
+
+</XML>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <LayoutVertical item="Container_LayoutV">
+        <ResizeVertical>true</ResizeVertical>
+        <ResizeHorizontal>true</ResizeHorizontal>
+    </LayoutVertical>
+
+    <Screen item="ContainerWindow">
+        <TooltipReference>Container</TooltipReference>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Layout>Container_LayoutV</Layout>
+        <Text>Container</Text>
+
+        <Style_Titlebar>true</Style_Titlebar>
+        <Style_Closebox>true</Style_Closebox>
+        <Style_Minimizebox>false</Style_Minimizebox>
+        <Style_Border>true</Style_Border>
+        <Style_Sizable>true</Style_Sizable>
+        <Style_VScroll>false</Style_VScroll>
+        <Style_HScroll>false</Style_HScroll>
+        <Style_Transparent>false</Style_Transparent>
+
+        <RelativePosition>false</RelativePosition>
+        <Location>
+            <X>350</X>
+            <Y>100</Y>
+        </Location>
+        <Size>
+            <CX>115</CX>
+            <CY>240</CY>
+        </Size>
+
+        <Pieces>ContainerCombine_Icon</Pieces>
+        <Pieces>Container_Slot</Pieces>
+        <Pieces>TileLayoutBox:ContainerStandard_Items</Pieces>
+        <Pieces>TileLayoutBox:ContainerStandardWithDone_Items</Pieces>
+        <Pieces>TileLayoutBox:ContainerCombine_Items</Pieces>
+        <Pieces>Container_Combine</Pieces>
+        <Pieces>StandardDoneButton</Pieces>
+        <Pieces>CombineDoneButton</Pieces>
+
+        <Pieces>Container_StandardSize</Pieces>
+        <Pieces>Container_CombineSize</Pieces>
+
+    </Screen>
+
+</XML>

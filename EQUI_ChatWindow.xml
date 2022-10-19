@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Editbox item="CW_ChatInput">
+		<ScreenID>CW_ChatInput</ScreenID>
+		<DrawTemplate>WDT_SmallBlueBorder</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>21</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+	</Editbox>
+
+	<STMLbox item="CW_ChatOutput">
+		<ScreenID>CW_ChatOutput</ScreenID>
+		<DrawTemplate>WDT_SmallBlueBorder</DrawTemplate>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_Border>true</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>1</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+	</STMLbox>
+
+	<Screen item="ChatWindow">
+		<DrawTemplate>WDT_SmallBlueBorder</DrawTemplate> <!-- Outer-most of the chat box itself, inside the tab page -->
+		<Style_Sizable>false</Style_Sizable>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<Escapable>false</Escapable>
+		
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RelativePosition>true</RelativePosition>
+
+		<Pieces>CW_ChatOutput</Pieces>
+		<Pieces>CW_ChatInput</Pieces>
+	</Screen>
+</XML>

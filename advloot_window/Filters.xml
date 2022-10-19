@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="ADLW_ApplyFiltersCheck">
+        <TooltipReference>When checked this will automatically opt in or out for each item.  When not checked you will need to manually opt in or out on each item.</TooltipReference>
+        <ScreenID>ADLW_ApplyFiltersCheck</ScreenID>
+        <Template>BDT_CheckboxWithText</Template>
+        <Style_Checkbox>true</Style_Checkbox>
+        <Text>Apply Filters</Text>
+
+        <TextAlignCenter>false</TextAlignCenter>
+        <TextOffsetX>20</TextOffsetX>
+
+        <Location>
+            <X>0</X>
+            <Y>5</Y>
+        </Location>
+        <Size>
+            <CX>110</CX>
+            <CY>16</CY>
+        </Size>
+        <DecalSize>
+            <CX>16</CX>
+            <CY>16</CY>
+        </DecalSize>
+    </Button>
+
+    <Button item="ADLW_GroupedByNpcCheckbox">
+        <TooltipReference>Toggles whether items are sorted by the owning NPC.</TooltipReference>
+        <ScreenID>ADLW_GroupedByNpcCheckbox</ScreenID>
+        <Template>BDT_CheckboxWithText</Template>
+        <Style_Checkbox>true</Style_Checkbox>
+        <Text>Group by NPCs</Text>
+
+        <TextAlignCenter>false</TextAlignCenter>
+        <TextOffsetX>20</TextOffsetX>
+
+        <Location>
+            <X>0</X>
+            <Y>25</Y>
+        </Location>
+        <Size>
+            <CX>125</CX>
+            <CY>16</CY>
+        </Size>
+        <DecalSize>
+            <CX>16</CX>
+            <CY>16</CY>
+        </DecalSize>
+    </Button>
+
+    <Button item="ADLW_EditFiltersBtn">
+        <TooltipReference>Click this button to open the Advanced Loot Filters window.</TooltipReference>
+        <ScreenID>ADLW_EditFiltersBtn</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Edit Filters</Text>
+
+        <Location>
+            <X>0</X>
+            <Y>50</Y>
+        </Location>
+        <Size>
+            <CX>100</CX>
+            <CY>24</CY>
+        </Size>
+    </Button>
+
+    <Button item="ADLW_LootSettingsBtn">
+        <TooltipReference>Click this button to open the Advanced Loot Settings window.</TooltipReference>
+        <ScreenID>ADLW_LootSettingsBtn</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Loot Settings</Text>
+
+        <Location>
+            <X>110</X>
+            <Y>50</Y>
+        </Location>
+        <Size>
+            <CX>100</CX>
+            <CY>24</CY>
+        </Size>
+    </Button>
+
+    <Label item="ADLW_CalculatedMasterLooterLabel">
+        <ScreenID>ADLW_CalculatedMasterLooterLabel</ScreenID>
+        <Text>Master Looter:</Text>
+
+        <Location>
+            <X>120</X>
+            <Y>7</Y>
+        </Location>
+        <Size>
+            <CX>80</CX>
+            <CY>15</CY>
+        </Size>
+    </Label>
+
+    <Label item="ADLW_CalculatedMasterLooter">
+        <ScreenID>ADLW_CalculatedMasterLooter</ScreenID>
+        <Text>Me</Text>
+
+        <Location>
+            <X>120</X>
+            <Y>22</Y>
+        </Location>
+        <Size>
+            <CX>105</CX>
+            <CY>17</CY>
+        </Size>
+    </Label>
+
+    <Screen item="ADLW_FiltersWnd">
+        <ScreenID>ADLW_FiltersWnd</ScreenID>
+        <DrawTemplate>WDT_Blank</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_HScroll>false</Style_HScroll>
+        <Style_VScroll>false</Style_VScroll>
+        <Style_Transparent>true</Style_Transparent>
+        <Style_Border>true</Style_Border>
+        <Style_Titlebar>false</Style_Titlebar>
+        <RelativePosition>true</RelativePosition>
+
+        <AutoStretch>true</AutoStretch>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>82</TopAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <BottomAnchorOffset>2</BottomAnchorOffset>
+
+        <TopAnchorToTop>false</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <Pieces>ADLW_ApplyFiltersCheck</Pieces>
+        <Pieces>ADLW_GroupedByNpcCheckbox</Pieces>
+        <Pieces>ADLW_EditFiltersBtn</Pieces>
+        <Pieces>ADLW_LootSettingsBtn</Pieces>
+        <Pieces>ADLW_CalculatedMasterLooterLabel</Pieces>
+        <Pieces>ADLW_CalculatedMasterLooter</Pieces>
+    </Screen>
+
+</XML>

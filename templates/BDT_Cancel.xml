@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <ButtonDrawTemplate item="BDT_Cancel">
+        <Normal>A_CancelNormal</Normal>
+        <Pressed>A_CancelPressed</Pressed>
+        <Flyby>A_CancelFlyby</Flyby>
+        <PressedFlyby>A_CancelPressed</PressedFlyby>
+    </ButtonDrawTemplate>
+
+</XML>

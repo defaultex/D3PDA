@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <WindowDrawTemplate item="WDT_IWnd_Outer">
+        <Border>
+            <TopLeft>D3PDA_IWnd_Item0</TopLeft>
+            <LeftTop>D3PDA_IWnd_Item1</LeftTop>
+            <LeftBottom>D3PDA_IWnd_ItemNminus1</LeftBottom>
+            <BottomLeft>D3PDA_IWnd_ItemN</BottomLeft>
+
+            <OverlapLeft>20</OverlapLeft>
+            <OverlapTop>30</OverlapTop> <!-- D3PDA_IWnd_Item0.y -->
+            <OverlapBottom>27</OverlapBottom> <!-- D3PDA_IWnd_ItemN.y -->
+        </Border>
+    </WindowDrawTemplate>
+
+    <WindowDrawTemplate item="WDT_IWnd_Outer_SerifTop">
+        <Border>
+            <TopLeft>D3PDA_IWnd_Item0_Serif</TopLeft>
+            <LeftTop>D3PDA_IWnd_Item1</LeftTop>
+            <LeftBottom>D3PDA_IWnd_ItemNminus1</LeftBottom>
+            <BottomLeft>D3PDA_IWnd_ItemN</BottomLeft>
+
+            <OverlapLeft>20</OverlapLeft>
+            <OverlapTop>30</OverlapTop> <!-- D3PDA_IWnd_Item0.y -->
+            <OverlapBottom>27</OverlapBottom> <!-- D3PDA_IWnd_ItemN.y -->
+        </Border>
+    </WindowDrawTemplate>
+
+    <WindowDrawTemplate item="WDT_IWnd_Outer_SerifBottom">
+        <Border>
+            <TopLeft>D3PDA_IWnd_Item0</TopLeft>
+            <LeftTop>D3PDA_IWnd_Item1</LeftTop>
+            <LeftBottom>D3PDA_IWnd_ItemNminus1</LeftBottom>
+            <BottomLeft>D3PDA_IWnd_ItemN_Serif</BottomLeft>
+
+            <OverlapLeft>20</OverlapLeft>
+            <OverlapTop>30</OverlapTop> <!-- D3PDA_IWnd_Item0.y -->
+            <OverlapBottom>27</OverlapBottom> <!-- D3PDA_IWnd_ItemN.y -->
+        </Border>
+    </WindowDrawTemplate>
+
+    <WindowDrawTemplate item="WDT_IWnd_Outer_SerifBoth">
+        <Border>
+            <TopLeft>D3PDA_IWnd_Item0_Serif</TopLeft>
+            <LeftTop>D3PDA_IWnd_Item1</LeftTop>
+            <LeftBottom>D3PDA_IWnd_ItemNminus1</LeftBottom>
+            <BottomLeft>D3PDA_IWnd_ItemN_Serif</BottomLeft>
+
+            <OverlapLeft>20</OverlapLeft>
+            <OverlapTop>30</OverlapTop> <!-- D3PDA_IWnd_Item0.y -->
+            <OverlapBottom>27</OverlapBottom> <!-- D3PDA_IWnd_ItemN.y -->
+        </Border>
+    </WindowDrawTemplate>
+
+    <StaticAnimation item="IWnd_Left_InstanceAnim">
+        <Animation>D3PDA_IWnd_ItemI</Animation>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Size>
+            <CX>20</CX>
+            <CY>29</CY>
+        </Size>
+    </StaticAnimation>
+
+    <LayoutBox item="IWnd_Left_Instance">
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Size>
+            <CX>20</CX>
+            <CY>29</CY>
+        </Size>
+        <Pieces>IWnd_Left_InstanceAnim</Pieces>
+    </LayoutBox>
+
+    <VerticalLayoutBox item="IWnd_Template_Instances">
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <FirstPieceTemplate>true</FirstPieceTemplate>
+        <HorizontalFirst>false</HorizontalFirst>
+
+        <AutoStretch>true</AutoStretch>
+        <AutoStretchHorizontal>false</AutoStretchHorizontal>
+        <AutoStretchVertical>true</AutoStretchVertical>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <RightAnchorOffset>20</RightAnchorOffset> <!-- D3PDA_IWnd_ItemI.cx -->
+        <TopAnchorOffset>29</TopAnchorOffset> <!-- D3PDA_IWnd_Item1.cy -->
+        <BottomAnchorOffset>29</BottomAnchorOffset> <!-- D3PDA_IWnd_ItemNminus1.cy -->
+
+        <Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <!-- duplicate pieces to allow for taller windows -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 1 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 2 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 3 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 4 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 5 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 6 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 7 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 8 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 9 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 10 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 11 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 12 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 13 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 14 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 15 -->
+        <Pieces>IWnd_Left_Instance</Pieces> <!-- 16 -->
+    
+    </VerticalLayoutBox>
+
+    <!-- this element is intended to drop into a Scene to produce the tiling left edge -->
+    <LayoutBox item="IWnd_Template_Inner">
+        <Style_TransparentControl>true</Style_TransparentControl>
+        
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+        <UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+
+        <AutoStretch>true</AutoStretch>
+        <AutoStretchHorizontal>false</AutoStretchHorizontal>
+        <AutoStretchVertical>true</AutoStretchVertical>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <RightAnchorOffset>20</RightAnchorOffset> <!-- D3PDA_IWnd_ItemI.cx -->
+        <TopAnchorOffset>30</TopAnchorOffset> <!-- D3PDA_IWnd_Item0.cy -->
+        <BottomAnchorOffset>27</BottomAnchorOffset> <!-- D3PDA_IWnd_ItemN.cy -->
+
+        <Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>VerticalLayoutBox:IWnd_Template_Instances</Pieces>
+    </LayoutBox>
+
+</XML>

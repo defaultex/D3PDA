@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <StaticAnimation item="BG_StatusWindow">
+        <ScreenID>BG_StatusWindow</ScreenID>
+        <Animation>DoomPda_StatusWindow_Bg</Animation>
+        <Size>
+            <CX>197</CX>
+            <CY>338</CY>
+        </Size>
+    </StaticAnimation>
+
+    <!-- Scene Graph -->
+
+    <TileLayoutBox item="Status_NumbersLeft">
+        <HorizontalFirst>false</HorizontalFirst>
+        <AutoStretch>true</AutoStretch>
+
+        <LeftAnchorOffset>10</LeftAnchorOffset>
+        <RightAnchorOffset>82</RightAnchorOffset>
+        <TopAnchorOffset>25</TopAnchorOffset>
+        <BottomAnchorOffset>0</BottomAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <Spacing>11</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>Status_MITDisplay</Pieces>
+        <Pieces>Status_EVADisplay</Pieces>
+        <Pieces>Status_STRDisplay</Pieces>
+        <Pieces>Status_STADisplay</Pieces>
+        <Pieces>Status_AGIDisplay</Pieces>
+        <Pieces>Status_DEXDisplay</Pieces>
+        <Pieces>Status_WISDisplay</Pieces>
+        <Pieces>Status_INTDisplay</Pieces>
+        <Pieces>Status_CHADisplay</Pieces>
+        <Pieces>Status_XPKeyDisplay</Pieces>
+        <Pieces>Status_AAKeyDisplay</Pieces>
+
+    </TileLayoutBox>
+
+    <TileLayoutBox item="Status_NumbersRight">
+        <HorizontalFirst>false</HorizontalFirst>
+        <AutoStretch>true</AutoStretch>
+
+        <LeftAnchorOffset>86</LeftAnchorOffset>
+        <RightAnchorOffset>158</RightAnchorOffset>
+        <TopAnchorOffset>25</TopAnchorOffset>
+        <BottomAnchorOffset>58</BottomAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <Spacing>11</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>Status_OFFDisplay</Pieces>
+        <Pieces>Status_ACCDisplay</Pieces>
+        <Pieces>Status_MRDisplay</Pieces>
+        <Pieces>Status_FRDisplay</Pieces>
+        <Pieces>Status_CRDisplay</Pieces>
+        <Pieces>Status_PRDisplay</Pieces>
+        <Pieces>Status_DRDisplay</Pieces>
+        <Pieces>Status_CODisplay</Pieces>
+        <Pieces>Status_HSTDisplay</Pieces>
+
+    </TileLayoutBox>
+
+    <LayoutBox item="StatusDisplay">
+        <DrawTemplate>WDT_Blank</DrawTemplate>
+        <Style_Sizable>false</Style_Sizable>
+        <Location>
+            <X>0</X>
+            <Y>113</Y>
+        </Location>
+        <Size>
+            <CX>197</CX>
+            <CY>338</CY>
+        </Size>
+
+        <Pieces>TileLayoutBox:Status_NumbersLeft</Pieces>
+        <Pieces>TileLayoutBox:Status_NumbersRight</Pieces>
+
+        <Pieces>CombatTimerLayout</Pieces>
+        <Pieces>Status_XPDisplay</Pieces>
+        <Pieces>Status_AADisplay</Pieces>
+
+        <Pieces>BG_StatusWindow</Pieces>
+    </LayoutBox>
+
+</XML>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Listbox item="OW_OM_MinionList">
+		<ScreenID>OW_OM_MinionList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_VScroll>true</Style_VScroll>
+
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+        
+		<ShowHeader>false</ShowHeader>
+		<OwnerDraw>false</OwnerDraw>
+		<Columns>
+			<Width>170</Width>
+		</Columns>
+	</Listbox>
+
+	<Screen item="OW_OM_BottomLeftPane">
+		<ScreenID>OW_OM_BottomLeftPane</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+
+        <AutoStretchVertical>true</AutoStretchVertical>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <MinHSize>190</MinHSize>
+        <MaxHSize>190</MaxHSize>
+
+		<Pieces>Listbox:OW_OM_MinionList</Pieces>
+	</Screen>
+
+</XML>

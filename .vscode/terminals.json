@@ -1,0 +1,13 @@
+{
+    "autorun": true,
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "UIErrors",
+            "description": "Live view of UIErrors.txt",
+            "open": true,
+            "focus": false,
+            "command": "tail -f ../../UIErrors.txt"
+        }
+    ]
+}

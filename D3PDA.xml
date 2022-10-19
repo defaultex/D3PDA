@@ -1,0 +1,12 @@
+<?xml version = "1.0"?>
+<!-- Monolithic Parameter File -->
+<!-- The composite section must come first and be followed by the schema -->
+
+<XML ID = "EQInterfaceDefinitionLanguage">
+    <Composite>
+        <Include>templates\D3PDA_Templates.xml</Include>
+		<Include>animations\D3PDA_Animations.xml</Include>
+		<Include>assets\D3PDA_Textures.xml</Include>
+    </Composite>
+    <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+</XML>

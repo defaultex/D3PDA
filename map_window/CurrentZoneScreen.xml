@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item="MVW_LoadCurrent">
+		<TooltipReference>Reset map to current zone.</TooltipReference>
+		<ScreenID>MVW_LoadCurrent</ScreenID>
+		<Text>Current Zone</Text>
+		<Template>BDT_Normal</Template>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+        
+		<Location>
+			<X>8</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>87</CX>
+			<CY>22</CY>
+		</Size>
+	</Button>
+
+	<Button item="MVW_Find">
+		<TooltipReference>Find a destination in the current zone.</TooltipReference>
+		<ScreenID>MVW_Find</ScreenID>
+		<Text>Find</Text>
+		<Template>BDT_Normal</Template>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+        
+		<Location>
+			<X>99</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>87</CX>
+			<CY>22</CY>
+		</Size>
+	</Button>
+
+	<Button item="MVW_EndFind">
+		<TooltipReference>Cancel the current find path.</TooltipReference>
+		<ScreenID>MVW_EndFind</ScreenID>
+		<Text>End Find</Text>
+		<Template>BDT_Normal</Template>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+        
+		<Location>
+			<X>99</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>87</CX>
+			<CY>22</CY>
+		</Size>
+	</Button>
+
+	<Button item="MVW_ShowGroupButton">
+		<TooltipReference>Toggle display of group members in the current zone.</TooltipReference>
+		<ScreenID>MVW_ShowGroupButton</ScreenID>
+		<Text>Show Group</Text>
+		<Template>BDT_Normal</Template>
+		<Style_Checkbox>true</Style_Checkbox>
+        
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorOffset>178</LeftAnchorOffset>
+		<RightAnchorOffset>91</RightAnchorOffset>
+	</Button>
+
+	<Button item="MVW_ShowNamesButton">
+		<TooltipReference>Toggle display of group members' names in the current zone.</TooltipReference>
+		<ScreenID>MVW_ShowNamesButton</ScreenID>
+		<Text>Show Names</Text>
+		<Template>BDT_Normal</Template>
+		<Style_Checkbox>true</Style_Checkbox>
+        
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+
+		<LeftAnchorOffset>87</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+	</Button>
+
+	<Screen item="MVW_MapCurrentZoneScreen">
+		<Style_Transparent>true</Style_Transparent>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>70</RightAnchorOffset>
+		<TopAnchorOffset>28</TopAnchorOffset>
+		<BottomAnchorOffset>5</BottomAnchorOffset>
+
+		<Pieces>MVW_LoadCurrent</Pieces>
+		<Pieces>MVW_Find</Pieces>
+		<Pieces>MVW_EndFind</Pieces>
+		<Pieces>MVW_ShowGroupButton</Pieces>
+		<Pieces>MVW_ShowNamesButton</Pieces>
+	</Screen>
+
+</XML>

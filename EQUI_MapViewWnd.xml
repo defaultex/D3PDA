@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+	<!-- 
+		<Include>map_window\SearchResults.xml</Include>
+		<Include>map_window\CurrentZoneScreen.xml</Include>
+		<Include>map_window\Toolbar.xml</Include>
+		<Include>map_window\MapPage.xml</Include>
+		<Include>map_window\AtlasPage.xml</Include>
+		<Include>map_window\_scene.xml</Include>
+		<Include>map_window\Animations.xml</Include>
+	-->
+		<Include>Myxiplx_pieces\Myxiplx_MapViewWnd.xml</Include>
+		
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

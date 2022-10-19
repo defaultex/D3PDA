@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Label item="OW_ALL_MinionsLabel">
+		<ScreenID>OW_ALL_MinionsLabel</ScreenID>
+		<Font>5</Font>
+		<Text>Quest Party</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+	</Label>
+
+	<TileLayoutBox item="OW_ALL_MinionInfoArea">
+		<ScreenID>OW_ALL_MinionInfoArea</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>false</Style_Border>
+		<Style_Dividers>false</Style_Dividers>
+		<Style_VScroll>true</Style_VScroll>
+        <Style_Transparent>true</Style_Transparent>
+        
+		<ResizeLast>false</ResizeLast>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>20</TopAnchorOffset>
+        
+		<Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+		<Pieces>Screen:OW_ALL_MinionInfoTemplate</Pieces>
+	</TileLayoutBox>
+
+    <TileLayoutBox item="OW_ALL_QuestPartyLayout">
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>200</TopAnchorOffset>
+
+        <MinVSize>134</MinVSize>
+
+        <Pieces>OW_ALL_MinionsLabel</Pieces>
+        <Pieces>Screen:OW_ALL_ScreenHideData</Pieces>
+        <Pieces>TileLayoutBox:OW_ALL_MinionInfoArea</Pieces>
+    </TileLayoutBox>
+
+</XML>

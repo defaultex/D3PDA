@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Combobox item="OW_OM_RarityFilter">
+		<ScreenID>OW_OM_RarityFilter</ScreenID>
+		<Button>BDT_Combo</Button>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<AutoStretchList>true</AutoStretchList>
+
+		<ListHeight>100</ListHeight>
+		<Size>
+			<CX>90</CX>
+			<CY>24</CY>
+		</Size>
+        
+		<Choices>All Rarities</Choices>
+		<Choices>Common</Choices>
+		<Choices>Uncommon</Choices>
+		<Choices>Rare</Choices>
+		<Choices>Elite</Choices>
+	</Combobox>
+
+	<Combobox item="OW_OM_JobFilter">
+		<ScreenID>OW_OM_JobFilter</ScreenID>
+		<Button>BDT_Combo</Button>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<AutoStretchList>true</AutoStretchList>
+
+		<ListHeight>130</ListHeight>
+		<Size>
+			<CX>90</CX>
+			<CY>24</CY>
+		</Size>
+	</Combobox>
+
+	<Combobox item="OW_OM_TraitFilter">
+		<ScreenID>OW_OM_TraitFilter</ScreenID>
+		<Button>BDT_Combo</Button>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<AutoStretchList>true</AutoStretchList>
+
+		<ListHeight>200</ListHeight>
+		<Size>
+			<CX>90</CX>
+			<CY>24</CY>
+		</Size>
+	</Combobox>
+
+	<Combobox item="OW_OM_StatusFilter">
+		<ScreenID>OW_OM_StatusFilter</ScreenID>
+		<Button>BDT_Combo</Button>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<AutoStretchList>true</AutoStretchList>
+
+		<ListHeight>100</ListHeight>
+		<Size>
+			<CX>90</CX>
+			<CY>24</CY>
+		</Size>
+
+		<Choices>All Statuses</Choices>
+		<Choices>Ready</Choices>
+		<Choices>Questing</Choices>
+		<Choices>Incapacitated</Choices>
+	</Combobox>
+
+	<Button item="OW_OM_RetireButton">
+		<TooltipReference>Retire the selected agent</TooltipReference>
+		<ScreenID>OW_OM_RetireButton</ScreenID>
+		<Template>BDT_Normal</Template>
+		<Text>Retire</Text>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>96</LeftAnchorOffset>
+	</Button>
+
+	<HorizontalLayoutBox item="OW_OM_TopPaneFilters">
+		<ScreenID>OW_OM_TopPaneFilters</ScreenID>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_Dividers>false</Style_Dividers>
+		<ResizeLast>false</ResizeLast>
+        
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<RightAnchorOffset>96</RightAnchorOffset>
+        
+		<Spacing>4</Spacing>
+
+		<Pieces>OW_OM_RarityFilter</Pieces>
+		<Pieces>OW_OM_JobFilter</Pieces>
+		<Pieces>OW_OM_TraitFilter</Pieces>
+		<Pieces>OW_OM_StatusFilter</Pieces>
+	</HorizontalLayoutBox>
+
+	<Screen item="OW_OM_TopPane">
+		<ScreenID>OW_OM_TopPane</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_Transparent>true</Style_Transparent>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<Size>
+			<CY>24</CY>
+		</Size>
+
+		<Pieces>OW_OM_TopPaneFilters</Pieces>
+		<Pieces>OW_OM_RetireButton</Pieces>
+	</Screen>
+
+</XML>

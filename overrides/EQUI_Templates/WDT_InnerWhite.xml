@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <WindowDrawTemplate item="WDT_InnerWhite">
+        <Background>assets/D3PDA_Middle.tga</Background>
+        <Border>
+            <TopLeft>D3PDA_SmallBlueBorder_TopLeft</TopLeft>
+            <Top>D3PDA_SmallBlueBorder_Top</Top>
+            <TopRight>D3PDA_SmallBlueBorder_TopRight</TopRight>
+            <BottomLeft>D3PDA_SmallBlueBorder_BottomLeft</BottomLeft>
+            <Bottom>D3PDA_SmallBlueBorder_Bottom</Bottom>
+            <BottomRight>D3PDA_SmallBlueBorder_BottomRight</BottomRight>
+            <LeftTop>D3PDA_SmallBlueBorder_LeftTop</LeftTop>
+            <Left>D3PDA_SmallBlueBorder_Left</Left>
+            <LeftBottom>D3PDA_SmallBlueBorder_LeftBottom</LeftBottom>
+            <RightTop>D3PDA_SmallBlueBorder_RightTop</RightTop>
+            <Right>D3PDA_SmallBlueBorder_Right</Right>
+            <RightBottom>D3PDA_SmallBlueBorder_RightBottom</RightBottom>
+            <OverlapLeft>0</OverlapLeft>
+            <OverlapTop>0</OverlapTop>
+            <OverlapRight>0</OverlapRight>
+            <OverlapBottom>0</OverlapBottom>
+        </Border>
+    </WindowDrawTemplate>
+
+</XML>

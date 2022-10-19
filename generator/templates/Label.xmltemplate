@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <!--
+        [Name]
+        [EQType]
+        [FontSize]
+        [ColorR]
+        [ColorG]
+        [ColorB]
+        [OutColorR]
+        [OutColorG]
+        [OutColorB]
+        [ScreenID]
+
+        Themed Color = { 156, 182, 182 }
+        Themed OutColor = { 75, 100, 100}
+    -->
+
+    <Label item="[Name]">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[ColorR]</R>
+            <G>[ColorG]</G>
+            <B>[ColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineTL">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineT">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineTR">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineBL">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineB">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineBR">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineL">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="[Name]_OutlineR">
+        <EQType>[EQType]</EQType>
+        <Font>[FontSize]</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>[OutColorR]</R>
+            <G>[OutColorG]</G>
+            <B>[OutColorB]</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="[Name]_Layout">
+        <ScreenID>[ScreenID]</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        <BottomAnchorOffset>0</BottomAnchorOffset>
+
+        <Pieces>[Name]_OutlineTL</Pieces>
+        <Pieces>[Name]_OutlineT</Pieces>
+        <Pieces>[Name]_OutlineTR</Pieces>
+        <Pieces>[Name]_OutlineBL</Pieces>
+        <Pieces>[Name]_OutlineB</Pieces>
+        <Pieces>[Name]_OutlineBR</Pieces>
+        <Pieces>[Name]_OutlineL</Pieces>
+        <Pieces>[Name]_OutlineR</Pieces>
+        <Pieces>[Name]</Pieces>
+    </LayoutBox>
+
+</XML>

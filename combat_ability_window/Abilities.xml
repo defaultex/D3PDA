@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item="CAW_Button1">
+		<ScreenID>CAW_Button1</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton1Normal</NormalDecal>
+			<PressedDecal>A_HotButton1Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton1Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton1Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton1PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="CAW_Button2">
+		<ScreenID>CAW_Button2</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton2Normal</NormalDecal>
+			<PressedDecal>A_HotButton2Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton2Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton2Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton2PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="CAW_Button3">
+		<ScreenID>CAW_Button3</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton3Normal</NormalDecal>
+			<PressedDecal>A_HotButton3Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton3Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton3Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton3PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="CAW_Button4">
+		<ScreenID>CAW_Button4</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton4Normal</NormalDecal>
+			<PressedDecal>A_HotButton4Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton4Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton4Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton4PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="CAW_Button5">
+		<ScreenID>CAW_Button5</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton5Normal</NormalDecal>
+			<PressedDecal>A_HotButton5Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton5Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton5Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton5PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="CAW_Button6">
+		<ScreenID>CAW_Button6</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton6Normal</NormalDecal>
+			<PressedDecal>A_HotButton6Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton6Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton6Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton6PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="CAW_Button7">
+		<ScreenID>CAW_Button7</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton7Normal</NormalDecal>
+			<PressedDecal>A_HotButton7Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton7Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton7Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton7PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="CAW_Button8">
+		<ScreenID>CAW_Button8</ScreenID>
+		<Font>2</Font>
+
+		<Size>
+			<CX>177</CX>
+			<CY>29</CY>
+		</Size>
+
+		<DecalOffset>
+			<X>154</X>
+			<Y>4</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>20</CX>
+			<CY>20</CY>
+		</DecalSize>
+
+		<ButtonDrawTemplate>
+			<Normal>D3PDA_IWnd_GemBackground_Mirror</Normal>
+			<Pressed>D3PDA_IWnd_GemBackground_Mirror</Pressed>
+			<Flyby>D3PDA_IWnd_GemBackground_Mirror</Flyby>
+			<Disabled>D3PDA_IWnd_GemBackground_Mirror</Disabled>
+			<PressedFlyby>D3PDA_IWnd_GemBackground_Mirror</PressedFlyby>
+
+			<NormalDecal>A_HotButton8Normal</NormalDecal>
+			<PressedDecal>A_HotButton8Pressed</PressedDecal>
+			<FlybyDecal>A_HotButton8Flyby</FlybyDecal>
+			<DisabledDecal>A_HotButton8Disabled</DisabledDecal>
+			<PressedFlybyDecal>A_HotButton8PressedFlyby</PressedFlybyDecal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<TileLayoutBox item="CAW_AbilityLayout">
+		<ScreenID>CAW_AbilityLayout</ScreenID>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Style_Sizable>false</Style_Sizable>
+
+		<Size>
+			<CX>177</CX>
+			<CY>232</CY>
+		</Size>
+				
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+		<Pieces>Button:CAW_Button1</Pieces>
+		<Pieces>Button:CAW_Button2</Pieces>
+		<Pieces>Button:CAW_Button3</Pieces>
+		<Pieces>Button:CAW_Button4</Pieces>
+		<Pieces>Button:CAW_Button5</Pieces>
+		<Pieces>Button:CAW_Button6</Pieces>
+		<Pieces>Button:CAW_Button7</Pieces>
+		<Pieces>Button:CAW_Button8</Pieces>
+	</TileLayoutBox>
+
+</XML>

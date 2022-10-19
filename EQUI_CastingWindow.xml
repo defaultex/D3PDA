@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	
+	<!-- STUB: contents moved to 'spell_window\SpellBook.xml' -->
+
+</XML>

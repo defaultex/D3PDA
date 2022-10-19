@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="BW_AddButton">
+        <ScreenID>AddButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>Add</Text>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>54</CX>
+            <CY>18</CY>
+        </Size>
+    </Button>
+
+    <Button item="BW_DeleteButton">
+        <ScreenID>DeleteButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>Delete</Text>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>54</CX>
+            <CY>18</CY>
+        </Size>
+    </Button>
+
+    <Button item="BW_UseButton">
+        <ScreenID>UseButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>Activate</Text>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>54</CX>
+            <CY>18</CY>
+        </Size>
+    </Button>
+
+    <Button item="BW_MakeHotkeyButton">
+        <ScreenID>MkHotButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>Hot Key</Text>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>54</CX>
+            <CY>18</CY>
+        </Size>
+    </Button>
+
+    <Button item="BW_AutoSwapButton">
+        <ScreenID>AutoSwapButton</ScreenID>
+        <Template>BDT_CheckboxWithText</Template>
+        <Text>Auto Swap</Text>
+        <Style_Checkbox>true</Style_Checkbox>
+
+        <DecalOffset>
+            <X>2</X>
+            <Y>2</Y>
+        </DecalOffset>
+        <DecalSize>
+            <CX>14</CX>
+            <CY>14</CY>
+        </DecalSize>
+
+        <Size>
+            <CX>96</CX>
+            <CY>18</CY>
+        </Size>
+    </Button>
+
+    <Button item = "BW_DisplayButton0">
+		<ScreenID>DisplayButton0</ScreenID>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>27</CX>
+			<CY>27</CY>
+		</DecalSize>
+
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+
+		<ButtonDrawTemplate>
+			<Normal>A_InvPrimary</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "BW_DisplayButton1">
+		<ScreenID>DisplayButton1</ScreenID>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>27</CX>
+			<CY>27</CY>
+		</DecalSize>
+
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+
+		<ButtonDrawTemplate>
+			<Normal>A_InvSecondary</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "BW_DisplayButton2">
+		<ScreenID>DisplayButton2</ScreenID>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>27</CX>
+			<CY>27</CY>
+		</DecalSize>
+
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+
+		<ButtonDrawTemplate>
+			<Normal>A_InvRange</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "BW_DisplayButton3">
+		<ScreenID>DisplayButton3</ScreenID>
+		<Style_Checkbox>false</Style_Checkbox>
+
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>27</CX>
+			<CY>27</CY>
+		</DecalSize>
+
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+
+		<ButtonDrawTemplate>
+			<Normal>A_InvAmmo</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+</XML>

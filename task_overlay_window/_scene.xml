@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Screen item="TaskOverlayWnd">
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Qmarkbox>false</Style_Qmarkbox>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Sizable>true</Style_Sizable>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_ClientMovable>true</Style_ClientMovable>
+		<Escapable>false</Escapable>
+		<ToggleBorder>true</ToggleBorder>
+
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>10</X>
+			<Y>65</Y>
+		</Location>
+		<Size>
+			<CX>270</CX>
+			<CY>300</CY>
+		</Size>
+
+		<Pieces>TileLayoutBox:TO_TaskList</Pieces>
+		<Pieces>Screen:TO_TaskTemplate</Pieces>
+		<Pieces>Screen:TO_TaskStepTemplate</Pieces>
+	</Screen>
+
+</XML>

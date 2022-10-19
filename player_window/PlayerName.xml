@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="PlayerNameLabel">
+        <ScreenID>NameLabel</ScreenID>
+        <EQType>1</EQType>
+        <Font>5</Font>
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+        <Location>
+            <X>1</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>145</CX>
+            <CY>20</CY>
+        </Size>
+        <AlignCenter>false</AlignCenter>
+    </Label>
+
+    <LayoutBox item="PlayerNameDisplay">
+        <Location>
+            <X>35</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>148</CX>
+            <CY>18</CY>
+        </Size>
+        <Pieces>PlayerNameLabel</Pieces>
+    </LayoutBox>
+
+</XML>

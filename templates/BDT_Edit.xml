@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <ButtonDrawTemplate item="BDT_Edit">
+        <Normal>A_EditNormal</Normal>
+        <Pressed>A_EditPressed</Pressed>
+        <Flyby>A_EditFlyby</Flyby>
+        <PressedFlyby>A_EditPressed</PressedFlyby>
+    </ButtonDrawTemplate>
+
+</XML>

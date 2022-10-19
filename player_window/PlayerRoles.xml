@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <!-- Tank -->
+
+    <Label item="PW_GroupRoleTank">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_TopLeft">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_Top">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>-1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_TopRight">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_BottomLeft">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_Bottom">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_BottomRight">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_Left">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>-1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleTank_Shadow_Right">
+        <Text>T</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+
+    <LayoutBox item="PW_GroupRoleTankDisplay">
+        <ScreenID>GroupRoleTank</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>PW_GroupRoleTank_Shadow_TopLeft</Pieces>
+        <Pieces>PW_GroupRoleTank_Shadow_Top</Pieces>
+        <Pieces>PW_GroupRoleTank_Shadow_TopRight</Pieces>
+        <Pieces>PW_GroupRoleTank_Shadow_BottomLeft</Pieces>
+        <Pieces>PW_GroupRoleTank_Shadow_Bottom</Pieces>
+        <Pieces>PW_GroupRoleTank_Shadow_BottomRight</Pieces>
+        <Pieces>PW_GroupRoleTank_Shadow_Left</Pieces>
+        <Pieces>PW_GroupRoleTank_Shadow_Right</Pieces>
+        <Pieces>PW_GroupRoleTank</Pieces>
+    </LayoutBox>
+    
+    <!-- Assist -->
+
+    <Label item="PW_GroupRoleAssist">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_TopLeft">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_Top">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>-1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_TopRight">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_BottomLeft">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_Bottom">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_BottomRight">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_Left">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>-1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleAssist_Shadow_Right">
+        <Text>A</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+
+    <LayoutBox item="PW_GroupRoleAssistDisplay">
+        <ScreenID>GroupRoleAssist</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>PW_GroupRoleAssist_Shadow_TopLeft</Pieces>
+        <Pieces>PW_GroupRoleAssist_Shadow_Top</Pieces>
+        <Pieces>PW_GroupRoleAssist_Shadow_TopRight</Pieces>
+        <Pieces>PW_GroupRoleAssist_Shadow_BottomLeft</Pieces>
+        <Pieces>PW_GroupRoleAssist_Shadow_Bottom</Pieces>
+        <Pieces>PW_GroupRoleAssist_Shadow_BottomRight</Pieces>
+        <Pieces>PW_GroupRoleAssist_Shadow_Left</Pieces>
+        <Pieces>PW_GroupRoleAssist_Shadow_Right</Pieces>
+        <Pieces>PW_GroupRoleAssist</Pieces>
+    </LayoutBox>
+    
+    <!-- Puller -->
+
+    <Label item="PW_GroupRolePuller">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_TopLeft">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_Top">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>-1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_TopRight">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_BottomLeft">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_Bottom">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_BottomRight">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_Left">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>-1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRolePuller_Shadow_Right">
+        <Text>P</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+
+    <LayoutBox item="PW_GroupRolePullerDisplay">
+        <ScreenID>GroupRolePuller</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>PW_GroupRolePuller_Shadow_TopLeft</Pieces>
+        <Pieces>PW_GroupRolePuller_Shadow_Top</Pieces>
+        <Pieces>PW_GroupRolePuller_Shadow_TopRight</Pieces>
+        <Pieces>PW_GroupRolePuller_Shadow_BottomLeft</Pieces>
+        <Pieces>PW_GroupRolePuller_Shadow_Bottom</Pieces>
+        <Pieces>PW_GroupRolePuller_Shadow_BottomRight</Pieces>
+        <Pieces>PW_GroupRolePuller_Shadow_Left</Pieces>
+        <Pieces>PW_GroupRolePuller_Shadow_Right</Pieces>
+        <Pieces>PW_GroupRolePuller</Pieces>
+    </LayoutBox>
+    
+    <!-- Mark -->
+
+    <Label item="PW_GroupRoleMarkNPC">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_TopLeft">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_Top">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>-1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_TopRight">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_BottomLeft">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_Bottom">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_BottomRight">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_Left">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>-1</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+    <Label item="PW_GroupRoleMarkNPC_Shadow_Right">
+        <Text>M</Text>
+        <Font>3</Font>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+        
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+
+    <LayoutBox item="PW_GroupRoleMarkNPCDisplay">
+        <ScreenID>GroupRoleMarkNPC</ScreenID>
+        <Location>
+            <X>0</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_TopLeft</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_Top</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_TopRight</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_BottomLeft</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_Bottom</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_BottomRight</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_Left</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC_Shadow_Right</Pieces>
+        <Pieces>PW_GroupRoleMarkNPC</Pieces>
+    </LayoutBox>
+    
+    <!-- Scene Graph -->
+
+    <TileLayoutBox item="PlayerRolesLayout">
+        <Size>
+            <CX>51</CX>
+            <CY>22</CY>
+        </Size>
+        
+        <Spacing>-6</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>PW_GroupRoleTankDisplay</Pieces>
+        <Pieces>PW_GroupRoleAssistDisplay</Pieces>
+        <Pieces>PW_GroupRolePullerDisplay</Pieces>
+        <Pieces>PW_GroupRoleMarkNPCDisplay</Pieces>
+
+    </TileLayoutBox>
+
+    <LayoutBox item="PlayerRolesDisplay">
+        <Location>
+            <X>146</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>51</CX>
+            <CY>22</CY>
+        </Size>
+
+        <Pieces>TileLayoutBox:PlayerRolesLayout</Pieces>
+
+    </LayoutBox>
+
+</XML>

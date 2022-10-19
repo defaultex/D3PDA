@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="ADLW_CLLLbl">
+		<ScreenID>ADLW_CLLLbl</ScreenID>
+		<Text>Shared Loot</Text>
+        
+		<Location>
+			<X>5</X>
+			<Y>5</Y>
+		</Location>
+		<Size>
+			<CX>105</CX>
+			<CY>50</CY>
+		</Size>
+	</Label>
+
+	<Listbox item="ADLW_CLLList">
+		<TooltipReference>Set loot decisions here for each item.</TooltipReference>
+		<ScreenID>ADLW_CLLList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_Border>true</Style_Border>
+		<TextColor>
+			<R>0</R>
+			<G>148</G>
+			<B>255</B>
+		</TextColor>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<RightAnchorOffset>10</RightAnchorOffset>
+		<TopAnchorOffset>25</TopAnchorOffset>
+		<BottomAnchorOffset>30</BottomAnchorOffset>
+
+		<Columns>
+			<Width>24</Width>
+			<Heading>Item</Heading>
+			<Sortable>true</Sortable>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>Status</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>The current Status of loot management for this item.  Could be None, Auto Ask and Roll, Ask in progress, or Ask completed.</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>Action</Heading>
+			<Sortable>false</Sortable>
+			<Tooltip>Currently available action to take concerning this loot item entry.  Can be Ask members for need or greed, Stop asking, or Roll.</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>Manage</Heading>
+			<Sortable>false</Sortable>
+			<Tooltip>Opens the Manage Loot detail window, giving you further options for this loot item entry.</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Header>Header_AutoRoll</Header>
+			<Sortable>true</Sortable>
+			<Tooltip>When you are Master Looter, automatically Ask members Need / Greed, and auto Roll after the Ask action.</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>ND</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>Need: I need the item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>GD</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>Greed: I want the item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>NO</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>No: I do not want this item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>AN</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>Always Need: Always roll need on this item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>AG</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>Always Greed: Always roll greed on this item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>NV</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>Never loot this item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>200</Width>
+			<Heading>NPC Name</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>NPC Name</Tooltip>
+		</Columns>
+	</Listbox>
+    
+	<Button item="ADLW_CLLSetBtn">
+		<TooltipReference>This sets all of the items in the Shared List to the selected option.</TooltipReference>
+		<ScreenID>ADLW_CLLSetBtn</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Text>Set all to:</Text>
+
+		<AutoStretch>true</AutoStretch>
+
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<RightAnchorOffset>60</RightAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+	</Button>
+
+	<Combobox item="ADLW_CLLSetCmbo">
+		<ScreenID>ADLW_CLLSetCmbo</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+
+		<AutoStretch>true</AutoStretch>
+
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>65</LeftAnchorOffset>
+		<RightAnchorOffset>185</RightAnchorOffset>
+
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+
+		<ListHeight>150</ListHeight>
+
+		<Button>BDT_Combo</Button>
+		<Choices>Need</Choices>
+		<Choices>Greed</Choices>
+		<Choices>No</Choices>
+		<Choices>Always Need</Choices>
+		<Choices>Always Greed</Choices>
+		<Choices>Never</Choices>
+	</Combobox>
+
+	<Button item="ADLW_CLL_LeaveAllBtn">
+		<TooltipReference>Leave all items in the Shared Loot list.</TooltipReference>
+		<ScreenID>ADLW_CLL_LeaveAllBtn</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+        <Text>Leave All</Text>
+		
+		<AutoStretch>true</AutoStretch>
+
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>190</LeftAnchorOffset>
+		<RightAnchorOffset>250</RightAnchorOffset>
+
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+        
+	</Button>
+
+	<Screen item="ADLW_CLLWnd">
+		<ScreenID>ADLW_CLLWnd</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Transparent>true</Style_Transparent>
+
+		<MinVSize>140</MinVSize>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>50</CY>
+		</Size>
+
+		<Pieces>ADLW_CLLLbl</Pieces>
+		<Pieces>ADLW_CLLList</Pieces>
+		<Pieces>ADLW_CLLSetBtn</Pieces>
+		<Pieces>ADLW_CLLSetCmbo</Pieces>
+		<Pieces>ADLW_CLL_LeaveAllBtn</Pieces>
+	</Screen>
+
+</XML>

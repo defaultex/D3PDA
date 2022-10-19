@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <TabBox item="TaskSubwindows">
+        <ScreenID>TaskSubwindows</ScreenID>
+        <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+        <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <Pages>TaskListPage</Pages>
+        <Pages>TaskSharedTaskPage</Pages>
+        <Pages>TaskQuestHistoryPage</Pages>
+    </TabBox>
+
+    <Screen item="TaskWnd">
+        <Text>Quest Journal</Text>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Titlebar>true</Style_Titlebar>
+        <Style_Minimizebox>true</Style_Minimizebox>
+        <Style_Qmarkbox>true</Style_Qmarkbox>
+        <Style_Closebox>true</Style_Closebox>
+        <Style_Sizable>true</Style_Sizable>
+
+        <MinHSize>340</MinHSize>
+        <MinVSize>320</MinVSize>
+
+        <RelativePosition>false</RelativePosition>
+        <Location>
+            <X>20</X>
+            <Y>25</Y>
+        </Location>
+        <Size>
+            <CX>425</CX>
+            <CY>540</CY>
+        </Size>
+
+        <Pieces>TaskSubwindows</Pieces>
+    </Screen>
+
+</XML>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>group_window\Animations.xml</Include>
+		<Include>group_window\GroupHeader.xml</Include>
+		<Include>group_window\Group1.xml</Include>
+		<Include>group_window\Group2.xml</Include>
+		<Include>group_window\Group3.xml</Include>
+		<Include>group_window\Group4.xml</Include>
+		<Include>group_window\Group5.xml</Include>
+		<Include>group_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

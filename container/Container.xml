@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <InvSlot item="Container_Slot">
+        <ScreenID>Container_Slot</ScreenID>
+        <EQType>-1</EQType>
+        <Size>
+            <CX>24</CX>
+            <CY>24</CY>
+        </Size>
+        <Background>A_RecessedBox</Background>
+    </InvSlot>
+
+    <Button item="StandardDoneButton">
+        <ScreenID>StandardDoneButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Done</Text>
+        <Size>
+            <CX>50</CX>
+            <CY>24</CY>
+        </Size>
+    </Button>
+
+    <Button item="CombineDoneButton">
+        <ScreenID>CombineDoneButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Style_Transparent>false</Style_Transparent>
+        <Text>Done</Text>
+
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+
+        <Size>
+            <CX>60</CX>
+            <CY>24</CY>
+        </Size>
+    </Button>
+
+    <STMLbox item="Container_StandardSize">
+        <ScreenID>StandardSize</ScreenID>
+        <Style_Transparent>true</Style_Transparent>
+        <Style_Tooltip>false</Style_Tooltip>
+        <UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+        <Size>
+            <CX>115</CX>
+            <CY>240</CY>
+        </Size>
+    </STMLbox>
+
+    <STMLbox item="Container_CombineSize">
+        <ScreenID>CombineSize</ScreenID>
+        <Style_Transparent>true</Style_Transparent>
+        <Style_Tooltip>false</Style_Tooltip>
+        <UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+        <UseInLayoutVertical>false</UseInLayoutVertical>
+        <Size>
+            <CX>230</CX>
+            <CY>170</CY>
+        </Size>
+    </STMLbox>
+
+    <TileLayoutBox item="ContainerStandard_Items">
+        <ScreenID>ContainerStandard_Items</ScreenID>
+        <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+        <Style_Transparent>true</Style_Transparent>
+        <HorizontalFirst>true</HorizontalFirst>
+        <FirstPieceTemplate>false</FirstPieceTemplate>
+        <SnapToChildren>true</SnapToChildren>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <AnchorToTop>true</AnchorToTop>
+        <AnchorToLeft>true</AnchorToLeft>
+
+        <Spacing>2</Spacing>
+        <SecondarySpacing>2</SecondarySpacing>
+    </TileLayoutBox>
+
+    <TileLayoutBox item="ContainerStandardWithDone_Items">
+        <ScreenID>ContainerStandardWithDone_Items</ScreenID>
+        <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+        <Style_Transparent>true</Style_Transparent>
+        <HorizontalFirst>true</HorizontalFirst>
+        <FirstPieceTemplate>false</FirstPieceTemplate>
+        <SnapToChildren>true</SnapToChildren>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <AnchorToTop>true</AnchorToTop>
+        <AnchorToLeft>true</AnchorToLeft>
+
+        <Spacing>2</Spacing>
+        <SecondarySpacing>2</SecondarySpacing>
+    </TileLayoutBox>
+
+</XML>

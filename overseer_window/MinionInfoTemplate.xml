@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item="OW_ALL_RequiredIcon">
+		<ScreenID>OW_ALL_RequiredIcon</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+		<Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+        <Size>
+            <CX>20</CX>
+            <CY>20</CY>
+        </Size>
+	</Button>
+
+	<Screen item="OW_ALL_RequiredIconBackground">
+		<ScreenID>OW_ALL_RequiredIconBackground</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>     
+        <Size>
+            <CX>20</CX>
+            <CY>20</CY>
+        </Size>
+	</Screen>
+	
+	<Label item="OW_ALL_MinionsNameLabel">
+		<ScreenID>OW_ALL_MinionsNameLabel</ScreenID>
+		<Font>4</Font>
+		<ResizeHeightToText>true</ResizeHeightToText>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>40</RightAnchorOffset>
+
+		<Location>
+			<Y>2</Y>
+		</Location>
+	</Label>
+
+	<Button item="OW_ALL_MinionsClearButton">
+		<ScreenID>OW_ALL_MinionsClearButton</ScreenID>
+		<Template>BDT_Normal</Template>
+		<Text>Clear</Text>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>40</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+
+		<Size>
+			<CY>20</CY>
+		</Size>
+	</Button>
+
+    <LayoutBox item="OW_ALL_MinionHeadingLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>Screen:OW_ALL_RequiredIconBackground</Pieces>
+		<Pieces>OW_ALL_RequiredIcon</Pieces>
+		<Pieces>OW_ALL_MinionsNameLabel</Pieces>
+		<Pieces>OW_ALL_MinionsClearButton</Pieces>
+    </LayoutBox>
+
+    <!-- -->
+
+	<Button item="OW_ALL_MinionJobImage">
+		<ScreenID>OW_ALL_MinionJobImage</ScreenID>
+		<Template>DefaultImageOW</Template>
+		<Location>
+			<X>-1</X>
+			<Y>-1</Y>
+		</Location>
+		<Size>
+			<CX>90</CX>
+			<CY>90</CY>
+		</Size>
+	</Button>
+
+	<Button item="OW_ALL_MinionSelectBtn">
+		<ScreenID>OW_ALL_MinionSelectBtn</ScreenID>
+		<Template>BDT_SmallNormal</Template>
+		<Text>Select</Text>
+		<Font>2</Font>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>false</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>20</TopAnchorOffset>
+	</Button>
+
+	<Button item="OW_ALL_IncapIcon">
+		<TooltipReference>This Agent was Incapacitated while Questing.</TooltipReference>
+		<ScreenID>OW_ALL_IncapIcon</ScreenID>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+	</Button>
+	
+	<Screen item="OW_ALL_IncapIconBackground">
+		<ScreenID>OW_ALL_IncapIconBackground</ScreenID>
+        <DrawTemplate>WDT_InnerWhite</DrawTemplate>
+        <Style_Border>false</Style_Border>
+        
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+	</Screen>
+	
+	<Screen item="OW_ALL_MinionJobImageScrn">
+		<ScreenID>OW_ALL_MinionJobImageScrn</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+
+        <Location>
+            <Y>24</Y>
+        </Location>
+		<Size>
+			<CX>60</CX>
+			<CY>60</CY>
+		</Size>
+
+		<Pieces>OW_ALL_MinionJobImage</Pieces>
+		<Pieces>OW_ALL_MinionSelectBtn</Pieces>
+		<Pieces>Screen:OW_ALL_IncapIconBackground</Pieces>
+		<Pieces>OW_ALL_IncapIcon</Pieces>
+	</Screen>
+
+    <!-- -->
+
+	<Label item="OW_ALL_MinionsBonusesLabel">
+		<ScreenID>OW_ALL_MinionsBonusesLabel</ScreenID>
+		<Text>Bonuses:</Text>
+		<Font>2</Font>
+		<Size>
+			<CX>60</CX>
+			<CY>16</CY>
+		</Size>
+	</Label>
+
+	<TileLayoutBox item="OW_ALL_MinionsBonusAttributes">
+		<ScreenID>OW_ALL_MinionsBonusAttributes</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_AutoVScroll>true</Style_AutoVScroll>
+		<HorizontalFirst>true</HorizontalFirst>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TopAnchorOffset>16</TopAnchorOffset>
+
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+        
+		<Pieces>Screen:OW_ALL_MinionAttributeScrnTemplate</Pieces>
+	</TileLayoutBox>
+
+	<Screen item="OW_ALL_MinionBonuses">
+		<ScreenID>OW_ALL_MinionBonuses</ScreenID>
+
+		<Size>
+			<CX>106</CX>
+			<CY>60</CY>
+		</Size>
+
+		<Pieces>OW_ALL_MinionsBonusesLabel</Pieces>
+		<Pieces>TileLayoutBox:OW_ALL_MinionsBonusAttributes</Pieces>
+	</Screen>
+
+    <!-- -->
+
+	<Label item="OW_ALL_MinionsNegativesLabel">
+		<ScreenID>OW_ALL_MinionsNegativesLabel</ScreenID>
+		<Text>Negatives:</Text>
+		<Font>2</Font>
+		<Size>
+			<CX>60</CX>
+			<CY>16</CY>
+		</Size>
+	</Label>
+
+	<TileLayoutBox item="OW_ALL_MinionsNegativeAttributes">
+		<ScreenID>OW_ALL_MinionsNegativeAttributes</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_AutoVScroll>true</Style_AutoVScroll>
+		<HorizontalFirst>true</HorizontalFirst>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TopAnchorOffset>16</TopAnchorOffset>
+
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+        
+		<Pieces>Screen:OW_ALL_MinionAttributeScrnTemplate</Pieces>
+	</TileLayoutBox>
+
+	<Screen item="OW_ALL_MinionNegatives">
+		<ScreenID>OW_ALL_MinionNegatives</ScreenID>
+
+		<Location>
+			<X>110</X>
+		</Location>
+		<Size>
+			<CX>106</CX>
+			<CY>60</CY>
+		</Size>
+
+		<Pieces>OW_ALL_MinionsNegativesLabel</Pieces>
+		<Pieces>TileLayoutBox:OW_ALL_MinionsNegativeAttributes</Pieces>
+	</Screen>
+
+    <!-- -->
+
+	<Screen item="OW_ALL_MinionAttributesArea">
+		<ScreenID>OW_ALL_MinionAttributesArea</ScreenID>
+
+		<Location>
+			<X>64</X>
+			<Y>24</Y>
+		</Location>
+        <Size>
+			<CX>216</CX>
+            <CY>60</CY>
+        </Size>
+
+		<Pieces>Screen:OW_ALL_MinionBonuses</Pieces>
+		<Pieces>Screen:OW_ALL_MinionNegatives</Pieces>
+	</Screen>
+
+    <!-- -->
+
+	<Label item="OW_ALL_MinionsIncapRiskLabel">
+		<ScreenID>OW_ALL_MinionsIncapRiskLabel</ScreenID>
+		<Text>Risk: </Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
+
+	<Label item="OW_ALL_MinionsIncapTypeLabel">
+		<ScreenID>OW_ALL_MinionsIncapTypeLabel</ScreenID>
+		<Text>Type: </Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
+
+	<Screen item="OW_ALL_MinionEffect">
+		<ScreenID>OW_ALL_MinionEffect</ScreenID>
+        
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+		<TopAnchorOffset>18</TopAnchorOffset>
+
+		<Pieces>OW_ALL_MinionsIncapRiskLabel</Pieces>
+		<Pieces>OW_ALL_MinionsIncapTypeLabel</Pieces>
+	</Screen>
+
+    <!-- -->
+
+	<Screen item="OW_ALL_IncapColorBackground">
+		<ScreenID>OW_ALL_IncapColorBackground</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+
+		<BackgroundTextureTint>
+			<R>255</R>
+		</BackgroundTextureTint>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<BottomAnchorOffset>30</BottomAnchorOffset>
+	</Screen>
+	
+	<Screen item="OW_ALL_MinionInfoTemplate">
+		<ScreenID>OW_ALL_MinionInfoTemplate</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_Dividers>false</Style_Dividers>
+        <Style_Tranparent>true</Style_Tranparent>
+
+		<AutoStretch>false</AutoStretch>
+		<AutoStretchHorizontal>false</AutoStretchHorizontal>
+
+		<Size>
+			<CX>280</CX>
+			<CY>110</CY>
+		</Size>
+
+		<Pieces>Screen:OW_ALL_IncapColorBackground</Pieces>
+        <Pieces>LayoutBox:OW_ALL_MinionHeadingLayout</Pieces>
+		<Pieces>Screen:OW_ALL_MinionJobImageScrn</Pieces>
+
+		<Pieces>Screen:OW_ALL_MinionAttributesArea</Pieces>
+		<Pieces>Screen:OW_ALL_MinionEffect</Pieces>
+	</Screen>
+
+</XML>

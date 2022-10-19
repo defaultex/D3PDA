@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+  <Ui2DAnimation item="DoomPda_GroupWindow_Button_Bg">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>110</X>
+        <Y>82</Y>
+      </Location>
+      <Size>
+        <CX>39</CX>
+        <CY>16</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Invite_Normal">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>151</X>
+        <Y>82</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Invite_Hover">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>211</X>
+        <Y>82</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Invite_Pressed">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>271</X>
+        <Y>82</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Disband_Normal">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>181</X>
+        <Y>82</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Disband_Hover">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>241</X>
+        <Y>82</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Disband_Pressed">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>301</X>
+        <Y>82</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Decline_Normal">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>181</X>
+        <Y>94</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Decline_Hover">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>241</X>
+        <Y>94</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Decline_Pressed">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>301</X>
+        <Y>94</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Follow_Normal">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>151</X>
+        <Y>94</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Follow_Hover">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>211</X>
+        <Y>94</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <Ui2DAnimation item="DoomPda_Follow_Pressed">
+    <Cycle>false</Cycle>
+    <Frames>
+      <Texture>assets/D3PDA.tga</Texture>
+      <Location>
+        <X>271</X>
+        <Y>94</Y>
+      </Location>
+      <Size>
+        <CX>28</CX>
+        <CY>10</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+
+  <!-- Tank Role Template -->
+
+  <Label item="GW_RoleTank">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>156</R>
+      <G>182</G>
+      <B>182</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>-2</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineTL">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineT">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineTR">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineBL">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineB">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>4</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineBR">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineL">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleTank_OutlineR">
+    <Text>T</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+
+  <LayoutBox item="GW_RoleTank_Template">
+    <Style_TransparentControl>true</Style_TransparentControl>
+    <Size>
+      <CX>16</CX>
+      <CY>16</CY>
+    </Size>
+
+    <Pieces>GW_RoleTank_OutlineTL</Pieces>
+    <Pieces>GW_RoleTank_OutlineT</Pieces>
+    <Pieces>GW_RoleTank_OutlineTR</Pieces>
+    <Pieces>GW_RoleTank_OutlineBL</Pieces>
+    <Pieces>GW_RoleTank_OutlineB</Pieces>
+    <Pieces>GW_RoleTank_OutlineBR</Pieces>
+    <Pieces>GW_RoleTank_OutlineL</Pieces>
+    <Pieces>GW_RoleTank_OutlineR</Pieces>
+    <Pieces>GW_RoleTank</Pieces>
+  </LayoutBox>
+
+  <!-- Assist Role Template -->
+
+  <Label item="GW_RoleAssist">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>156</R>
+      <G>182</G>
+      <B>182</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>-2</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineTL">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineT">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineTR">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineBL">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineB">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>4</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineBR">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineL">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleAssist_OutlineR">
+    <Text>A</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+
+  <LayoutBox item="GW_RoleAssist_Template">
+    <Style_TransparentControl>true</Style_TransparentControl>
+    <Size>
+      <CX>16</CX>
+      <CY>16</CY>
+    </Size>
+
+    <Pieces>GW_RoleAssist_OutlineTL</Pieces>
+    <Pieces>GW_RoleAssist_OutlineT</Pieces>
+    <Pieces>GW_RoleAssist_OutlineTR</Pieces>
+    <Pieces>GW_RoleAssist_OutlineBL</Pieces>
+    <Pieces>GW_RoleAssist_OutlineB</Pieces>
+    <Pieces>GW_RoleAssist_OutlineBR</Pieces>
+    <Pieces>GW_RoleAssist_OutlineL</Pieces>
+    <Pieces>GW_RoleAssist_OutlineR</Pieces>
+    <Pieces>GW_RoleAssist</Pieces>
+  </LayoutBox>
+
+  <!-- Puller Role Template -->
+
+  <Label item="GW_RolePuller">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>156</R>
+      <G>182</G>
+      <B>182</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>-2</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineTL">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineT">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineTR">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineBL">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineB">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>4</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineBR">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineL">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RolePuller_OutlineR">
+    <Text>P</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+
+  <LayoutBox item="GW_RolePuller_Template">
+    <Style_TransparentControl>true</Style_TransparentControl>
+    <Size>
+      <CX>16</CX>
+      <CY>16</CY>
+    </Size>
+
+    <Pieces>GW_RolePuller_OutlineTL</Pieces>
+    <Pieces>GW_RolePuller_OutlineT</Pieces>
+    <Pieces>GW_RolePuller_OutlineTR</Pieces>
+    <Pieces>GW_RolePuller_OutlineBL</Pieces>
+    <Pieces>GW_RolePuller_OutlineB</Pieces>
+    <Pieces>GW_RolePuller_OutlineBR</Pieces>
+    <Pieces>GW_RolePuller_OutlineL</Pieces>
+    <Pieces>GW_RolePuller_OutlineR</Pieces>
+    <Pieces>GW_RolePuller</Pieces>
+  </LayoutBox>
+
+  <!-- MarkNPC Role Template -->
+
+  <Label item="GW_RoleMarkNPC">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>156</R>
+      <G>182</G>
+      <B>182</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>-2</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineTL">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineT">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineTR">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>1</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineBL">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>1</LeftAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineB">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorOffset>2</RightAnchorOffset>
+    <TopAnchorOffset>4</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineBR">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <RightAnchorOffset>1</RightAnchorOffset>
+    <TopAnchorOffset>3</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineL">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+  <Label item="GW_RoleMarkNPC_OutlineR">
+    <Text>M</Text>
+    <Font>3</Font>
+    <Style_TransparentControl>true</Style_TransparentControl>
+
+    <TextColor>
+      <R>75</R>
+      <G>100</G>
+      <B>100</B>
+    </TextColor>
+
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+
+    <LeftAnchorOffset>4</LeftAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <TopAnchorOffset>2</TopAnchorOffset>
+  </Label>
+
+  <LayoutBox item="GW_RoleMarkNPC_Template">
+    <Style_TransparentControl>true</Style_TransparentControl>
+    <Size>
+      <CX>16</CX>
+      <CY>16</CY>
+    </Size>
+
+    <Pieces>GW_RoleMarkNPC_OutlineTL</Pieces>
+    <Pieces>GW_RoleMarkNPC_OutlineT</Pieces>
+    <Pieces>GW_RoleMarkNPC_OutlineTR</Pieces>
+    <Pieces>GW_RoleMarkNPC_OutlineBL</Pieces>
+    <Pieces>GW_RoleMarkNPC_OutlineB</Pieces>
+    <Pieces>GW_RoleMarkNPC_OutlineBR</Pieces>
+    <Pieces>GW_RoleMarkNPC_OutlineL</Pieces>
+    <Pieces>GW_RoleMarkNPC_OutlineR</Pieces>
+    <Pieces>GW_RoleMarkNPC</Pieces>
+  </LayoutBox>
+
+</XML>

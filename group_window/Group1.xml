@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <!-- Gauge Key -->
+
+    <Label item="GW_Key1">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineTL">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineT">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineTR">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineBL">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineB">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineBR">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineL">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="GW_Key1_OutlineR">
+        <Text>F2</Text>
+        <Font>5</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>75</R>
+            <G>100</G>
+            <B>100</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="GW_Key1_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Location>
+            <Y>3</Y>
+        </Location>
+        <Size>
+            <CX>32</CX>
+            <CY>29</CY>
+        </Size>
+
+        <Pieces>GW_Key1_OutlineTL</Pieces>
+        <Pieces>GW_Key1_OutlineT</Pieces>
+        <Pieces>GW_Key1_OutlineTR</Pieces>
+        <Pieces>GW_Key1_OutlineBL</Pieces>
+        <Pieces>GW_Key1_OutlineB</Pieces>
+        <Pieces>GW_Key1_OutlineBR</Pieces>
+        <Pieces>GW_Key1_OutlineL</Pieces>
+        <Pieces>GW_Key1_OutlineR</Pieces>
+        <Pieces>GW_Key1</Pieces>
+    </LayoutBox>
+
+    <!-- Percent Number -->
+
+    <Label item="GW_HPLabel1">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineTL">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineT">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineTR">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineBL">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineB">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineBR">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineL">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="GW_HPLabel1_OutlineR">
+        <EQType>35</EQType>
+        <Font>4</Font>
+        <AppendText>%</AppendText>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="GW_HPLabel1_Layout">
+        <ScreenID>HPLabel1</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>56</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>-2</TopAnchorOffset>
+        <BottomAnchorOffset>0</BottomAnchorOffset>
+
+        <Pieces>GW_HPLabel1_OutlineTL</Pieces>
+        <Pieces>GW_HPLabel1_OutlineT</Pieces>
+        <Pieces>GW_HPLabel1_OutlineTR</Pieces>
+        <Pieces>GW_HPLabel1_OutlineBL</Pieces>
+        <Pieces>GW_HPLabel1_OutlineB</Pieces>
+        <Pieces>GW_HPLabel1_OutlineBR</Pieces>
+        <Pieces>GW_HPLabel1_OutlineL</Pieces>
+        <Pieces>GW_HPLabel1_OutlineR</Pieces>
+        <Pieces>GW_HPLabel1</Pieces>
+    </LayoutBox>
+
+    <!-- Group Roles -->
+
+    <LayoutBox item="GW_GroupRoleTank1_Layout">
+        <ScreenID>GroupRoleTank1</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>GW_RoleTank_Template</Pieces>
+    </LayoutBox>
+    
+    <LayoutBox item="GW_GroupRoleAssist1_Layout">
+        <ScreenID>GroupRoleAssist1</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>GW_RoleAssist_Template</Pieces>
+    </LayoutBox>
+
+    <LayoutBox item="GW_GroupRolePuller1_Layout">
+        <ScreenID>GroupRolePuller1</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>GW_RolePuller_Template</Pieces>
+    </LayoutBox>
+    
+    <LayoutBox item="GW_GroupRoleMarkNPC1_Layout">
+        <ScreenID>GroupRoleMarkNPC1</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Size>
+            <CX>16</CX>
+            <CY>16</CY>
+        </Size>
+        <Pieces>GW_RoleMarkNPC_Template</Pieces>
+    </LayoutBox>
+    
+    <!-- Scene Graph -->
+
+    <TileLayoutBox item="GW_GroupRoles1_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Location>
+            <X>32</X>
+            <Y>13</Y>
+        </Location>
+        <Size>
+            <CX>51</CX>
+            <CY>16</CY>
+        </Size>
+        
+        <Spacing>-6</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>GW_GroupRoleTank1_Layout</Pieces>
+        <Pieces>GW_GroupRoleAssist1_Layout</Pieces>
+        <Pieces>GW_GroupRolePuller1_Layout</Pieces>
+        <Pieces>GW_GroupRoleMarkNPC1_Layout</Pieces>
+    </TileLayoutBox>
+
+    <!-- Name -->
+
+    <Label item="GW_G1NameLabel">
+        <EQType>30</EQType>
+        <Font>4</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <Location>
+            <X>32</X>
+            <Y>-1</Y>
+        </Location>
+        <Size>
+            <CX>145</CX>
+            <CY>18</CY>
+        </Size>
+    </Label>
+
+    <Gauge item="GW_Gauge1">
+        <ScreenID>Gauge1</ScreenID>
+        <EQType>11</EQType>
+        <Font>3</Font>
+        <TextOffsetY>-250</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>16</X>
+            <Y>8</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>12</CY>
+        </Size>
+        <TextColor>
+            <R>240</R>
+            <G>240</G>
+            <B>240</B>
+        </TextColor>
+        <FillTint>
+            <R>240</R>
+            <G>0</G>
+            <B>0</B>
+        </FillTint>
+        <LinesFillTint>
+            <R>220</R>
+            <G>220</G>
+            <B>220</B>
+        </LinesFillTint>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_Gauge_Background</Background>
+            <Fill>D3PDA_Gauge_Fill</Fill>
+        </GaugeDrawTemplate>
+        <DrawLinesFill>false</DrawLinesFill>
+    </Gauge>
+
+    <Gauge item="GW_ManaGauge1">
+        <ScreenID>ManaGauge1</ScreenID>
+        <EQType>31</EQType>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <TextOffsetY>-50</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>0</X>
+            <Y>11</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>12</CY>
+        </Size>
+        <FillTint>
+            <R>0</R>
+            <G>0</G>
+            <B>255</B>
+        </FillTint>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_Gauge_Background_Underlap</Background>
+            <Fill>D3PDA_Gauge_Fill_Underlap</Fill>
+        </GaugeDrawTemplate>
+        <DrawLinesFill>false</DrawLinesFill>
+    </Gauge>
+
+    <Gauge item="GW_StaGauge1">
+        <ScreenID>STAGauge1</ScreenID>
+        <EQType>36</EQType>
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <TextOffsetY>-50</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>0</X>
+            <Y>14</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>12</CY>
+        </Size>
+        <FillTint>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+        </FillTint>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_Gauge_Background_Underlap</Background>
+            <Fill>D3PDA_Gauge_Fill_Underlap</Fill>
+        </GaugeDrawTemplate>
+        <DrawLinesFill>false</DrawLinesFill>
+    </Gauge>
+
+    <Gauge item="GW_PetGauge1">
+        <ScreenID>PetGauge1</ScreenID>
+        <EQType>17</EQType>
+        <TextOffsetY>-50</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>13</X>
+            <Y>16</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>3</CY>
+        </Size>
+        <FillTint>
+            <R>51</R>
+            <G>192</G>
+            <B>51</B>
+        </FillTint>
+        <LinesFillTint>
+            <R>220</R>
+            <G>220</G>
+            <B>0</B>
+        </LinesFillTint>
+        <GaugeDrawTemplate>
+            <Fill>D3PDA_Gauge_MiniFill</Fill>
+        </GaugeDrawTemplate>
+        <DrawLinesFill>false</DrawLinesFill>
+    </Gauge>
+
+    <TileLayoutBox item="GW_Gauge1_InnerLayout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+        <HorizontalFirst>false</HorizontalFirst>
+
+        <Location>
+            <X>16</X>
+            <Y>11</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>15</CY>
+        </Size>
+
+        <Spacing>-9</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>GW_ManaGauge1</Pieces>
+        <Pieces>GW_StaGauge1</Pieces>
+    </TileLayoutBox>
+
+    <LayoutBox item="GW_Gauge1_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>8</LeftAnchorOffset>
+
+        <Size>
+            <CY>28</CY>
+        </Size>
+
+        <Pieces>D3PDA_IWnd_GaugeHolderAnim</Pieces>
+        <Pieces>TileLayoutBox:GW_Gauge1_InnerLayout</Pieces>
+        <Pieces>GW_Gauge1</Pieces>
+        <Pieces>GW_PetGauge1</Pieces>
+        <Pieces>GW_G1NameLabel</Pieces>
+
+        <Pieces>GW_HPLabel1_Layout</Pieces>
+        <Pieces>TileLayoutBox:GW_GroupRoles1_Layout</Pieces>
+    </LayoutBox>
+
+    <Screen item="GW_Group1_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <Location>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CY>29</CY>
+        </Size>
+
+        <Pieces>GW_Gauge1_Layout</Pieces>
+        <Pieces>GW_Key1_Layout</Pieces>
+    </Screen>
+
+</XML>

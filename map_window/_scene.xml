@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<TabBox item ="MVW_Subwindows">
+		<ScreenID>MVW_Subwindows</ScreenID>
+		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+        
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<Pages>Page:MapPage</Pages>			 
+		<Pages>Page:AtlasPage</Pages>
+	</TabBox>
+
+	<Screen item="MapViewWnd">
+		<TooltipReference>Map Viewer</TooltipReference>
+		<Text>Map</Text>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Sizable>true</Style_Sizable>
+
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>100</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>590</CX>
+			<CY>470</CY>
+		</Size>
+        
+		<Pieces>MVW_Subwindows</Pieces>
+	</Screen>
+
+</XML>

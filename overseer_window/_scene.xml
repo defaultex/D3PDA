@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<ButtonDrawTemplate item="DefaultImageOW">
+		<Normal>A_book1</Normal>
+	</ButtonDrawTemplate>
+
+	<ButtonDrawTemplate item="OW_ALL_ColorBtn">
+		<Normal>A_WhiteBtnBase</Normal>
+	</ButtonDrawTemplate>
+
+	<LayoutVertical item="OW_LayoutV">
+		<Padding>0</Padding>
+		<ResizeVertical>true</ResizeVertical>
+		<ResizeHorizontal>false</ResizeHorizontal>
+	</LayoutVertical>
+
+	<LayoutStrategy item="OW_LayoutResizeV">
+		<Padding>0</Padding>
+		<ResizeVertical>true</ResizeVertical>
+		<ResizeHorizontal>false</ResizeHorizontal>
+	</LayoutStrategy>
+
+	<Label item="OW_ALL_NoDataLabel">
+		<ScreenID>OW_ALL_NoDataLabel</ScreenID>
+		<Font>5</Font>
+		<ResizeHeightToText>true</ResizeHeightToText>
+
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<TopAnchorOffset>20</TopAnchorOffset>
+		<BottomAnchorOffset>20</BottomAnchorOffset>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+	</Label>
+
+	<Screen item="OW_ALL_ScreenHideData">
+		<ScreenID>OW_ALL_ScreenHideData</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		
+		<Pieces>OW_ALL_NoDataLabel</Pieces>
+	</Screen>
+
+	<Button item="OW_BtnQuestTemplate">
+		<ScreenID>OW_BtnQuestTemplate</ScreenID>
+		<Template>OW_ALL_ColorBtn</Template>
+		
+		<AutoStretch>true</AutoStretch>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<BackgroundTextureTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</BackgroundTextureTint>
+		<DisabledBackgroundTextureTint>
+			<R>184</R>
+			<G>184</G>
+			<B>184</B>
+		</DisabledBackgroundTextureTint>
+	</Button>
+
+	<StaticAnimation item="OW_ALL_MinionPortrait">
+		<ScreenID>OW_ALL_MinionPortrait</ScreenID>
+		<Animation>A_book1</Animation>
+		<Size>
+			<CX>140</CX>
+			<CY>150</CY>
+		</Size>
+	</StaticAnimation>
+
+	<Page item="OW_OverseerQuestsPage">
+		<ScreenID>OW_OverseerQuestsPage</ScreenID>
+		<TabText>Quests</TabText>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Sizable>true</Style_Sizable>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+		<Pieces>HorizontalLayoutBox:OW_OQP_Layout</Pieces>
+	</Page>
+
+	<Page item="OW_OverseerMinionsPage">
+		<ScreenID>OW_OverseerMinionsPage</ScreenID>
+		<TabText>Agents</TabText>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Sizable>true</Style_Sizable>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+		<Pieces>VerticalLayoutBox:OW_OM_Layout</Pieces>
+	</Page>
+
+	<Page item="OW_OverseerActiveQuestsPage">
+		<ScreenID>OW_OverseerActiveQuestsPage</ScreenID>
+		<TabText>Active Quests</TabText>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Sizable>true</Style_Sizable>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+		<Pieces>HorizontalLayoutBox:OW_AQP_Layout</Pieces>
+	</Page>
+
+	<Page item="OW_OverseerStatsPage">
+		<ScreenID>OW_OverseerStatsPage</ScreenID>
+		<TabText>Stats</TabText>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Sizable>true</Style_Sizable>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+		<Pieces>HorizontalLayoutBox:OW_QSP_Layout</Pieces>
+	</Page>
+
+	<TabBox item="OW_Subwindows">
+		<ScreenID>OW_Subwindows</ScreenID>
+		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+		
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Pages>Page:OW_OverseerQuestsPage</Pages>
+		<Pages>Page:OW_OverseerMinionsPage</Pages>
+		<Pages>Page:OW_OverseerActiveQuestsPage</Pages>
+		<Pages>Page:OW_OverseerStatsPage</Pages>
+	</TabBox>
+
+	<Screen item="OverseerWnd">
+		<TooltipReference>OverseerWnd</TooltipReference>
+		<DrawTemplate>WDT_Def2</DrawTemplate>
+		<Text>Overseer</Text>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Qmarkbox>true</Style_Qmarkbox>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+
+		<DisabledColor>
+			<R>255</R>
+			<G>0</G>
+			<B>0</B>
+		</DisabledColor>
+
+		<MinVSize>500</MinVSize>
+		<MinHSize>786</MinHSize>
+
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>750</CX>
+			<CY>925</CY>
+		</Size>
+
+		<Pieces>OW_Subwindows</Pieces>
+		<Pieces>OW_BtnQuestTemplate</Pieces>
+		<Pieces>Screen:OW_ALL_QuestTemplate</Pieces>
+	</Screen>
+
+</XML>

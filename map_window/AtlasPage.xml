@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Combobox item="MVW_AtlasDirCombobox">
+		<ScreenID>MVW_AtlasDirCombobox</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+
+		<Button>BDT_Combo</Button>
+		<AutoStretchList>true</AutoStretchList>
+		<ListHeight>60</ListHeight>
+
+		<Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>150</CX>
+			<CY>24</CY>
+		</Size>
+	</Combobox>	
+
+	<Button item="MVW_AtlasZoneGuide">
+		<TooltipReference>Toggle the visibility of the Zone Guide.</TooltipReference>
+		<ScreenID>MVW_AtlasZoneGuide</ScreenID>
+		<Template>BDT_Normal</Template>
+		<Text>Zone Guide</Text>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+
+		<LeftAnchorOffset>92</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<TopAnchorOffset>4</TopAnchorOffset>
+		<BottomAnchorOffset>26</BottomAnchorOffset>
+	</Button>
+
+	<Screen item="MVW_AtlasRenderArea">
+		<ScreenID>MVW_AtlasRenderArea</ScreenID>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+        
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TopAnchorOffset>30</TopAnchorOffset>
+	</Screen>
+
+	<Page item ="AtlasPage">
+		<ScreenID>AtlasPage</ScreenID>
+		<TabText>Atlas</TabText>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Sizable>true</Style_Sizable>
+
+		<TabTextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TabTextColor>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+
+		<Pieces>MVW_AtlasDirCombobox</Pieces>
+		<Pieces>MVW_AtlasZoneGuide</Pieces>
+		<Pieces>Screen:MVW_AtlasRenderArea</Pieces>
+	</Page>
+	
+</XML>

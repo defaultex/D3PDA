@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Label item="TO_TaskStepTitle">
+		<ScreenID>TO_TaskStepTitle</ScreenID>
+		<Font>2</Font>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>72</RightAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+	</Label>
+
+	<Label item="TO_TaskStepStatus">
+		<ScreenID>TO_TaskStepStatus</ScreenID>
+		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<LeftAnchorOffset>72</LeftAnchorOffset>
+		<RightAnchorOffset>8</RightAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+	</Label>
+
+	<Screen item="TO_TaskStepTemplate">
+		<ScreenID>TO_TaskStepTemplate</ScreenID>
+		<Style_Border>false</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>260</CX>
+			<CY>16</CY>
+		</Size>
+
+		<Pieces>TO_TaskStepTitle</Pieces>
+		<Pieces>TO_TaskStepStatus</Pieces>
+	</Screen>
+
+	<TileLayoutBox item="TO_TaskSteps">
+		<ScreenID>TO_TaskSteps</ScreenID>
+		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+
+		<FirstPieceTemplate>true</FirstPieceTemplate>
+		<SnapToChildren>true</SnapToChildren>
+
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+		<Size>
+			<CX>260</CX>
+			<CY>16</CY>
+		</Size>
+	</TileLayoutBox>
+
+</XML>

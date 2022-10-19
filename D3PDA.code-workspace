@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../default"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*:crc":true, // ignore all the crc files
+			"**/EQLS*":true, // ignore EQLS files (EQ Login Screen)
+			"**/eqls*":true, // same as above but lowercase
+			"**/dragitem*.dds":true, // filter these just to make the default UI folder easier to read
+		}
+	}
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <TileLayoutBox item="OW_ALL_QuestHeadingLayout">
+        <HorizontalFirst>false</HorizontalFirst>
+        <SnapToChildren>true</SnapToChildren>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Spacing>4</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>Screen:OW_ALL_QuestTileScreen</Pieces>
+        <Pieces>LayoutBox:OW_ALL_QuestDescLayout</Pieces>
+    </TileLayoutBox>
+
+    <Screen item="OW_ALL_QuestTemplate">
+        <ScreenID>OW_ALL_QuestTemplate</ScreenID>
+        <Layout>OW_LayoutV</Layout>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <Pieces>TileLayoutBox:OW_ALL_QuestHeadingLayout</Pieces>
+        <Pieces>TileLayoutBox:OW_ALL_QuestPartyLayout</Pieces>
+    </Screen>
+
+    <Screen item="OW_OQP_QuestInfoLayout">
+        <ScreenID>OW_OQP_QuestInfoLayout</ScreenID>
+        <MinVSize>334</MinVSize>
+    </Screen>
+
+</XML>

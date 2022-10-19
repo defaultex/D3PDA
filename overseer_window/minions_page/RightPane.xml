@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="OW_OM_MinionEntry">
+		<ScreenID>OW_OM_MinionEntry</ScreenID>
+		<Template>OW_ALL_ColorBtn</Template>
+        
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+	</Button>
+
+	<Label item="OW_OM_MinionName">
+		<ScreenID>OW_OM_MinionName</ScreenID>
+		<Font>5</Font>
+		<Text>You currently do not have any agents!</Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
+
+	<Label item="OW_OM_MinionRarityIconic">
+		<ScreenID>OW_OM_MinionRarityIconic</ScreenID>
+		<Font>5</Font>
+        <PrependText>(</PrependText>
+        <AppendText>)</AppendText>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
+
+    <LayoutBox item="OW_OM_MinionHeading">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>366</RightAnchorOffset>
+
+        <Location>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+		<Pieces>OW_OM_MinionName</Pieces>
+		<Pieces>OW_OM_MinionRarityIconic</Pieces>
+    </LayoutBox>
+
+    <Button item="OW_OM_MinionIcon">
+		<ScreenID>OW_OM_MinionIcon</ScreenID>
+		<Template>OW_ALL_ColorBtn</Template>
+        
+		<DecalOffset>
+			<X>2</X>
+			<Y>2</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>512</CX>
+			<CY>514</CY>
+		</DecalSize>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+        
+        <BottomAnchorOffset>22</BottomAnchorOffset>
+	</Button>
+
+	<Button item="OW_OM_MinionRecoverButton">
+		<ScreenID>OW_OM_MinionRecoverButton</ScreenID>
+		<Template>BDT_ButtonStation</Template>
+		<Text>Recover</Text>
+
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextOffsetX>5</TextOffsetX>
+
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>80</LeftAnchorOffset>
+		<TopAnchorOffset>20</TopAnchorOffset>
+
+		<DecalOffset>
+			<X>60</X>
+			<Y>2</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+
+		<TextColor>
+			<R>255</R>
+			<G>233</G>
+			<B>129</B>
+		</TextColor>
+		<BackgroundTextureTint>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</BackgroundTextureTint>
+	</Button>
+
+	<Label item="OW_OM_MinionStatus">
+		<ScreenID>OW_OM_MinionStatus</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>4</BottomAnchorOffset>
+		<LeftAnchorOffset>24</LeftAnchorOffset>
+		<RightAnchorOffset>76</RightAnchorOffset>
+	</Label>
+
+	<Button item="OW_OM_MinionStatusIcon">
+		<ScreenID>OW_OM_MinionStatusIcon</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+        
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+		<TopAnchorOffset>20</TopAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
+	</Button>
+
+	<Screen item="OW_OM_MinionIconStatus">
+		<ScreenID>OW_OM_MinionIconStatus</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+        
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>348</RightAnchorOffset>
+        <TopAnchorOffset>20</TopAnchorOffset>
+        <BottomAnchorOffset>372</BottomAnchorOffset>
+
+		<Pieces>OW_OM_MinionIcon</Pieces>
+		<Pieces>OW_OM_MinionRecoverButton</Pieces>
+		<Pieces>OW_OM_MinionStatus</Pieces>
+		<Pieces>OW_OM_MinionStatusIcon</Pieces>
+	</Screen>
+
+    <!-- -->
+
+	<Label item="OW_OM_MinionDescription">
+		<ScreenID>OW_OM_MinionDescription</ScreenID>
+		<Font>3</Font>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+	</Label>
+
+    <!-- Jobs -->
+
+	<Label item="OW_OM_MinionJobSection">
+		<ScreenID>OW_OM_MinionJobSection</ScreenID>
+		<Font>5</Font>
+		<Text>Jobs</Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        
+		<AutoStretch>false</AutoStretch>
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+	</Label>
+
+	<Button item="OW_OM_MinionJobImage">
+		<ScreenID>OW_OM_MinionJobImage</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Template>DefaultImageOW</Template>
+		<Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>153</CX>
+			<CY>151</CY>
+		</Size>
+	</Button>
+
+	<Label item="OW_OM_MinionJob">
+		<ScreenID>OW_OM_MinionJob</ScreenID>
+        <NoWrap>true</NoWrap>
+		<ResizeHeightToText>true</ResizeHeightToText>
+		<AlignCenter>true</AlignCenter>
+        
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>78</TopAnchorOffset>
+	</Label>
+    
+	<Screen item="OW_OM_MinionJobTemplate">
+		<ScreenID>OW_OM_MinionJobTemplate</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+
+		<Size>
+			<CX>103</CX>
+			<CY>96</CY>
+		</Size>
+
+		<Pieces>OW_OM_MinionJobImage</Pieces>
+		<Pieces>OW_OM_MinionJob</Pieces>
+	</Screen>
+
+    <TileLayoutBox item="OW_OM_MinionJobLayout">
+		<ScreenID>OW_OM_MinionJobLayout</ScreenID>
+		<ResizeLast>false</ResizeLast>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Spacing>4</Spacing>
+
+		<Pieces>Screen:OW_OM_MinionJobTemplate</Pieces>
+	</TileLayoutBox>
+
+	<Screen item="OW_OM_MinionJobScreen">
+		<ScreenID>OW_OM_MinionJobScreen</ScreenID>
+
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+
+        <Size>
+            <CY>100</CY>
+        </Size>
+
+		<Pieces>TileLayoutBox:OW_OM_MinionJobLayout</Pieces>
+	</Screen>
+
+    <!-- Traits -->
+
+	<Label item="OW_OM_MinionTraitSection">
+		<ScreenID>OW_OM_MinionTraitSection</ScreenID>
+		<Font>5</Font>
+		<Text>Traits</Text>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        
+		<AutoStretch>false</AutoStretch>
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+	</Label>
+
+    <!-- -->
+
+	<VerticalLayoutBox item="OW_OM_MinionInfo">
+		<ScreenID>OW_OM_MinionInfo</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_AutoVScroll>true</Style_AutoVScroll>
+        <Style_Transparent>true</Style_Transparent>
+		<ResizeLast>false</ResizeLast>
+
+		<AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Spacing>4</Spacing>
+
+		<Pieces>OW_OM_MinionHeading</Pieces>
+		<Pieces>Screen:OW_OM_MinionIconStatus</Pieces>
+		<Pieces>OW_OM_MinionDescription</Pieces>
+		<Pieces>OW_OM_MinionJobSection</Pieces>
+		<Pieces>Screen:OW_OM_MinionJobScreen</Pieces>
+		<Pieces>OW_OM_MinionTraitSection</Pieces>
+		<Pieces>Screen:OW_OM_MinionTraits</Pieces>
+	</VerticalLayoutBox>
+
+</XML>

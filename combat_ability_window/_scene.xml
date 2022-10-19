@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<LayoutVertical item="CAW_LayoutV">
+		<ResizeHorizontal>true</ResizeHorizontal>
+		<ResizeVertical>true</ResizeVertical>
+	</LayoutVertical>
+
+	<Screen item="CAW_VerticalOrientationTemplate">
+		<ScreenID>CAW_VerticalOrientationTemplate</ScreenID>
+		<RelativePosition>true</RelativePosition>
+
+		<AutoStretch>true</AutoStretch>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>18</RightAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>29</BottomAnchorOffset>
+		
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+
+		<UseInLayoutVertical>false</UseInLayoutVertical>
+		<UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+	</Screen>
+
+	<Screen item="CombatAbilityWnd">
+		<DrawTemplate>WDT_IWnd_Outer_Mirror</DrawTemplate>
+
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+
+		<Location>
+			<X>256</X>
+			<Y>435</Y>
+		</Location>
+		<Size>
+			<CX>195</CX>
+			<CY>261</CY>
+		</Size>
+
+        <Pieces>LayoutBox:IWnd_Template_Inner_Mirror</Pieces>
+
+		<Pieces>TileLayoutBox:CAW_AbilityLayout</Pieces>
+        <Pieces>Screen:CAW_VerticalOrientationBook</Pieces>
+	</Screen>
+
+</XML>

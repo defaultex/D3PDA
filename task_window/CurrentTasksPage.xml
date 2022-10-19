@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <!-- Task List -->
+
+    <Button item="TASK_CheckBoxTemplate">
+        <ScreenID>TASK_CheckBoxTemplate</ScreenID>
+        <Template>BDT_Checkbox</Template>
+        <Style_Checkbox>true</Style_Checkbox>
+        <Location>
+            <X>1</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>12</CX>
+            <CY>12</CY>
+        </Size>
+    </Button>
+
+    <Label item="TASK_CountLabel">
+        <ScreenID>TASK_CountLabel</ScreenID>
+        <Font>4</Font>
+        <PrependText>Tasks: </PrependText>
+        <NoWrap>true</NoWrap>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+    </Label>
+
+    <Label item="TASK_TaskTimer">
+        <EQType>132</EQType>
+        <Font>4</Font>
+        <PrependText>Request Timer: </PrependText>
+        <NoWrap>true</NoWrap>
+        <AlignRight>true</AlignRight>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+    
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+    </Label>
+
+    <Listbox item="TASK_TaskList">
+        <ScreenID>TASK_TaskList</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_VScroll>true</Style_VScroll>
+        <Style_AutoVScroll>true</Style_AutoVScroll>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>18</TopAnchorOffset>
+
+        <Columns>
+            <Width>14</Width>
+            <Tooltip>Show or hide this task in the task overlay window.</Tooltip>
+        </Columns>
+        <Columns>
+            <Width>14</Width>
+        </Columns>
+        <Columns>
+            <Width>220</Width>
+            <Heading>Task Title</Heading>
+            <Sortable>true</Sortable>
+        </Columns>
+        <Columns>
+            <Width>60</Width>
+            <Heading>Time Left</Heading>
+            <Sortable>true</Sortable>
+        </Columns>
+        <Columns>
+            <Width>135</Width>
+            <Heading>Zone</Heading>
+            <Sortable>true</Sortable>
+        </Columns>
+    </Listbox>
+
+    <Screen item="TASK_TaskWnd">
+        <ScreenID>TASK_TaskWnd</ScreenID>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <MinVSize>62</MinVSize>
+
+        <Location>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CY>130</CY>
+        </Size>
+
+        <Pieces>TASK_CountLabel</Pieces>
+        <Pieces>TASK_TaskTimer</Pieces>
+        <Pieces>TASK_TaskList</Pieces>
+        <Pieces>TASK_CheckBoxTemplate</Pieces>
+    </Screen>
+
+    <!-- Task Progress -->
+
+    <Label item="TASK_TaskElementLabel">
+        <Font>4</Font>
+        <Text>Progress</Text>
+        <NoWrap>false</NoWrap>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <Size>
+            <CX>56</CX>
+        </Size>
+    </Label>
+
+    <Button item="TASK_PreviewRewardButton">
+        <TooltipReference>This opens the reward window to allow you to preview the reward(s) for this task.</TooltipReference>
+        <ScreenID>TASK_PreviewRewardButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Preview Reward</Text>
+        <Size>
+            <CX>100</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="TASK_MonsterButton">
+        <TooltipReference>Select a Monster Mission and click this button to open the monster selection window.</TooltipReference>
+        <ScreenID>TASK_MonsterButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Monster Select</Text>
+        <Size>
+            <CX>100</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="TASK_AbandonButton">
+        <TooltipReference>Select a Task and click this button to abandon it.</TooltipReference>
+        <ScreenID>TASK_AbandonButton</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Text>Remove</Text>
+        <Size>
+            <CX>60</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <TileLayoutBox item="TASK_TaskButtons">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <Size>
+            <CY>22</CY>
+        </Size>
+
+        <Pieces>TASK_TaskElementLabel</Pieces>
+        <Pieces>TASK_AbandonButton</Pieces>
+        <Pieces>TASK_PreviewRewardButton</Pieces>
+        <Pieces>TASK_MonsterButton</Pieces>
+    </TileLayoutBox>
+
+    <Listbox item="TASK_TaskElementList">
+        <ScreenID>TASK_TaskElementList</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_VScroll>true</Style_VScroll>
+        <Style_AutoVScroll>true</Style_AutoVScroll>
+
+        <MinVSize>62</MinVSize>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>22</TopAnchorOffset>
+
+        <Columns>
+            <Width>180</Width>
+            <Heading>Objective Instructions</Heading>
+        </Columns>
+        <Columns>
+            <Width>60</Width>
+            <Heading>Status</Heading>
+        </Columns>
+        <Columns>
+            <Width>160</Width>
+            <Heading>Zone</Heading>
+        </Columns>
+    </Listbox>
+
+    <Screen item="TASK_TaskElementWnd">
+        <ScreenID>TASK_TaskElementWnd</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Transparent>true</Style_Transparent>
+        
+        <MinVSize>62</MinVSize>
+
+        <Location>
+            <X>0</X>
+            <Y>130</Y>
+        </Location>
+        <Size>
+            <CX>300</CX>
+            <CY>130</CY>
+        </Size>
+
+        <Pieces>TASK_TaskButtons</Pieces>
+        <Pieces>TASK_TaskElementList</Pieces>
+    </Screen>
+
+    <!-- -->
+
+    <STMLbox item="TASK_Description">
+        <ScreenID>TASK_Description</ScreenID>
+        <Text>Description Area</Text>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_VScroll>true</Style_VScroll>
+        <Style_AutoVScroll>true</Style_AutoVScroll>
+
+        <MinVSize>62</MinVSize>
+
+        <Location>
+            <X>0</X>
+            <Y>260</Y>
+        </Location>
+        <Size>
+            <CX>300</CX>
+            <CY>100</CY>
+        </Size>
+    </STMLbox>
+
+    <VerticalLayoutBox item="TASK_Layout">
+        <ScreenID>TASK_Layout</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Transparent>true</Style_Transparent>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        <BottomAnchorOffset>2</BottomAnchorOffset>
+
+        <Spacing>4</Spacing>
+
+        <Pieces>Screen:TASK_TaskWnd</Pieces>
+        <Pieces>Screen:TASK_TaskElementWnd</Pieces>
+        <Pieces>TASK_Description</Pieces>
+    </VerticalLayoutBox>
+
+    <Page item="TaskListPage">
+        <ScreenID>TaskListPage</ScreenID>
+        <TabText>Current Tasks</TabText>
+        <TabTextActiveColor>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+        </TabTextActiveColor>
+
+        <Pieces>VerticalLayoutBox:TASK_Layout</Pieces>
+    </Page>
+
+</XML>

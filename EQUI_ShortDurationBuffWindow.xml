@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?> 
+<XML ID="EQInterfaceDefinitionLanguage"> 
+	<Composite>
+		<Include>song_window\Song0.xml</Include>
+		<Include>song_window\Song1.xml</Include>
+		<Include>song_window\Song2.xml</Include>
+		<Include>song_window\Song3.xml</Include>
+		<Include>song_window\Song4.xml</Include>
+		<Include>song_window\Song5.xml</Include>
+		<Include>song_window\Song6.xml</Include>
+		<Include>song_window\Song7.xml</Include>
+		<Include>song_window\Song8.xml</Include>
+		<Include>song_window\Song9.xml</Include>
+		<Include>song_window\Song10.xml</Include>
+		<Include>song_window\Song11.xml</Include>
+		<Include>song_window\Song12.xml</Include>
+		<Include>song_window\Song13.xml</Include>
+		<Include>song_window\Song14.xml</Include>
+		<Include>song_window\Song15.xml</Include>
+		<Include>song_window\Song16.xml</Include>
+		<Include>song_window\Song17.xml</Include>
+		<Include>song_window\Song18.xml</Include>
+		<Include>song_window\Song19.xml</Include>
+		<Include>song_window\Song20.xml</Include>
+		<Include>song_window\Song21.xml</Include>
+		<Include>song_window\Song22.xml</Include>
+		<Include>song_window\Song23.xml</Include>
+		<Include>song_window\Song24.xml</Include>
+		<Include>song_window\Song25.xml</Include>
+		<Include>song_window\Song26.xml</Include>
+		<Include>song_window\Song27.xml</Include>
+		<Include>song_window\Song28.xml</Include>
+		<Include>song_window\Song29.xml</Include>
+		<Include>song_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

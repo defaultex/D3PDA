@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Ui2DAnimation item="D3PDA_PlayerWindow_Bg">
+        <Frames>
+            <Texture>assets/D3PDA.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>110</Y>
+            </Location>
+            <Size>
+                <CX>197</CX>
+                <CY>111</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+    <Ui2DAnimation item="D3PDA_AttackIndicator">
+        <Frames>
+            <Texture>assets/D3PDA.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>221</Y>
+            </Location>
+            <Size>
+                <CX>194</CX>
+                <CY>110</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
+</XML>

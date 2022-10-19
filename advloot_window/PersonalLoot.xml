@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="ADLW_PLLLbl">
+		<ScreenID>ADLW_PLLLbl</ScreenID>
+		<Location>
+			<X>5</X>
+			<Y>5</Y>
+		</Location>
+		<Size>
+			<CX>105</CX>
+			<CY>24</CY>
+		</Size>
+		<Text>Personal Loot</Text>
+	</Label>
+	
+    <Button item="ADLW_PLL_LootAllBtn">
+		<ScreenID>ADLW_PLL_LootAllBtn</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
+		<LeftAnchorOffset>70</LeftAnchorOffset>
+		<RightAnchorOffset>10</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TooltipReference>Loot all items in the Personal Loot list.</TooltipReference>
+		<Text>Loot All</Text>
+		<Template>BDT_SmallNormal</Template>
+	</Button>
+	
+    <Listbox item="ADLW_PLLList">
+		<TooltipReference>Set loot decisions here for each item.</TooltipReference>
+		<ScreenID>ADLW_PLLList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_Border>true</Style_Border>
+		<TextColor>
+			<R>0</R>
+			<G>148</G>
+			<B>255</B>
+		</TextColor>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<RightAnchorOffset>10</RightAnchorOffset>
+		<TopAnchorOffset>25</TopAnchorOffset>
+		<BottomAnchorOffset>30</BottomAnchorOffset>
+
+		<Columns>
+			<Width>24</Width>
+			<Heading>Item</Heading>
+			<Sortable>true</Sortable>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>Loot</Heading>
+			<Sortable>false</Sortable>
+			<Tooltip>Loot item(s) on corpse(s)</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>Leave</Heading>
+			<Sortable>false</Sortable>
+			<Tooltip>Leave item(s) on corpse(s)</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>AN</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>Always Need: Always roll need on this item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>AG</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>Always Greed: Always roll greed on this item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>24</Width>
+			<Heading>Never</Heading>
+			<Sortable>false</Sortable>
+			<Tooltip>Never loot this item</Tooltip>
+		</Columns>
+		<Columns>
+			<Width>200</Width>
+			<Heading>NPC Name</Heading>
+			<Sortable>true</Sortable>
+			<Tooltip>NPC Name</Tooltip>
+		</Columns>
+	</Listbox>
+	
+    <Button item="ADLW_PLLSetBtn">
+		<ScreenID>ADLW_PLLSetBtn</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>60</RightAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TooltipReference>This sets all of the items in the Personal List to the selected option.</TooltipReference>
+		<Text>Set all to:</Text>
+		<Template>BDT_SmallNormal</Template>
+	</Button>
+	
+    <Combobox item="ADLW_PLLSetCmbo">
+		<ScreenID>ADLW_PLLSetCmbo</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>65</LeftAnchorOffset>
+		<RightAnchorOffset>170</RightAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<ListHeight>80</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
+		<Choices>Loot All</Choices>
+		<Choices>Leave All</Choices>
+		<Choices>Always Need</Choices>
+		<Choices>Always Greed</Choices>
+		<Choices>Never</Choices>
+	</Combobox>
+	
+    <Button item="ADLW_PLL_LeaveAllBtn">
+		<TooltipReference>Leave all items in the Personal Loot list.</TooltipReference>
+		<ScreenID>ADLW_PLL_LeaveAllBtn</ScreenID>
+		<Text>Leave All</Text>
+
+		<AutoStretch>true</AutoStretch>
+
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>175</LeftAnchorOffset>
+		<RightAnchorOffset>235</RightAnchorOffset>
+
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		
+		<Template>BDT_SmallNormal</Template>
+	</Button>
+	
+    <Screen item="ADLW_PLLWnd">
+		<ScreenID>ADLW_PLLWnd</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Transparent>true</Style_Transparent>
+
+		<MinVSize>140</MinVSize>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>50</CY>
+		</Size>
+
+		<Pieces>ADLW_PLLLbl</Pieces>
+		<Pieces>ADLW_PLLList</Pieces>
+		<Pieces>ADLW_PLLSetBtn</Pieces>
+		<Pieces>ADLW_PLL_LootAllBtn</Pieces>
+		<Pieces>ADLW_PLLSetCmbo</Pieces>
+		<Pieces>ADLW_PLL_LeaveAllBtn</Pieces>
+	</Screen>
+
+</XML>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>combat_ability_window\Abilities.xml</Include>
+		<Include>combat_ability_window\Gauge.xml</Include>
+		<Include>combat_ability_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

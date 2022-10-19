@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <!-- Name -->
+
+    <Label item="Target_NameLabel">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineTL">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineT">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineTR">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineBL">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineB">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineBR">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineL">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="Target_NameLabel_OutlineR">
+        <EQType>28</EQType>
+        <Font>3</Font>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="Target_NameLabel_Layout">
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>14</LeftAnchorOffset>
+        <RightAnchorOffset>42</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+        <BottomAnchorOffset>4</BottomAnchorOffset>
+
+        <Pieces>Target_NameLabel_OutlineTL</Pieces>
+        <Pieces>Target_NameLabel_OutlineT</Pieces>
+        <Pieces>Target_NameLabel_OutlineTR</Pieces>
+        <Pieces>Target_NameLabel_OutlineBL</Pieces>
+        <Pieces>Target_NameLabel_OutlineB</Pieces>
+        <Pieces>Target_NameLabel_OutlineBR</Pieces>
+        <Pieces>Target_NameLabel_OutlineL</Pieces>
+        <Pieces>Target_NameLabel_OutlineR</Pieces>
+        <Pieces>Target_NameLabel</Pieces>
+    </LayoutBox>
+
+    <!-- HP Percent Number -->
+
+    <Label item="Target_HPLabel">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineTL">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineT">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineTR">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineBL">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>3</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineB">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineBR">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>3</LeftAnchorOffset>
+        <RightAnchorOffset>1</RightAnchorOffset>
+        <TopAnchorOffset>3</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineL">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>0</LeftAnchorOffset>
+        <RightAnchorOffset>4</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+    <Label item="Target_HPLabel_OutlineR">
+        <EQType>29</EQType>
+        <Font>3</Font>
+        <AppendText>%</AppendText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <TextColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>4</LeftAnchorOffset>
+        <RightAnchorOffset>0</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="Target_HPLabel_Layout">
+        <ScreenID>HPLabel</ScreenID>
+        <Style_TransparentControl>true</Style_TransparentControl>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>42</LeftAnchorOffset>
+        <RightAnchorOffset>6</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+        <BottomAnchorOffset>4</BottomAnchorOffset>
+
+        <Pieces>Target_HPLabel_OutlineTL</Pieces>
+        <Pieces>Target_HPLabel_OutlineT</Pieces>
+        <Pieces>Target_HPLabel_OutlineTR</Pieces>
+        <Pieces>Target_HPLabel_OutlineBL</Pieces>
+        <Pieces>Target_HPLabel_OutlineB</Pieces>
+        <Pieces>Target_HPLabel_OutlineBR</Pieces>
+        <Pieces>Target_HPLabel_OutlineL</Pieces>
+        <Pieces>Target_HPLabel_OutlineR</Pieces>
+        <Pieces>Target_HPLabel</Pieces>
+    </LayoutBox>
+
+    <!-- HP Gauge -->
+
+    <Gauge item="Target_HP">
+        <ScreenID>TargetHP</ScreenID>
+        <EQType>6</EQType>
+        <Font>1</Font>
+        <TextOffsetY>-20</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>0</X>
+            <Y>15</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>12</CY>
+        </Size>
+        <FillTint>
+            <R>240</R>
+            <G>0</G>
+            <B>0</B>
+        </FillTint>
+        <LinesFillTint>
+            <R>220</R>
+            <G>220</G>
+            <B>0</B>
+        </LinesFillTint>
+        <GaugeDrawTemplate>
+            <Background>D3PDA_Gauge_Background</Background>
+            <Fill>D3PDA_Gauge_Fill</Fill>
+        </GaugeDrawTemplate>
+        <DrawLinesFill>false</DrawLinesFill>
+    </Gauge>
+
+    <Gauge item="Target_AgroGauge">
+        <EQType>149</EQType>
+        <TextOffsetY>-50</TextOffsetY>
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <Location>
+            <X>-3</X>
+            <Y>23</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>3</CY>
+        </Size>
+        <FillTint>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+        </FillTint>
+        <LinesFillTint>
+            <R>220</R>
+            <G>220</G>
+            <B>0</B>
+        </LinesFillTint>
+        <GaugeDrawTemplate>
+            <Fill>D3PDA_Gauge_MiniFill</Fill>
+        </GaugeDrawTemplate>
+        <DrawLinesFill>false</DrawLinesFill>
+    </Gauge>
+
+    <LayoutBox item="Target_HPDisplay">
+        <Location>
+            <X>35</X>
+            <Y>-7</Y>
+        </Location>
+        <Size>
+            <CX>162</CX>
+            <CY>40</CY>
+        </Size>
+        <Pieces>Target_HP</Pieces>
+        <Pieces>Target_AgroGauge</Pieces>
+        <Pieces>Target_NameLabel_Layout</Pieces>
+        <Pieces>Target_HPLabel_Layout</Pieces>
+    </LayoutBox>
+
+</XML>

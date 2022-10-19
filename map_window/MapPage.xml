@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="MVW_MapIconButton">
+        <ScreenID>MVW_MapIconButton</ScreenID>
+        <ButtonDrawTemplate>
+            <Normal>A_MapIcon</Normal>
+        </ButtonDrawTemplate>
+    </Button>
+
+    <Combobox item="MVW_MapsDirCombobox">
+        <ScreenID>MVW_MapsDirCombobox</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+
+        <Button>BDT_Combo</Button>
+        <AutoStretchList>true</AutoStretchList>
+        <ListHeight>200</ListHeight>
+
+        <Location>
+            <X>2</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>150</CX>
+            <CY>24</CY>
+        </Size>
+    </Combobox>
+
+    <!-- Search -->
+
+    <Label item="MVW_SearchLabel">
+        <ScreenID>MVW_SearchLabel</ScreenID>
+        <Text>Search:</Text>
+        <Location>
+            <X>0</X>
+            <Y>4</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>15</CY>
+        </Size>
+    </Label>
+
+    <Editbox item="MVW_SearchBox">
+        <ScreenID>MVW_SearchBox</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>50</LeftAnchorOffset>
+        <RightAnchorOffset>130</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        <BottomAnchorOffset>22</BottomAnchorOffset>
+    </Editbox>
+
+    <Button item="MVW_SearchButton">
+        <ScreenID>MVW_SearchButton</ScreenID>
+        <Text>Search</Text>
+        <Template>BDT_Normal</Template>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>120</LeftAnchorOffset>
+        <RightAnchorOffset>70</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        <BottomAnchorOffset>22</BottomAnchorOffset>
+    </Button>
+
+    <Button item="MVW_SearchClearButton">
+        <TooltipReference>Resets the search.</TooltipReference>
+        <ScreenID>MVW_SearchClearButton</ScreenID>
+        <Text>Clear</Text>
+        <Template>BDT_Normal</Template>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>65</LeftAnchorOffset>
+        <RightAnchorOffset>15</RightAnchorOffset>
+        <TopAnchorOffset>0</TopAnchorOffset>
+        <BottomAnchorOffset>22</BottomAnchorOffset>
+    </Button>
+
+    <Screen item="MVW_MapSearchScreen">
+        <Style_Transparent>true</Style_Transparent>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>165</LeftAnchorOffset>
+        <RightAnchorOffset>100</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+        <BottomAnchorOffset>32</BottomAnchorOffset>
+
+        <Pieces>MVW_SearchLabel</Pieces>
+        <Pieces>MVW_SearchBox</Pieces>
+        <Pieces>MVW_SearchButton</Pieces>
+        <Pieces>MVW_SearchClearButton</Pieces>
+    </Screen>
+
+    <!-- -->
+
+    <Button item="MVW_MapZoneGuide">
+        <TooltipReference>Toggle the visibility of the Zone Guide.</TooltipReference>
+        <ScreenID>MVW_MapZoneGuide</ScreenID>
+        <Text>Zone Guide</Text>
+        <Template>BDT_Normal</Template>
+        <Style_Transparent>false</Style_Transparent>
+        <Style_Checkbox>false</Style_Checkbox>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>92</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+        <BottomAnchorOffset>26</BottomAnchorOffset>
+    </Button>
+
+    <!-- -->
+
+    <StaticAnimation item="MVW_MapPiece">
+        <ScreenID>MapPiece</ScreenID>
+        <Animation>A_MapPiece</Animation>
+        <Style_HScroll>false</Style_HScroll>
+        <Style_VScroll>false</Style_VScroll>
+
+        <AutoStretch>true</AutoStretch>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>35</TopAnchorOffset>
+        <BottomAnchorOffset>32</BottomAnchorOffset>
+        <LeftAnchorOffset>10</LeftAnchorOffset>
+        <RightAnchorOffset>72</RightAnchorOffset>
+    </StaticAnimation>
+
+    <!-- Map background -->
+    <Screen item="MVW_MapRenderArea">
+        <ScreenID>MVW_MapRenderArea</ScreenID>
+        <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+
+        <AutoStretch>true</AutoStretch>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <TopAnchorOffset>30</TopAnchorOffset>
+        <BottomAnchorOffset>30</BottomAnchorOffset>
+        <LeftAnchorOffset>5</LeftAnchorOffset>
+        <RightAnchorOffset>70</RightAnchorOffset>
+    </Screen>
+
+    <!-- A stand-in element for the actual map being displayed... I think -->
+    <Screen item="MapViewMap" />
+
+    <Page item="MapPage">
+        <ScreenID>MapPage</ScreenID>
+        <TabText>Player</TabText>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+        <Style_VScroll>false</Style_VScroll>
+        <Style_HScroll>false</Style_HScroll>
+        <Style_Transparent>false</Style_Transparent>
+        <Style_Sizable>true</Style_Sizable>
+
+        <TabTextColor>
+            <R>240</R>
+            <G>240</G>
+            <B>240</B>
+        </TabTextColor>
+        <TabTextActiveColor>
+            <R>255</R>
+            <G>255</G>
+            <B>0</B>
+        </TabTextActiveColor>
+
+        <!-- Required to prevent a loading error -->
+        <Pieces>MVW_MapIconButton</Pieces>
+
+        <Pieces>MVW_MapPiece</Pieces>
+        <Pieces>Screen:MVW_MapRenderArea</Pieces>
+        <Pieces>MVW_MapsDirCombobox</Pieces>
+        <Pieces>HorizontalLayoutBox:MVW_SearchLayout</Pieces>
+        <Pieces>MVW_SearchHideButton</Pieces>
+        <Pieces>MVW_MapZoneGuide</Pieces>
+        <Pieces>Screen:MVW_MapToolBar</Pieces>
+        <Pieces>Screen:MVW_MapSearchScreen</Pieces>
+        <Pieces>Screen:MVW_MapCurrentZoneScreen</Pieces>
+    </Page>
+
+</XML>

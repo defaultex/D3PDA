@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="Status_MITLabel">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+            <Alpha>192</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>1</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_TopLeft">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>0</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_Top">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>1</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_TopRight">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>2</X>
+            <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_BottomLeft">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>0</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_Bottom">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>1</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_BottomRight">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>2</X>
+            <Y>2</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_Left">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>-1</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+    <Label item="Status_MITLabel_Shadow_Right">
+        <Font>4</Font>
+        <Text>MIT</Text>
+        <NoWrap>true</NoWrap>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <TextColor>
+            <R>75</R>
+            <G>101</G>
+            <B>100</B>
+            <Alpha>64</Alpha>
+        </TextColor>
+
+        <Location>
+            <X>3</X>
+            <Y>1</Y>
+        </Location>
+        <Size>
+            <CX>29</CX>
+            <CY>26</CY>
+        </Size>
+    </Label>
+
+    <LayoutBox item="Status_MITLabelDisplay">
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>29</LeftAnchorOffset>
+
+        <Pieces>Status_MITLabel_Shadow_TopLeft</Pieces>
+        <Pieces>Status_MITLabel_Shadow_Top</Pieces>
+        <Pieces>Status_MITLabel_Shadow_TopRight</Pieces>
+        <Pieces>Status_MITLabel_Shadow_BottomLeft</Pieces>
+        <Pieces>Status_MITLabel_Shadow_Bottom</Pieces>
+        <Pieces>Status_MITLabel_Shadow_BottomRight</Pieces>
+        <Pieces>Status_MITLabel_Shadow_Left</Pieces>
+        <Pieces>Status_MITLabel_Shadow_Right</Pieces>
+        <Pieces>Status_MITLabel</Pieces>
+    </LayoutBox>
+
+    <Label item="Status_MITNumber">
+        <EQType>22</EQType>
+        <Font>3</Font>
+        <NoWrap>true</NoWrap>
+        
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <RightAnchorOffset>30</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+    </Label>
+
+    <LayoutBox item="Status_MITDisplay"> <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>18</CY>
+        </Size>
+        <Pieces>Status_MITLabelDisplay</Pieces>
+        <Pieces>Status_MITNumber</Pieces>
+    </LayoutBox>
+
+</XML>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Label item="GW_InviteNormal">
+        <Font>2</Font>
+        <Text>INV</Text>
+        <NoWrap>true</NoWrap>
+
+        <AlignLeft>true</AlignLeft>
+        <AlignCenter>false</AlignCenter>
+        <AlignRight>false</AlignRight>
+        <AutoStretch>true</AutoStretch>
+
+        <TextColor>
+            <R>156</R>
+            <G>182</G>
+            <B>182</B>
+            <Alpha>192</Alpha>
+        </TextColor>
+
+        <LeftAnchorOffset>1</LeftAnchorOffset>
+        <RightAnchorOffset>-1</RightAnchorOffset>
+        <TopAnchorOffset>1</TopAnchorOffset>
+
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+    </Label>
+
+    <Button item="GW_InviteButton">
+        <TooltipReference>Select a player and click to invite into the group</TooltipReference>
+        <ScreenID>InviteButton</ScreenID>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>39</CX>
+            <CY>16</CY>
+        </Size>
+        <DecalSize>
+            <CX>28</CX>
+            <CY>10</CY>
+        </DecalSize>
+        <DecalOffset>
+            <X>4</X>
+            <Y>3</Y>
+        </DecalOffset>
+        <ButtonDrawTemplate>
+            <Normal>DoomPda_GroupWindow_Button_Bg</Normal>
+            <Pressed>DoomPda_GroupWindow_Button_Bg</Pressed>
+            <Disabled>D3PDA_Empty</Disabled>
+            <Flyby>DoomPda_GroupWindow_Button_Bg</Flyby>
+            <PressedFlyby>DoomPda_GroupWindow_Button_Bg</PressedFlyby>
+            <NormalDecal>DoomPda_Invite_Normal</NormalDecal>
+            <PressedDecal>DoomPda_Invite_Pressed</PressedDecal>
+            <DisabledDecal>D3PDA_Empty</DisabledDecal>
+            <FlybyDecal>DoomPda_Invite_Hover</FlybyDecal>
+            <PressedFlybyDecal>DoomPda_Invite_Pressed</PressedFlybyDecal>
+        </ButtonDrawTemplate>
+    </Button>
+
+    <Button item="GW_DisbandButton">
+        <TooltipReference>Click to disband your target from the group</TooltipReference>
+        <ScreenID>DisbandButton</ScreenID>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>39</CX>
+            <CY>16</CY>
+        </Size>
+        <DecalSize>
+            <CX>28</CX>
+            <CY>10</CY>
+        </DecalSize>
+        <DecalOffset>
+            <X>4</X>
+            <Y>3</Y>
+        </DecalOffset>
+        <ButtonDrawTemplate>
+            <Normal>DoomPda_GroupWindow_Button_Bg</Normal>
+            <Pressed>DoomPda_GroupWindow_Button_Bg</Pressed>
+            <Disabled>D3PDA_Empty</Disabled>
+            <Flyby>DoomPda_GroupWindow_Button_Bg</Flyby>
+            <PressedFlyby>DoomPda_GroupWindow_Button_Bg</PressedFlyby>
+            <NormalDecal>DoomPda_Disband_Normal</NormalDecal>
+            <PressedDecal>DoomPda_Disband_Pressed</PressedDecal>
+            <DisabledDecal>D3PDA_Empty</DisabledDecal>
+            <FlybyDecal>DoomPda_Disband_Hover</FlybyDecal>
+            <PressedFlybyDecal>DoomPda_Disband_Pressed</PressedFlybyDecal>
+        </ButtonDrawTemplate>
+    </Button>
+
+    <Button item="GW_FollowButton">
+        <TooltipReference>Accept an invitation to group</TooltipReference>
+        <ScreenID>FollowButton</ScreenID>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>39</CX>
+            <CY>16</CY>
+        </Size>
+        <DecalSize>
+            <CX>28</CX>
+            <CY>10</CY>
+        </DecalSize>
+        <DecalOffset>
+            <X>4</X>
+            <Y>3</Y>
+        </DecalOffset>
+        <ButtonDrawTemplate>
+            <Normal>DoomPda_GroupWindow_Button_Bg</Normal>
+            <Pressed>DoomPda_GroupWindow_Button_Bg</Pressed>
+            <Disabled>D3PDA_Empty</Disabled>
+            <Flyby>DoomPda_GroupWindow_Button_Bg</Flyby>
+            <PressedFlyby>DoomPda_GroupWindow_Button_Bg</PressedFlyby>
+            <NormalDecal>DoomPda_Follow_Normal</NormalDecal>
+            <PressedDecal>DoomPda_Follow_Pressed</PressedDecal>
+            <DisabledDecal>D3PDA_Empty</DisabledDecal>
+            <FlybyDecal>DoomPda_Follow_Hover</FlybyDecal>
+            <PressedFlybyDecal>DoomPda_Follow_Pressed</PressedFlybyDecal>
+        </ButtonDrawTemplate>
+    </Button>
+
+    <Button item="GW_DeclineButton">
+        <TooltipReference>Refuse an invtitation to group</TooltipReference>
+        <ScreenID>DeclineButton</ScreenID>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Size>
+            <CX>39</CX>
+            <CY>16</CY>
+        </Size>
+        <DecalSize>
+            <CX>28</CX>
+            <CY>10</CY>
+        </DecalSize>
+        <DecalOffset>
+            <X>4</X>
+            <Y>3</Y>
+        </DecalOffset>
+        <ButtonDrawTemplate>
+            <Normal>DoomPda_GroupWindow_Button_Bg</Normal>
+            <Pressed>DoomPda_GroupWindow_Button_Bg</Pressed>
+            <Disabled>D3PDA_Empty</Disabled>
+            <Flyby>DoomPda_GroupWindow_Button_Bg</Flyby>
+            <PressedFlyby>DoomPda_GroupWindow_Button_Bg</PressedFlyby>
+            <NormalDecal>DoomPda_Decline_Normal</NormalDecal>
+            <PressedDecal>DoomPda_Decline_Pressed</PressedDecal>
+            <DisabledDecal>D3PDA_Empty</DisabledDecal>
+            <FlybyDecal>DoomPda_Decline_Hover</FlybyDecal>
+            <PressedFlybyDecal>DoomPda_Decline_Pressed</PressedFlybyDecal>
+        </ButtonDrawTemplate>
+    </Button>
+
+    <!-- Scene Graph -->
+
+    <TileLayoutBox item="GW_HeaderButtons">
+        <Location>
+            <X>32</X>
+            <Y>8</Y>
+        </Location>
+        <Size>
+            <CX>180</CX>
+            <CY>27</CY>
+        </Size>
+
+        <Spacing>20</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>GW_InviteButton</Pieces>
+        <Pieces>GW_DisbandButton</Pieces>
+        <Pieces>GW_FollowButton</Pieces>
+        <Pieces>GW_DeclineButton</Pieces>
+
+    </TileLayoutBox>
+
+    <LayoutBox item="GW_HeaderLayout">
+        <Location>
+          <X>18</X>
+          <Y>0</Y>
+        </Location>
+        <Size>
+            <CX>188</CX>
+            <CY>29</CY>
+        </Size>
+
+        <Pieces>StaticAnimation:D3PDA_IWnd_HeaderAnim</Pieces>
+        <Pieces>TileLayoutBox:GW_HeaderButtons</Pieces>
+    
+    </LayoutBox>
+
+</XML>

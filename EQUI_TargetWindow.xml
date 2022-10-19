@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Composite>
+    <Include>target_window\Target_HPDisplay.xml</Include>
+		<Include>target_window\Target_BuffDisplay.xml</Include>
+		<Include>target_window\HoTT_HPDisplay.xml</Include>
+    <Include>target_window\_scene.xml</Include>
+    <Include>target_window\Animations.xml</Include>
+  </Composite>
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

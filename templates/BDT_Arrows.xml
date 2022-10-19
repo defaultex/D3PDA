@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <ButtonDrawTemplate item="BDT_NoArrow">
+        <Normal>D3PDA_NoArrowNormal</Normal>
+        <Pressed>D3PDA_NoArrowPressed</Pressed>
+        <Flyby>D3PDA_NoArrowFlyby</Flyby>
+        <Disabled>D3PDA_NoArrowDisabled</Disabled>
+        <PressedFlyby>D3PDA_NoArrowPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+
+    <ButtonDrawTemplate item="BDT_LeftArrow">
+        <Normal>D3PDA_NoArrowNormal</Normal>
+        <Pressed>D3PDA_NoArrowPressed</Pressed>
+        <Flyby>D3PDA_NoArrowFlyby</Flyby>
+        <Disabled>D3PDA_NoArrowDisabled</Disabled>
+        <PressedFlyby>D3PDA_NoArrowPressedFlyby</PressedFlyby>
+
+        <NormalDecal>D3PDA_Glyph_Left</NormalDecal>
+        <DisabledDecal>D3PDA_Glyph_LeftDisabled</DisabledDecal>
+    </ButtonDrawTemplate>
+
+    <ButtonDrawTemplate item="BDT_RightArrow">
+        <Normal>D3PDA_NoArrowNormal</Normal>
+        <Pressed>D3PDA_NoArrowPressed</Pressed>
+        <Flyby>D3PDA_NoArrowFlyby</Flyby>
+        <Disabled>D3PDA_NoArrowDisabled</Disabled>
+        <PressedFlyby>D3PDA_NoArrowPressedFlyby</PressedFlyby>
+
+        <NormalDecal>D3PDA_Glyph_Right</NormalDecal>
+        <DisabledDecal>D3PDA_Glyph_RightDisabled</DisabledDecal>
+    </ButtonDrawTemplate>
+
+    <ButtonDrawTemplate item="BDT_UpArrow">
+        <Normal>D3PDA_NoArrowNormal</Normal>
+        <Pressed>D3PDA_NoArrowPressed</Pressed>
+        <Flyby>D3PDA_NoArrowFlyby</Flyby>
+        <Disabled>D3PDA_NoArrowDisabled</Disabled>
+        <PressedFlyby>D3PDA_NoArrowPressedFlyby</PressedFlyby>
+
+        <NormalDecal>D3PDA_Glyph_Up</NormalDecal>
+        <DisabledDecal>D3PDA_Glyph_UpDisabled</DisabledDecal>
+    </ButtonDrawTemplate>
+
+    <ButtonDrawTemplate item="BDT_DownArrow">
+        <Normal>D3PDA_NoArrowNormal</Normal>
+        <Pressed>D3PDA_NoArrowPressed</Pressed>
+        <Flyby>D3PDA_NoArrowFlyby</Flyby>
+        <Disabled>D3PDA_NoArrowDisabled</Disabled>
+        <PressedFlyby>D3PDA_NoArrowPressedFlyby</PressedFlyby>
+
+        <NormalDecal>D3PDA_Glyph_Down</NormalDecal>
+        <DisabledDecal>D3PDA_Glyph_DownDisabled</DisabledDecal>
+    </ButtonDrawTemplate>
+
+    <ButtonDrawTemplate item="BDT_MinusSign">
+        <Normal>D3PDA_NoArrowNormal</Normal>
+        <Pressed>D3PDA_NoArrowPressed</Pressed>
+        <Flyby>D3PDA_NoArrowFlyby</Flyby>
+        <Disabled>D3PDA_NoArrowDisabled</Disabled>
+        <PressedFlyby>D3PDA_NoArrowPressedFlyby</PressedFlyby>
+
+        <NormalDecal>D3PDA_Glyph_Minus</NormalDecal>
+        <DisabledDecal>D3PDA_Glyph_MinusDisabled</DisabledDecal>
+    </ButtonDrawTemplate>
+
+    <ButtonDrawTemplate item="BDT_PlusSign">
+        <Normal>D3PDA_NoArrowNormal</Normal>
+        <Pressed>D3PDA_NoArrowPressed</Pressed>
+        <Flyby>D3PDA_NoArrowFlyby</Flyby>
+        <Disabled>D3PDA_NoArrowDisabled</Disabled>
+        <PressedFlyby>D3PDA_NoArrowPressedFlyby</PressedFlyby>
+
+        <NormalDecal>D3PDA_Glyph_Plus</NormalDecal>
+        <DisabledDecal>D3PDA_Glyph_PlusDisabled</DisabledDecal>
+    </ButtonDrawTemplate>
+
+</XML>

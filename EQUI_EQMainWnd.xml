@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>eqmain_window\DebugWindow.xml</Include>
+		<Include>eqmain_window\CascadeMenu.xml</Include>
+		<Include>eqmain_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

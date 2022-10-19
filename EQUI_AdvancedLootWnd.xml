@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>advloot_window\PersonalLoot.xml</Include>
+		<Include>advloot_window\SharedLoot.xml</Include>
+		<Include>advloot_window\Filters.xml</Include>
+		<Include>advloot_window\Templates.xml</Include>
+		<Include>advloot_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

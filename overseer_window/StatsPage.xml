@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <!-- Repurposed as a spacer -->
+    <Label item="OW_QSP_CategoriesLabel">
+        <ScreenID>OW_QSP_CategoriesLabel</ScreenID>
+        <Font>5</Font>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Label>
+
+    <Label item="OW_QSP_CategoryName">
+        <ScreenID>OW_QSP_CategoryName</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_CategoryLevelValue">
+        <ScreenID>OW_QSP_CategoryLevelValue</ScreenID>
+        <PrependText>Level: </PrependText>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Gauge item="OW_QSP_CategoryGauge">
+        <ScreenID>OW_QSP_CategoryGauge</ScreenID>
+        <TextColor>
+            <R>240</R>
+            <G>240</G>
+            <B>240</B>
+        </TextColor>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>18</TopAnchorOffset>
+
+        <GaugeOffsetY>0</GaugeOffsetY>
+        <FillTint>
+            <R>220</R>
+            <G>220</G>
+            <B>0</B>
+        </FillTint>
+        
+        <GaugeDrawTemplate>
+            <Background>A_GaugeBackground</Background>
+            <Fill>A_GaugeFill</Fill>
+            <Lines>A_GaugeLines</Lines>
+            <LinesFill>A_GaugeLinesFill</LinesFill>
+            <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+            <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+        </GaugeDrawTemplate>
+    </Gauge>
+
+    <Screen item="OW_QSP_CategoryTemplate">
+        <ScreenID>OW_QSP_CategoryTemplate</ScreenID>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+
+        <Size>
+            <CY>32</CY>
+        </Size>
+
+        <Pieces>OW_QSP_CategoryName</Pieces>
+        <Pieces>OW_QSP_CategoryLevelValue</Pieces>
+        <Pieces>Gauge:OW_QSP_CategoryGauge</Pieces>
+    </Screen>
+
+    <VerticalLayoutBox item="OW_QSP_CategoriesList">
+        <ScreenID>OW_QSP_CategoriesList</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_VScroll>true</Style_VScroll>
+        <Style_AutoVScroll>true</Style_AutoVScroll>
+        <Style_Transparent>true</Style_Transparent>
+        <ResizeLast>false</ResizeLast>
+
+        <AutoStretch>true</AutoStretch>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <Pieces>OW_QSP_CategoriesLabel</Pieces>
+        <Pieces>Screen:OW_QSP_CategoryTemplate</Pieces>
+    </VerticalLayoutBox>
+
+    <!-- -->
+
+    <!-- Repurposed as a spacer -->
+    <Label item="OW_QSP_StatsLabel">
+        <ScreenID>OW_QSP_StatsLabel</ScreenID>
+        <Font>5</Font>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Label>
+
+    <Label item="OW_QSP_StatsMinionsHeading">
+        <ScreenID>OW_QSP_StatsMinionsHeading</ScreenID>
+        <Text>Agents</Text>
+        <Font>5</Font>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestHeading">
+        <ScreenID>OW_QSP_StatsQuestHeading</ScreenID>
+        <Text>Quests</Text>
+        <Font>5</Font>
+        <ResizeHeightToText>true</ResizeHeightToText>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <!-- Minions Total -->
+
+    <Label item="OW_QSP_StatsMinionsTotalLabel">
+        <ScreenID>OW_QSP_StatsMinionsTotalLabel</ScreenID>
+        <Text>Total:</Text>	
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsMinionsTotalValue">
+        <ScreenID>OW_QSP_StatsMinionsTotalValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsMinionsLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsMinionsTotalLabel</Pieces>
+        <Pieces>OW_QSP_StatsMinionsTotalValue</Pieces>
+    </LayoutBox>
+
+    <!-- Minions Incap -->
+
+    <Label item="OW_QSP_StatsMinionsIncapacitatedLabel">
+        <ScreenID>OW_QSP_StatsMinionsIncapacitatedLabel</ScreenID>
+        <Text>Incapacitated:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsMinionsIncapacitatedValue">
+        <ScreenID>OW_QSP_StatsMinionsIncapacitatedValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsMinionsIncapacitatedLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsMinionsIncapacitatedLabel</Pieces>
+        <Pieces>OW_QSP_StatsMinionsIncapacitatedValue</Pieces>
+    </LayoutBox>
+
+    <!-- Minions Idle -->
+
+    <Label item="OW_QSP_StatsMinionsIdleLabel">
+        <ScreenID>OW_QSP_StatsMinionsIdleLabel</ScreenID>
+        <Text>Ready:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsMinionsIdleValue">
+        <ScreenID>OW_QSP_StatsMinionsIdleValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsMinionsIdleLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsMinionsIdleLabel</Pieces>
+        <Pieces>OW_QSP_StatsMinionsIdleValue</Pieces>
+    </LayoutBox>
+
+    <!-- Minions Active -->
+
+    <Label item="OW_QSP_StatsMinionsActiveLabel">
+        <ScreenID>OW_QSP_StatsMinionsActiveLabel</ScreenID>
+        <Text>Questing:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsMinionsActiveValue">
+        <ScreenID>OW_QSP_StatsMinionsActiveValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsMinionsActiveLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsMinionsActiveLabel</Pieces>
+        <Pieces>OW_QSP_StatsMinionsActiveValue</Pieces>
+    </LayoutBox>
+
+    <!-- Quests Active -->
+
+    <Label item="OW_QSP_StatsQuestsActiveLabel">
+        <ScreenID>OW_QSP_StatsQuestsActiveLabel</ScreenID>
+        <Text>Active:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestsActiveValue">
+        <TooltipReference>This count does not include any active conversion quests</TooltipReference>
+        <ScreenID>OW_QSP_StatsQuestsActiveValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsQuestsActiveLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsQuestsActiveLabel</Pieces>
+        <Pieces>OW_QSP_StatsQuestsActiveValue</Pieces>
+    </LayoutBox>
+
+    <!-- Quests Complete -->
+
+    <Label item="OW_QSP_StatsQuestsCompleteLabel">
+        <ScreenID>OW_QSP_StatsQuestsCompleteLabel</ScreenID>
+        <Text>Completed:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestsCompleteValue">
+        <ScreenID>OW_QSP_StatsQuestsCompleteValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsQuestsCompleteLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsQuestsCompleteLabel</Pieces>
+        <Pieces>OW_QSP_StatsQuestsCompleteValue</Pieces>
+    </LayoutBox>
+
+    <!-- Quests Success -->
+
+    <Label item="OW_QSP_StatsQuestsSuccessLabel">
+        <ScreenID>OW_QSP_StatsQuestsSuccessLabel</ScreenID>
+        <Text>Success:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestsSuccessValue">
+        <ScreenID>OW_QSP_StatsQuestsSuccessValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsQuestsSuccessLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsQuestsSuccessLabel</Pieces>
+        <Pieces>OW_QSP_StatsQuestsSuccessValue</Pieces>
+    </LayoutBox>
+
+    <!-- Quests Critical Success -->
+
+    <Label item="OW_QSP_StatsQuestsCriticalSuccessLabel">
+        <ScreenID>OW_QSP_StatsQuestsCriticalSuccessLabel</ScreenID>
+        <Text>Critical Success:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestsCriticalSuccessValue">
+        <ScreenID>OW_QSP_StatsQuestsCriticalSuccessValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsQuestsCriticalSuccessLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsQuestsCriticalSuccessLabel</Pieces>
+        <Pieces>OW_QSP_StatsQuestsCriticalSuccessValue</Pieces>
+    </LayoutBox>
+
+    <!-- Quests Failure -->
+
+    <Label item="OW_QSP_StatsQuestsFailureLabel">
+        <ScreenID>OW_QSP_StatsQuestsFailureLabel</ScreenID>
+        <Text>Failure:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestsFailureValue">
+        <ScreenID>OW_QSP_StatsQuestsFailureValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsQuestsFailureLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsQuestsFailureLabel</Pieces>
+        <Pieces>OW_QSP_StatsQuestsFailureValue</Pieces>
+    </LayoutBox>
+
+    <!-- Quests Critical Failure -->
+
+    <Label item="OW_QSP_StatsQuestsCriticalFailureLabel">
+        <ScreenID>OW_QSP_StatsQuestsCriticalFailureLabel</ScreenID>
+        <Text>Critical Failure:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestsCriticalFailureValue">
+        <ScreenID>OW_QSP_StatsQuestsCriticalFailureValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsQuestsCriticalFailureLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsQuestsCriticalFailureLabel</Pieces>
+        <Pieces>OW_QSP_StatsQuestsCriticalFailureValue</Pieces>
+    </LayoutBox>
+
+    <!-- Quests Abandoned -->
+
+    <Label item="OW_QSP_StatsQuestsAbandonedLabel">
+        <ScreenID>OW_QSP_StatsQuestsAbandonedLabel</ScreenID>
+        <Text>Abandoned:</Text>
+        <ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>true</AlignLeft>
+        <AlignRight>false</AlignRight>
+        
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <Label item="OW_QSP_StatsQuestsAbandonedValue">
+        <ScreenID>OW_QSP_StatsQuestsAbandonedValue</ScreenID>
+		<ResizeHeightToText>true</ResizeHeightToText>
+        <AlignLeft>false</AlignLeft>
+        <AlignRight>true</AlignRight>
+
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+    </Label>
+
+    <LayoutBox item="OW_QSP_StatsQuestsAbandonedLayout">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+
+        <LeftAnchorOffset>20</LeftAnchorOffset>
+        <RightAnchorOffset>196</RightAnchorOffset>
+
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>OW_QSP_StatsQuestsAbandonedLabel</Pieces>
+        <Pieces>OW_QSP_StatsQuestsAbandonedValue</Pieces>
+    </LayoutBox>
+
+    <!-- -->
+
+    <VerticalLayoutBox item="OW_QSP_StatsList">
+        <ScreenID>OW_QSP_StatsList</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_Transparent>true</Style_Transparent>
+
+        <Spacing>0</Spacing>
+
+        <Pieces>OW_QSP_StatsLabel</Pieces>
+
+        <Pieces>OW_QSP_StatsMinionsHeading</Pieces>
+        <Pieces>OW_QSP_StatsMinionsLayout</Pieces>
+        <Pieces>OW_QSP_StatsMinionsIdleLayout</Pieces>
+        <Pieces>OW_QSP_StatsMinionsActiveLayout</Pieces>
+        <Pieces>OW_QSP_StatsMinionsIncapacitatedLayout</Pieces>
+
+        <Pieces>OW_QSP_StatsQuestHeading</Pieces>
+        <Pieces>OW_QSP_StatsQuestsActiveLayout</Pieces>
+        <Pieces>OW_QSP_StatsQuestsCompleteLayout</Pieces>
+        <Pieces>OW_QSP_StatsQuestsSuccessLayout</Pieces>
+        <Pieces>OW_QSP_StatsQuestsCriticalSuccessLayout</Pieces>
+        <Pieces>OW_QSP_StatsQuestsFailureLayout</Pieces>
+        <Pieces>OW_QSP_StatsQuestsCriticalFailureLayout</Pieces>
+        <Pieces>OW_QSP_StatsQuestsAbandonedLayout</Pieces>
+    </VerticalLayoutBox>
+
+    <Screen item="OW_QSP_LeftPane">
+        <ScreenID>OW_QSP_LeftPane</ScreenID>
+        <DrawTemplate>WDT_Inner</DrawTemplate>
+        <Style_Border>true</Style_Border>
+        <Style_VScroll>false</Style_VScroll>
+        <Style_Transparent>true</Style_Transparent>
+
+        <AutoStretchVertical>true</AutoStretchVertical>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <MinHSize>190</MinHSize>
+        <MaxHSize>190</MaxHSize>
+
+        <Pieces>OW_QSP_CategoriesList</Pieces>
+    </Screen>
+
+    <HorizontalLayoutBox item="OW_QSP_Layout">
+        <ScreenID>OW_QSP_Layout</ScreenID>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+        <Style_VScroll>false</Style_VScroll>
+        <Style_Transparent>false</Style_Transparent>
+        
+        <AutoStretch>true</AutoStretch>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+
+        <Spacing>4</Spacing>
+
+        <Pieces>Screen:OW_QSP_LeftPane</Pieces>
+        <Pieces>VerticalLayoutBox:OW_QSP_StatsList</Pieces>
+    </HorizontalLayoutBox>
+
+</XML>

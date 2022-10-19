@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Composite>
+    <Include>spell_window\Spell0.xml</Include>
+		<Include>spell_window\Spell1.xml</Include>
+		<Include>spell_window\Spell2.xml</Include>
+		<Include>spell_window\Spell3.xml</Include>
+		<Include>spell_window\Spell4.xml</Include>
+		<Include>spell_window\Spell5.xml</Include>
+		<Include>spell_window\Spell6.xml</Include>
+		<Include>spell_window\Spell7.xml</Include>
+		<Include>spell_window\Spell8.xml</Include>
+		<Include>spell_window\Spell9.xml</Include>
+		<Include>spell_window\Spell10.xml</Include>
+		<Include>spell_window\Spell11.xml</Include>
+		<Include>spell_window\Spell12.xml</Include>
+		<Include>spell_window\Spell13.xml</Include>
+
+		<Include>spell_window\SpellBook.xml</Include>
+    <Include>spell_window\_scene.xml</Include>
+  </Composite>
+
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>
