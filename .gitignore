@@ -9,3 +9,4 @@
 /TargetIndicator.ini
 /UI_Shillingworth_bertox.ini
 /generator/obj/**/*
+/generator/bin/**/*
