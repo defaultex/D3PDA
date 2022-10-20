@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="ASP_SocialPageLeftButton">
+        <ScreenID>ASP_SocialPageLeftButton</ScreenID>
+        <Template>BDT_HSBLeft</Template>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>true</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>15</LeftAnchorOffset>
+        <RightAnchorOffset>37</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        <BottomAnchorOffset>14</BottomAnchorOffset>
+    </Button>
+
+    <Label item="ASP_CurrentSocialPageLabel">
+        <ScreenID>ASP_CurrentSocialPageLabel</ScreenID>
+        <Text>1</Text>
+        <Font>2</Font>
+        <NoWrap>true</NoWrap>
+        <AlignCenter>true</AlignCenter>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>37</LeftAnchorOffset>
+        <RightAnchorOffset>37</RightAnchorOffset>
+    </Label>
+
+    <Button item="ASP_SocialPageRightButton">
+        <ScreenID>ASP_SocialPageRightButton</ScreenID>
+        <Template>BDT_HSBRight</Template>
+
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>false</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>true</BottomAnchorToTop>
+
+        <LeftAnchorOffset>37</LeftAnchorOffset>
+        <RightAnchorOffset>15</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        <BottomAnchorOffset>14</BottomAnchorOffset>
+    </Button>
+
+    <Button item="ASP_SocialButton1">
+        <ScreenID>ASP_SocialButton1</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>5</X>
+            <Y>20</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton7">
+        <ScreenID>ASP_SocialButton7</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>55</X>
+            <Y>20</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton2">
+        <ScreenID>ASP_SocialButton2</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>5</X>
+            <Y>40</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton8">
+        <ScreenID>ASP_SocialButton8</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>55</X>
+            <Y>40</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton3">
+        <ScreenID>ASP_SocialButton3</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>5</X>
+            <Y>60</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton9">
+        <ScreenID>ASP_SocialButton9</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>55</X>
+            <Y>60</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton4">
+        <ScreenID>ASP_SocialButton4</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>5</X>
+            <Y>80</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton10">
+        <ScreenID>ASP_SocialButton10</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>55</X>
+            <Y>80</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton5">
+        <ScreenID>ASP_SocialButton5</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>5</X>
+            <Y>100</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton11">
+        <ScreenID>ASP_SocialButton11</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>55</X>
+            <Y>100</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton6">
+        <ScreenID>ASP_SocialButton6</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>5</X>
+            <Y>120</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="ASP_SocialButton12">
+        <ScreenID>ASP_SocialButton12</ScreenID>
+        <Template>BDT_SmallNormal</Template>
+        <Font>2</Font>
+        <Location>
+            <X>55</X>
+            <Y>120</Y>
+        </Location>
+        <Size>
+            <CX>50</CX>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <LayoutBox item="ASP_Navigation">
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+
+        <Pieces>ASP_SocialPageLeftButton</Pieces>
+        <Pieces>ASP_CurrentSocialPageLabel</Pieces>
+        <Pieces>ASP_SocialPageRightButton</Pieces>
+    </LayoutBox>
+
+    <TileLayoutBox item="ASP_Layout">
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>5</LeftAnchorOffset>
+        <RightAnchorOffset>5</RightAnchorOffset>
+        <TopAnchorOffset>4</TopAnchorOffset>
+        <BottomAnchorOffset>4</BottomAnchorOffset>
+
+        <Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+        
+        <Pieces>LayoutBox:ASP_Navigation</Pieces>
+        <Pieces>ASP_SocialButton1</Pieces>
+        <Pieces>ASP_SocialButton2</Pieces>
+        <Pieces>ASP_SocialButton3</Pieces>
+        <Pieces>ASP_SocialButton4</Pieces>
+        <Pieces>ASP_SocialButton5</Pieces>
+        <Pieces>ASP_SocialButton6</Pieces>
+        <Pieces>ASP_SocialButton7</Pieces>
+        <Pieces>ASP_SocialButton8</Pieces>
+        <Pieces>ASP_SocialButton9</Pieces>
+        <Pieces>ASP_SocialButton10</Pieces>
+        <Pieces>ASP_SocialButton11</Pieces>
+        <Pieces>ASP_SocialButton12</Pieces>
+    </TileLayoutBox>
+
+    <Page item="ActionsSocialsPage">
+        <TooltipReference>Socials Page</TooltipReference>
+        <ScreenID>ActionsSocialsPage</ScreenID>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+
+        <TabIcon>A_SocialsTabIcon</TabIcon>
+        <TabIconActive>A_SocialsTabActiveIcon</TabIconActive>
+
+        <Pieces>TileLayoutBox:ASP_Layout</Pieces>
+    </Page>
+
+</XML>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="AMP_WhoButton">
+        <ScreenID>AMP_WhoButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Who</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_FindButton">
+        <ScreenID>AMP_FindButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Find</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_EndFindButton">
+        <ScreenID>AMP_EndFindButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>End Find</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_InviteButton">
+        <ScreenID>AMP_InviteButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Invite</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_FollowButton">
+        <ScreenID>AMP_FollowButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Follow</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_DisbandButton">
+        <ScreenID>AMP_DisbandButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Disband</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_CampButton">
+        <ScreenID>AMP_CampButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Camp (Exit)</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_SitButton">
+        <ScreenID>AMP_SitButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Sit</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_StandButton">
+        <ScreenID>AMP_StandButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Stand</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_RunButton">
+        <ScreenID>AMP_RunButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Run</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <Button item="AMP_WalkButton">
+        <ScreenID>AMP_WalkButton</ScreenID>
+        <Template>BDT_Normal</Template>
+        <Text>Walk</Text>
+        <AutoStretchHorizontal>true</AutoStretchHorizontal>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <Size>
+            <CY>20</CY>
+        </Size>
+    </Button>
+
+    <TileLayoutBox item="AMP_Layout">
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>2</LeftAnchorOffset>
+        <RightAnchorOffset>2</RightAnchorOffset>
+        <TopAnchorOffset>2</TopAnchorOffset>
+        <BottomAnchorOffset>2</BottomAnchorOffset>
+
+        <Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>AMP_WhoButton</Pieces>
+        <Pieces>AMP_FindButton</Pieces>
+        <Pieces>AMP_EndFindButton</Pieces>
+        <Pieces>AMP_InviteButton</Pieces>
+        <Pieces>AMP_FollowButton</Pieces>
+        <Pieces>AMP_DisbandButton</Pieces>
+        <Pieces>AMP_CampButton</Pieces>
+        <Pieces>AMP_SitButton</Pieces>
+        <Pieces>AMP_StandButton</Pieces>
+        <Pieces>AMP_RunButton</Pieces>
+        <Pieces>AMP_WalkButton</Pieces>
+    </TileLayoutBox>
+
+    <Page item="ActionsMainPage">
+        <TooltipReference>Main Page</TooltipReference>
+        <ScreenID>ActionsMainPage</ScreenID>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+
+        <TabIcon>A_MainTabIcon</TabIcon>
+        <TabIconActive>A_MainTabActiveIcon</TabIconActive>
+
+        <Pieces>TileLayoutBox:AMP_Layout</Pieces>
+    </Page>
+
+</XML>

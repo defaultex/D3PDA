@@ -97,31 +97,23 @@
             <PressedFlyby>A_TileBtnPressedFlyby</PressedFlyby>
         </TileBox>
         <Border>
-            <TopLeft>D3PDA_LargeBorder_TopLeft</TopLeft>
-            <Top>D3PDA_LargeBorder_Top</Top>
-            <TopRight>D3PDA_LargeBorder_TopRight</TopRight>
-            <BottomLeft>D3PDA_LargeBorder_BottomLeft</BottomLeft>
-            <Bottom>D3PDA_LargeBorder_Bottom</Bottom>
-            <BottomRight>D3PDA_LargeBorder_BottomRight</BottomRight>
-            <LeftTop>D3PDA_LargeBorder_LeftTop</LeftTop>
-            <Left>D3PDA_LargeBorder_Left</Left>
-            <LeftBottom>D3PDA_LargeBorder_LeftBottom</LeftBottom>
-            <RightTop>D3PDA_LargeBorder_RightTop</RightTop>
-            <Right>D3PDA_LargeBorder_Right</Right>
-            <RightBottom>D3PDA_LargeBorder_RightBottom</RightBottom>
-            <OverlapLeft>0</OverlapLeft>
-            <OverlapTop>10</OverlapTop>
-            <OverlapRight>0</OverlapRight>
-            <OverlapBottom>0</OverlapBottom>
+            <TopLeft>D3PDA_SmallGreenBorder_TopLeft</TopLeft>
+            <Top>D3PDA_SmallGreenBorder_Top</Top>
+            <TopRight>D3PDA_SmallGreenBorder_TopRight</TopRight>
+            <BottomLeft>D3PDA_SmallGreenBorder_BottomLeft</BottomLeft>
+            <Bottom>D3PDA_SmallGreenBorder_Bottom</Bottom>
+            <BottomRight>D3PDA_SmallGreenBorder_BottomRight</BottomRight>
+            <LeftTop>D3PDA_SmallGreenBorder_LeftTop</LeftTop>
+            <Left>D3PDA_SmallGreenBorder_Left</Left>
+            <LeftBottom>D3PDA_SmallGreenBorder_LeftBottom</LeftBottom>
+            <RightTop>D3PDA_SmallGreenBorder_RightTop</RightTop>
+            <Right>D3PDA_SmallGreenBorder_Right</Right>
+            <RightBottom>D3PDA_SmallGreenBorder_RightBottom</RightBottom>
         </Border>
         <Titlebar>
-            <Left>D3PDA_TitleLeft</Left>
+            <Left>D3PDA_TitleMiddle</Left>
             <Middle>D3PDA_TitleMiddle</Middle>
-            <Right>D3PDA_TitleRight</Right>
-            <OverlapLeft>0</OverlapLeft>
-            <OverlapTop>0</OverlapTop>
-            <OverlapRight>0</OverlapRight>
-            <OverlapBottom>0</OverlapBottom>
+            <Right>D3PDA_TitleMiddle</Right>
         </Titlebar>
     </WindowDrawTemplate>
 

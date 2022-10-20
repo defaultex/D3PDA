@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>actions_window\MainPage.xml</Include>
+		<Include>actions_window\AbilitiesPage.xml</Include>
+		<Include>actions_window\CombatPage.xml</Include>
+		<Include>actions_window\SocialsPage.xml</Include>
+		<Include>actions_window\_scene.xml</Include>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+</XML>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+    <Button item="ACP_MeleeAttackButton">
+        <ScreenID>ACP_MeleeAttackButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>Melee Attack</Text>
+        <Font>1</Font>
+        <Size>
+            <CX>40</CX>
+            <CY>40</CY>
+        </Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
+    </Button>
+
+    <Button item="ACP_RangeAttackButton">
+        <ScreenID>ACP_RangeAttackButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>Range Attack</Text>
+        <Font>1</Font>
+        <Size>
+            <CX>40</CX>
+            <CY>40</CY>
+        </Size>
+        <DecalSize>
+            <CX>40</CX>
+            <CY>40</CY>
+        </DecalSize>
+    </Button>
+
+    <Button item="ACP_FirstAbilityButton">
+        <ScreenID>ACP_FirstAbilityButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>1</Text>
+        <Font>1</Font>
+        <Size>
+            <CX>40</CX>
+            <CY>40</CY>
+        </Size>
+    </Button>
+
+    <Button item="ACP_SecondAbilityButton">
+        <ScreenID>ACP_SecondAbilityButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>2</Text>
+        <Font>1</Font>
+        <Size>
+            <CX>40</CX>
+            <CY>40</CY>
+        </Size>
+    </Button>
+
+    <Button item="ACP_ThirdAbilityButton">
+        <ScreenID>ACP_ThirdAbilityButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>3</Text>
+        <Font>1</Font>
+        <Size>
+            <CX>40</CX>
+            <CY>40</CY>
+        </Size>
+    </Button>
+
+    <Button item="ACP_FourthAbilityButton">
+        <ScreenID>ACP_FourthAbilityButton</ScreenID>
+        <Template>BDT_Square</Template>
+        <Text>4</Text>
+        <Font>1</Font>
+        <Size>
+            <CX>40</CX>
+            <CY>40</CY>
+        </Size>
+    </Button>
+
+    <TileLayoutBox item="ACP_Layout">
+        <AutoStretch>true</AutoStretch>
+        <LeftAnchorToLeft>true</LeftAnchorToLeft>
+        <RightAnchorToLeft>false</RightAnchorToLeft>
+        <TopAnchorToTop>true</TopAnchorToTop>
+        <BottomAnchorToTop>false</BottomAnchorToTop>
+
+        <LeftAnchorOffset>15</LeftAnchorOffset>
+        <RightAnchorOffset>15</RightAnchorOffset>
+        <TopAnchorOffset>14</TopAnchorOffset>
+        <BottomAnchorOffset>14</BottomAnchorOffset>
+
+        <Spacing>0</Spacing>
+        <SecondarySpacing>0</SecondarySpacing>
+
+        <Pieces>ACP_MeleeAttackButton</Pieces>
+        <Pieces>ACP_RangeAttackButton</Pieces>
+        <Pieces>ACP_FirstAbilityButton</Pieces>
+        <Pieces>ACP_SecondAbilityButton</Pieces>
+        <Pieces>ACP_ThirdAbilityButton</Pieces>
+        <Pieces>ACP_FourthAbilityButton</Pieces>
+    </TileLayoutBox>
+
+    <Page item="ActionsCombatPage">
+        <TooltipReference>Combat Page</TooltipReference>
+        <ScreenID>ActionsCombatPage</ScreenID>
+        <DrawTemplate>WDT_Def</DrawTemplate>
+
+        <TabIcon>A_CombatTabIcon</TabIcon>
+        <TabIconActive>A_CombatTabActiveIcon</TabIconActive>
+
+        <Pieces>TileLayoutBox:ACP_Layout</Pieces>
+    </Page>
+
+</XML>

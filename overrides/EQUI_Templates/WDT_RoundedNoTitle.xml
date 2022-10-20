@@ -109,20 +109,7 @@
             <RightTop>D3PDA_SmallGreenBorder_RightTop</RightTop>
             <Right>D3PDA_SmallGreenBorder_Right</Right>
             <RightBottom>D3PDA_SmallGreenBorder_RightBottom</RightBottom>
-            <OverlapLeft>0</OverlapLeft>
-            <OverlapTop>0</OverlapTop>
-            <OverlapRight>0</OverlapRight>
-            <OverlapBottom>0</OverlapBottom>
         </Border>
-        <Titlebar>
-            <Left>D3PDA_TitleMiddle</Left>
-            <Middle>D3PDA_TitleMiddle</Middle>
-            <Right>D3PDA_TitleMiddle</Right>
-            <OverlapLeft>0</OverlapLeft>
-            <OverlapTop>0</OverlapTop>
-            <OverlapRight>0</OverlapRight>
-            <OverlapBottom>0</OverlapBottom>
-        </Titlebar>
     </WindowDrawTemplate>
 
 </XML>
