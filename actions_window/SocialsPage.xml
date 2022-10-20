@@ -249,16 +249,16 @@
         
         <Pieces>LayoutBox:ASP_Navigation</Pieces>
         <Pieces>ASP_SocialButton1</Pieces>
-        <Pieces>ASP_SocialButton2</Pieces>
-        <Pieces>ASP_SocialButton3</Pieces>
-        <Pieces>ASP_SocialButton4</Pieces>
-        <Pieces>ASP_SocialButton5</Pieces>
-        <Pieces>ASP_SocialButton6</Pieces>
         <Pieces>ASP_SocialButton7</Pieces>
+        <Pieces>ASP_SocialButton2</Pieces>
         <Pieces>ASP_SocialButton8</Pieces>
+        <Pieces>ASP_SocialButton3</Pieces>
         <Pieces>ASP_SocialButton9</Pieces>
+        <Pieces>ASP_SocialButton4</Pieces>
         <Pieces>ASP_SocialButton10</Pieces>
+        <Pieces>ASP_SocialButton5</Pieces>
         <Pieces>ASP_SocialButton11</Pieces>
+        <Pieces>ASP_SocialButton6</Pieces>
         <Pieces>ASP_SocialButton12</Pieces>
     </TileLayoutBox>
 
