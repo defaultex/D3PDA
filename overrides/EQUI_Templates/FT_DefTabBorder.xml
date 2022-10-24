@@ -20,10 +20,10 @@
         <TopRight>D3PDA_SmallGreenBorder_TopRight</TopRight>
         <RightTop>D3PDA_SmallGreenBorder_RightTop</RightTop>
         <Right>D3PDA_SmallGreenBorder_Right</Right>
-        <RightBottom>D3PDA_Empty</RightBottom>
+        <RightBottom>D3PDA_Empty7H</RightBottom>
         <LeftTop>D3PDA_SmallGreenBorder_LeftTop</LeftTop>
         <Left>D3PDA_SmallGreenBorder_Left</Left>
-        <LeftBottom>D3PDA_Empty</LeftBottom>
+        <LeftBottom>D3PDA_Empty7H</LeftBottom>
     </FrameTemplate>
 
 </XML>

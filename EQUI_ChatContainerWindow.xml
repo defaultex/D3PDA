@@ -19,7 +19,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 
-		<TopAnchorOffset>20</TopAnchorOffset>
+		<TopAnchorOffset>16</TopAnchorOffset>
 	</Page>
 
 	<TabBox item="CCW_ChatWindows">

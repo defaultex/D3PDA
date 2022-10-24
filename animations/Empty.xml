@@ -16,4 +16,18 @@
         </Frames>
     </Ui2DAnimation>
 
+    <Ui2DAnimation item="D3PDA_Empty7H">
+        <Frames>
+            <Texture>assets/D3PDA.tga</Texture>
+            <Location>
+                <X>0</X>
+                <Y>39</Y>
+            </Location>
+            <Size>
+                <CX>1</CX>
+                <CY>7</CY>
+            </Size>
+        </Frames>
+    </Ui2DAnimation>
+
 </XML>
