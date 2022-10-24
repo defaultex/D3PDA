@@ -49,6 +49,8 @@
 			<CX>168</CX>
 			<CY>108</CY>
 		</Size>
+
+		<MinVSize>28</MinVSize>
 		
 		<Pieces>AW_AuraList</Pieces>
 	</Screen>

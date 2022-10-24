@@ -68,7 +68,13 @@
         <ToggleBorder>true</ToggleBorder>
         <Escapable>false</Escapable>
         <RelativePosition>false</RelativePosition>
+
+        <MinHSize>208</MinHSize>
+        <MaxHSize>208</MaxHSize>
+
         <MinVSize>26</MinVSize>
+        <MaxVSize>480</MaxVSize>
+
         <Location>
             <X>134</X>
             <Y>134</Y>
