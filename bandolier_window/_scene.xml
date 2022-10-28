@@ -38,7 +38,7 @@
         <TopAnchorOffset>54</TopAnchorOffset>
         <BottomAnchorOffset>0</BottomAnchorOffset>
 
-        <Spacing>0</Spacing>
+        <Spacing>2</Spacing>
         <SecondarySpacing>0</SecondarySpacing>
 
         <Pieces>BW_AddButton</Pieces>
@@ -72,7 +72,7 @@
 
     <Screen item="BandolierWnd">
         <ScreenID>BandolierWnd</ScreenID>
-        <DrawTemplate>WDT_Def</DrawTemplate>
+        <DrawTemplate>WDT_LargeBorder</DrawTemplate>
         <Text>Bandolier</Text>
         <Style_Border>true</Style_Border>
         <Style_VScroll>false</Style_VScroll>
