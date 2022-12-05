@@ -224,7 +224,7 @@
 
         <LeftAnchorOffset>0</LeftAnchorOffset>
         <RightAnchorOffset>0</RightAnchorOffset>
-        <TopAnchorOffset>-2</TopAnchorOffset>
+        <TopAnchorOffset>-1</TopAnchorOffset>
         <BottomAnchorOffset>0</BottomAnchorOffset>
 
         <LeftAnchorToLeft>true</LeftAnchorToLeft>

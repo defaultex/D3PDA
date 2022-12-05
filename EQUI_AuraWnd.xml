@@ -14,10 +14,10 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TopAnchorOffset>5</TopAnchorOffset>
-		<LeftAnchorOffset>5</LeftAnchorOffset>
-		<RightAnchorOffset>5</RightAnchorOffset>
-		<BottomAnchorOffset>5</BottomAnchorOffset>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
 
 		<Columns>
 			<Width>15</Width>
@@ -50,7 +50,7 @@
 			<CY>108</CY>
 		</Size>
 
-		<MinVSize>28</MinVSize>
+		<MinVSize>24</MinVSize>
 		
 		<Pieces>AW_AuraList</Pieces>
 	</Screen>
