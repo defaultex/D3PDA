@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<InvSlot item="BIGB_SharedBankSlot0">
+		<ScreenID>BIGB_SharedBankSlot0</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0</EQType>
+		<Location>
+			<X>12</X>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+	</InvSlot>
+
+	<InvSlot item="inventory/SharedBank 0_Slot0">
+		<ScreenID>inventory/SharedBank 0_Slot0</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/0</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot1">
+		<ScreenID>inventory/SharedBank 0_Slot1</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/1</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot2">
+		<ScreenID>inventory/SharedBank 0_Slot2</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/2</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot3">
+		<ScreenID>inventory/SharedBank 0_Slot3</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/3</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot4">
+		<ScreenID>inventory/SharedBank 0_Slot4</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/4</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot5">
+		<ScreenID>inventory/SharedBank 0_Slot5</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/5</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot6">
+		<ScreenID>inventory/SharedBank 0_Slot6</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/6</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot7">
+		<ScreenID>inventory/SharedBank 0_Slot7</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/7</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot8">
+		<ScreenID>inventory/SharedBank 0_Slot8</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/8</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot9">
+		<ScreenID>inventory/SharedBank 0_Slot9</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/9</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot10">
+		<ScreenID>inventory/SharedBank 0_Slot10</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/10</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot11">
+		<ScreenID>inventory/SharedBank 0_Slot11</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/11</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot12">
+		<ScreenID>inventory/SharedBank 0_Slot12</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/12</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot13">
+		<ScreenID>inventory/SharedBank 0_Slot13</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/13</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot14">
+		<ScreenID>inventory/SharedBank 0_Slot14</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/14</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot15">
+		<ScreenID>inventory/SharedBank 0_Slot15</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/15</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot16">
+		<ScreenID>inventory/SharedBank 0_Slot16</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/16</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot17">
+		<ScreenID>inventory/SharedBank 0_Slot17</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/17</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot18">
+		<ScreenID>inventory/SharedBank 0_Slot18</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/18</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot19">
+		<ScreenID>inventory/SharedBank 0_Slot19</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/19</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot20">
+		<ScreenID>inventory/SharedBank 0_Slot20</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/20</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot21">
+		<ScreenID>inventory/SharedBank 0_Slot21</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/21</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot22">
+		<ScreenID>inventory/SharedBank 0_Slot22</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/22</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot23">
+		<ScreenID>inventory/SharedBank 0_Slot23</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/23</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot24">
+		<ScreenID>inventory/SharedBank 0_Slot24</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/24</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot25">
+		<ScreenID>inventory/SharedBank 0_Slot25</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/25</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot26">
+		<ScreenID>inventory/SharedBank 0_Slot26</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/26</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot27">
+		<ScreenID>inventory/SharedBank 0_Slot27</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/27</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot28">
+		<ScreenID>inventory/SharedBank 0_Slot28</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/28</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot29">
+		<ScreenID>inventory/SharedBank 0_Slot29</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/29</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot30">
+		<ScreenID>inventory/SharedBank 0_Slot30</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/30</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot31">
+		<ScreenID>inventory/SharedBank 0_Slot31</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/31</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot32">
+		<ScreenID>inventory/SharedBank 0_Slot32</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/32</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot33">
+		<ScreenID>inventory/SharedBank 0_Slot33</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/33</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot34">
+		<ScreenID>inventory/SharedBank 0_Slot34</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/34</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot35">
+		<ScreenID>inventory/SharedBank 0_Slot35</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/35</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot36">
+		<ScreenID>inventory/SharedBank 0_Slot36</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/36</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot37">
+		<ScreenID>inventory/SharedBank 0_Slot37</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/37</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot38">
+		<ScreenID>inventory/SharedBank 0_Slot38</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/38</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot39">
+		<ScreenID>inventory/SharedBank 0_Slot39</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/39</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot40">
+		<ScreenID>inventory/SharedBank 0_Slot40</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/40</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot41">
+		<ScreenID>inventory/SharedBank 0_Slot41</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/41</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot42">
+		<ScreenID>inventory/SharedBank 0_Slot42</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/42</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot43">
+		<ScreenID>inventory/SharedBank 0_Slot43</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/43</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot44">
+		<ScreenID>inventory/SharedBank 0_Slot44</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/44</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot45">
+		<ScreenID>inventory/SharedBank 0_Slot45</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/45</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot46">
+		<ScreenID>inventory/SharedBank 0_Slot46</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/46</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot47">
+		<ScreenID>inventory/SharedBank 0_Slot47</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/47</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot48">
+		<ScreenID>inventory/SharedBank 0_Slot48</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/48</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot49">
+		<ScreenID>inventory/SharedBank 0_Slot49</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/49</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot50">
+		<ScreenID>inventory/SharedBank 0_Slot50</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/50</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot51">
+		<ScreenID>inventory/SharedBank 0_Slot51</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/51</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot52">
+		<ScreenID>inventory/SharedBank 0_Slot52</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/52</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot53">
+		<ScreenID>inventory/SharedBank 0_Slot53</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/53</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot54">
+		<ScreenID>inventory/SharedBank 0_Slot54</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/54</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot55">
+		<ScreenID>inventory/SharedBank 0_Slot55</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/55</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot56">
+		<ScreenID>inventory/SharedBank 0_Slot56</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/56</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot57">
+		<ScreenID>inventory/SharedBank 0_Slot57</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/57</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot58">
+		<ScreenID>inventory/SharedBank 0_Slot58</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/58</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="inventory/SharedBank 0_Slot59">
+		<ScreenID>inventory/SharedBank 0_Slot59</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/SharedBank 0/59</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+
+	<Screen item="BIGB_SharedBag0_Icon">
+		<Size>
+			<CX>54</CX>
+			<CY>30</CY>
+		</Size>
+		<Pieces>BIGB_SharedBankSlot0</Pieces>
+	</Screen>
+
+	<TileLayoutBox item="SharedBank 0">
+		<HorizontalFirst>true</HorizontalFirst>
+		<AutoStretchVertical>true</AutoStretchVertical>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+		<Location>
+			<X>2</X>
+		</Location>
+		<Size>
+			<CX>58</CX>
+			<CY>679</CY> 
+		</Size>
+
+		<Pieces>Screen:BIGB_SharedBag0_Icon</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot0</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot1</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot2</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot3</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot4</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot5</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot6</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot7</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot8</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot9</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot10</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot11</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot12</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot13</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot14</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot15</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot16</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot17</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot18</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot19</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot20</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot21</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot22</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot23</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot24</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot25</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot26</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot27</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot28</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot29</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot30</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot31</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot32</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot33</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot34</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot35</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot36</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot37</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot38</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot39</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot40</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot41</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot42</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot43</Pieces>
+		<!--
+		<Pieces>inventory/SharedBank 0_Slot44</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot45</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot46</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot47</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot48</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot49</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot50</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot51</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot52</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot53</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot54</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot55</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot56</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot57</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot58</Pieces>
+		<Pieces>inventory/SharedBank 0_Slot59</Pieces>
+		-->
+	</TileLayoutBox>
+
+</XML>

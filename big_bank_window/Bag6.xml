@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<InvSlot item="BIGB_BankSlot6">
+		<ScreenID>BIGB_BankSlot6</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6</EQType>
+		<Location>
+			<X>12</X>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+	</InvSlot>
+    
+	<InvSlot item="BB6_Slot0">
+		<ScreenID>BB6_Slot0</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/0</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot1">
+		<ScreenID>BB6_Slot1</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/1</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot2">
+		<ScreenID>BB6_Slot2</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/2</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot3">
+		<ScreenID>BB6_Slot3</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/3</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot4">
+		<ScreenID>BB6_Slot4</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/4</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot5">
+		<ScreenID>BB6_Slot5</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/5</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot6">
+		<ScreenID>BB6_Slot6</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/6</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot7">
+		<ScreenID>BB6_Slot7</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/7</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot8">
+		<ScreenID>BB6_Slot8</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/8</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot9">
+		<ScreenID>BB6_Slot9</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/9</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot10">
+		<ScreenID>BB6_Slot10</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/10</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot11">
+		<ScreenID>BB6_Slot11</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/11</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot12">
+		<ScreenID>BB6_Slot12</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/12</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot13">
+		<ScreenID>BB6_Slot13</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/13</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot14">
+		<ScreenID>BB6_Slot14</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/14</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot15">
+		<ScreenID>BB6_Slot15</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/15</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot16">
+		<ScreenID>BB6_Slot16</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/16</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot17">
+		<ScreenID>BB6_Slot17</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/17</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot18">
+		<ScreenID>BB6_Slot18</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/18</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot19">
+		<ScreenID>BB6_Slot19</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/19</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot20">
+		<ScreenID>BB6_Slot20</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/20</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot21">
+		<ScreenID>BB6_Slot21</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/21</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot22">
+		<ScreenID>BB6_Slot22</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/22</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot23">
+		<ScreenID>BB6_Slot23</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/23</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot24">
+		<ScreenID>BB6_Slot24</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/24</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot25">
+		<ScreenID>BB6_Slot25</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/25</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot26">
+		<ScreenID>BB6_Slot26</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/26</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot27">
+		<ScreenID>BB6_Slot27</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/27</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot28">
+		<ScreenID>BB6_Slot28</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/28</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot29">
+		<ScreenID>BB6_Slot29</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/29</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot30">
+		<ScreenID>BB6_Slot30</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/30</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot31">
+		<ScreenID>BB6_Slot31</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/31</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot32">
+		<ScreenID>BB6_Slot32</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/32</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot33">
+		<ScreenID>BB6_Slot33</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/33</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot34">
+		<ScreenID>BB6_Slot34</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/34</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot35">
+		<ScreenID>BB6_Slot35</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/35</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot36">
+		<ScreenID>BB6_Slot36</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/36</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot37">
+		<ScreenID>BB6_Slot37</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/37</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot38">
+		<ScreenID>BB6_Slot38</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/38</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot39">
+		<ScreenID>BB6_Slot39</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/39</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot40">
+		<ScreenID>BB6_Slot40</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/40</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot41">
+		<ScreenID>BB6_Slot41</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/41</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot42">
+		<ScreenID>BB6_Slot42</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/42</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot43">
+		<ScreenID>BB6_Slot43</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/43</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot44">
+		<ScreenID>BB6_Slot44</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/44</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot45">
+		<ScreenID>BB6_Slot45</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/45</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot46">
+		<ScreenID>BB6_Slot46</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/46</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot47">
+		<ScreenID>BB6_Slot47</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/47</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot48">
+		<ScreenID>BB6_Slot48</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/48</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot49">
+		<ScreenID>BB6_Slot49</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/49</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot50">
+		<ScreenID>BB6_Slot50</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/50</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot51">
+		<ScreenID>BB6_Slot51</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/51</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot52">
+		<ScreenID>BB6_Slot52</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/52</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot53">
+		<ScreenID>BB6_Slot53</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/53</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot54">
+		<ScreenID>BB6_Slot54</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/54</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot55">
+		<ScreenID>BB6_Slot55</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/55</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot56">
+		<ScreenID>BB6_Slot56</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/56</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot57">
+		<ScreenID>BB6_Slot57</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/57</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot58">
+		<ScreenID>BB6_Slot58</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/58</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB6_Slot59">
+		<ScreenID>BB6_Slot59</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 6/59</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+    
+	<Screen item="BIGB_Bag6_Icon">
+		<Size>
+			<CX>54</CX>
+			<CY>30</CY>
+		</Size>
+		<Pieces>BIGB_BankSlot6</Pieces>
+	</Screen>
+
+	<TileLayoutBox item="BIGB_Bag6">
+		<HorizontalFirst>true</HorizontalFirst>
+		<AutoStretchVertical>true</AutoStretchVertical>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+		<Location>
+			<X>2</X>
+		</Location>
+		<Size>
+			<CX>58</CX>
+			<CY>679</CY> 
+		</Size>
+
+		<Pieces>Screen:BIGB_Bag6_Icon</Pieces>
+		<Pieces>BB6_Slot0</Pieces>
+		<Pieces>BB6_Slot1</Pieces>
+		<Pieces>BB6_Slot2</Pieces>
+		<Pieces>BB6_Slot3</Pieces>
+		<Pieces>BB6_Slot4</Pieces>
+		<Pieces>BB6_Slot5</Pieces>
+		<Pieces>BB6_Slot6</Pieces>
+		<Pieces>BB6_Slot7</Pieces>
+		<Pieces>BB6_Slot8</Pieces>
+		<Pieces>BB6_Slot9</Pieces>
+		<Pieces>BB6_Slot10</Pieces>
+		<Pieces>BB6_Slot11</Pieces>
+		<Pieces>BB6_Slot12</Pieces>
+		<Pieces>BB6_Slot13</Pieces>
+		<Pieces>BB6_Slot14</Pieces>
+		<Pieces>BB6_Slot15</Pieces>
+		<Pieces>BB6_Slot16</Pieces>
+		<Pieces>BB6_Slot17</Pieces>
+		<Pieces>BB6_Slot18</Pieces>
+		<Pieces>BB6_Slot19</Pieces>
+		<Pieces>BB6_Slot20</Pieces>
+		<Pieces>BB6_Slot21</Pieces>
+		<Pieces>BB6_Slot22</Pieces>
+		<Pieces>BB6_Slot23</Pieces>
+		<Pieces>BB6_Slot24</Pieces>
+		<Pieces>BB6_Slot25</Pieces>
+		<Pieces>BB6_Slot26</Pieces>
+		<Pieces>BB6_Slot27</Pieces>
+		<Pieces>BB6_Slot28</Pieces>
+		<Pieces>BB6_Slot29</Pieces>
+		<Pieces>BB6_Slot30</Pieces>
+		<Pieces>BB6_Slot31</Pieces>
+		<Pieces>BB6_Slot32</Pieces>
+		<Pieces>BB6_Slot33</Pieces>
+		<Pieces>BB6_Slot34</Pieces>
+		<Pieces>BB6_Slot35</Pieces>
+		<Pieces>BB6_Slot36</Pieces>
+		<Pieces>BB6_Slot37</Pieces>
+		<Pieces>BB6_Slot38</Pieces>
+		<Pieces>BB6_Slot39</Pieces>
+		<Pieces>BB6_Slot40</Pieces>
+		<Pieces>BB6_Slot41</Pieces>
+		<Pieces>BB6_Slot42</Pieces>
+		<Pieces>BB6_Slot43</Pieces>
+		<Pieces>BB6_Slot44</Pieces>
+		<Pieces>BB6_Slot45</Pieces>
+		<Pieces>BB6_Slot46</Pieces>
+		<Pieces>BB6_Slot47</Pieces>
+		<Pieces>BB6_Slot48</Pieces>
+		<Pieces>BB6_Slot49</Pieces>
+        <!--
+		<Pieces>BB6_Slot50</Pieces>
+		<Pieces>BB6_Slot51</Pieces>
+		<Pieces>BB6_Slot52</Pieces>
+		<Pieces>BB6_Slot53</Pieces>
+		<Pieces>BB6_Slot54</Pieces>
+		<Pieces>BB6_Slot55</Pieces>
+		<Pieces>BB6_Slot56</Pieces>
+		<Pieces>BB6_Slot57</Pieces>
+		<Pieces>BB6_Slot58</Pieces>
+		<Pieces>BB6_Slot59</Pieces>
+        -->
+	</TileLayoutBox>
+
+</XML>

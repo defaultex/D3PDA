@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<InvSlot item="BIGB_BankSlot10">
+		<ScreenID>BIGB_BankSlot10</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10</EQType>
+		<Location>
+			<X>12</X>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+	</InvSlot>
+
+	<InvSlot item="BB10_Slot0">
+		<ScreenID>BB10_Slot0</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/0</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot1">
+		<ScreenID>BB10_Slot1</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/1</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot2">
+		<ScreenID>BB10_Slot2</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/2</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot3">
+		<ScreenID>BB10_Slot3</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/3</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot4">
+		<ScreenID>BB10_Slot4</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/4</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot5">
+		<ScreenID>BB10_Slot5</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/5</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot6">
+		<ScreenID>BB10_Slot6</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/6</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot7">
+		<ScreenID>BB10_Slot7</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/7</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot8">
+		<ScreenID>BB10_Slot8</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/8</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot9">
+		<ScreenID>BB10_Slot9</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/9</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot10">
+		<ScreenID>BB10_Slot10</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/10</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot11">
+		<ScreenID>BB10_Slot11</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/11</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot12">
+		<ScreenID>BB10_Slot12</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/12</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot13">
+		<ScreenID>BB10_Slot13</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/13</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot14">
+		<ScreenID>BB10_Slot14</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/14</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot15">
+		<ScreenID>BB10_Slot15</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/15</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot16">
+		<ScreenID>BB10_Slot16</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/16</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot17">
+		<ScreenID>BB10_Slot17</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/17</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot18">
+		<ScreenID>BB10_Slot18</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/18</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot19">
+		<ScreenID>BB10_Slot19</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/19</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot20">
+		<ScreenID>BB10_Slot20</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/20</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot21">
+		<ScreenID>BB10_Slot21</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/21</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot22">
+		<ScreenID>BB10_Slot22</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/22</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot23">
+		<ScreenID>BB10_Slot23</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/23</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot24">
+		<ScreenID>BB10_Slot24</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/24</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot25">
+		<ScreenID>BB10_Slot25</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/25</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot26">
+		<ScreenID>BB10_Slot26</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/26</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot27">
+		<ScreenID>BB10_Slot27</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/27</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot28">
+		<ScreenID>BB10_Slot28</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/28</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot29">
+		<ScreenID>BB10_Slot29</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/29</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot30">
+		<ScreenID>BB10_Slot30</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/30</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot31">
+		<ScreenID>BB10_Slot31</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/31</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot32">
+		<ScreenID>BB10_Slot32</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/32</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot33">
+		<ScreenID>BB10_Slot33</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/33</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot34">
+		<ScreenID>BB10_Slot34</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/34</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot35">
+		<ScreenID>BB10_Slot35</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/35</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot36">
+		<ScreenID>BB10_Slot36</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/36</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot37">
+		<ScreenID>BB10_Slot37</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/37</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot38">
+		<ScreenID>BB10_Slot38</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/38</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot39">
+		<ScreenID>BB10_Slot39</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/39</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot40">
+		<ScreenID>BB10_Slot40</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/40</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot41">
+		<ScreenID>BB10_Slot41</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/41</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot42">
+		<ScreenID>BB10_Slot42</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/42</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot43">
+		<ScreenID>BB10_Slot43</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/43</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot44">
+		<ScreenID>BB10_Slot44</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/44</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot45">
+		<ScreenID>BB10_Slot45</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/45</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot46">
+		<ScreenID>BB10_Slot46</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/46</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot47">
+		<ScreenID>BB10_Slot47</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/47</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot48">
+		<ScreenID>BB10_Slot48</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/48</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot49">
+		<ScreenID>BB10_Slot49</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/49</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot50">
+		<ScreenID>BB10_Slot50</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/50</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot51">
+		<ScreenID>BB10_Slot51</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/51</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot52">
+		<ScreenID>BB10_Slot52</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/52</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot53">
+		<ScreenID>BB10_Slot53</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/53</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot54">
+		<ScreenID>BB10_Slot54</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/54</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot55">
+		<ScreenID>BB10_Slot55</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/55</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot56">
+		<ScreenID>BB10_Slot56</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/56</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot57">
+		<ScreenID>BB10_Slot57</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/57</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot58">
+		<ScreenID>BB10_Slot58</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/58</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+	<InvSlot item="BB10_Slot59">
+		<ScreenID>BB10_Slot59</ScreenID>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Bank 10/59</EQType>
+		<Size>
+			<CX>27</CX>
+			<CY>27</CY>
+		</Size>
+	</InvSlot>
+    
+	<Screen item="BIGB_Bag10_Icon">
+		<Size>
+			<CX>54</CX>
+			<CY>30</CY>
+		</Size>
+		<Pieces>BIGB_BankSlot10</Pieces>
+	</Screen>
+
+	<TileLayoutBox item="BIGB_Bag10">
+		<HorizontalFirst>true</HorizontalFirst>
+		<AutoStretchVertical>true</AutoStretchVertical>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+
+		<Location>
+			<X>234</X>
+		</Location>
+		<Size>
+			<CX>58</CX>
+			<CY>679</CY> 
+		</Size>
+
+		<Pieces>Screen:BIGB_Bag10_Icon</Pieces>
+		<Pieces>BB10_Slot0</Pieces>
+		<Pieces>BB10_Slot1</Pieces>
+		<Pieces>BB10_Slot2</Pieces>
+		<Pieces>BB10_Slot3</Pieces>
+		<Pieces>BB10_Slot4</Pieces>
+		<Pieces>BB10_Slot5</Pieces>
+		<Pieces>BB10_Slot6</Pieces>
+		<Pieces>BB10_Slot7</Pieces>
+		<Pieces>BB10_Slot8</Pieces>
+		<Pieces>BB10_Slot9</Pieces>
+		<Pieces>BB10_Slot10</Pieces>
+		<Pieces>BB10_Slot11</Pieces>
+		<Pieces>BB10_Slot12</Pieces>
+		<Pieces>BB10_Slot13</Pieces>
+		<Pieces>BB10_Slot14</Pieces>
+		<Pieces>BB10_Slot15</Pieces>
+		<Pieces>BB10_Slot16</Pieces>
+		<Pieces>BB10_Slot17</Pieces>
+		<Pieces>BB10_Slot18</Pieces>
+		<Pieces>BB10_Slot19</Pieces>
+		<Pieces>BB10_Slot20</Pieces>
+		<Pieces>BB10_Slot21</Pieces>
+		<Pieces>BB10_Slot22</Pieces>
+		<Pieces>BB10_Slot23</Pieces>
+		<Pieces>BB10_Slot24</Pieces>
+		<Pieces>BB10_Slot25</Pieces>
+		<Pieces>BB10_Slot26</Pieces>
+		<Pieces>BB10_Slot27</Pieces>
+		<Pieces>BB10_Slot28</Pieces>
+		<Pieces>BB10_Slot29</Pieces>
+		<Pieces>BB10_Slot30</Pieces>
+		<Pieces>BB10_Slot31</Pieces>
+		<Pieces>BB10_Slot32</Pieces>
+		<Pieces>BB10_Slot33</Pieces>
+		<Pieces>BB10_Slot34</Pieces>
+		<Pieces>BB10_Slot35</Pieces>
+		<Pieces>BB10_Slot36</Pieces>
+		<Pieces>BB10_Slot37</Pieces>
+		<Pieces>BB10_Slot38</Pieces>
+		<Pieces>BB10_Slot39</Pieces>
+		<Pieces>BB10_Slot40</Pieces>
+		<Pieces>BB10_Slot41</Pieces>
+		<Pieces>BB10_Slot42</Pieces>
+		<Pieces>BB10_Slot43</Pieces>
+		<Pieces>BB10_Slot44</Pieces>
+		<Pieces>BB10_Slot45</Pieces>
+		<Pieces>BB10_Slot46</Pieces>
+		<Pieces>BB10_Slot47</Pieces>
+		<Pieces>BB10_Slot48</Pieces>
+		<Pieces>BB10_Slot49</Pieces>
+        <!--
+		<Pieces>BB10_Slot50</Pieces>
+		<Pieces>BB10_Slot51</Pieces>
+		<Pieces>BB10_Slot52</Pieces>
+		<Pieces>BB10_Slot53</Pieces>
+		<Pieces>BB10_Slot54</Pieces>
+		<Pieces>BB10_Slot55</Pieces>
+		<Pieces>BB10_Slot56</Pieces>
+		<Pieces>BB10_Slot57</Pieces>
+		<Pieces>BB10_Slot58</Pieces>
+		<Pieces>BB10_Slot59</Pieces>
+        -->
+	</TileLayoutBox>
+
+</XML>
