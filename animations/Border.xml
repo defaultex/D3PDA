@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-    <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+    <Schema xmlns="EverQuestData"
+        xmlns:dt="EverQuestDataTypes" />
 
     <!-- ****************** Large Borders ****************** -->
     <!-- Top -->
@@ -43,7 +44,7 @@
             </Size>
         </Frames>
     </Ui2DAnimation>
-    
+
     <!-- Bottom -->
     <Ui2DAnimation item="D3PDA_LargeBorder_BottomLeft">
         <Frames>

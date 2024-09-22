@@ -61,6 +61,7 @@ partial class Program {
         return source;
     }
 
+
     static string ProcessIndices(string source, int i) {
         const string IndexPattern = @"\[i(\+(?<value>[0-9]+))*\]";
         Match m;
